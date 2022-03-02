@@ -1,0 +1,3467 @@
+﻿"DeployProject"
+{
+"VSVersion" = "3:800"
+"ProjectType" = "8:{978C614F-708E-4E1A-B201-565925725DBA}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:Install Modded New"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"UILanguageId" = "3:1033"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_01CD5B26E31145BE98A308E7A1F2FE85"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_02659A6D53B845829B231EB3EBD8E7DB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_06351E98DBF04D9CAC6CBBB40DED5042"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0C82DF7130C840F1881B357227C1A8F3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0CB6ABD7DA7843F181372C73D5649CB8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0F24FC2728364384991BD0A454E19575"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_0FEF974D98CB444DB56B09D40FD8ECEC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_10CB4052420B44428E2D843D7E0862A9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_14537BCE009A4B8C9E4ED0DDDB94343A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1709A8506486460EA44D334B3D05EDC1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18706D1ED6504A8A943C2B7B6E0FAD49"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_18FA5C578A054386B25C3B547263A3FD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1E1809E00AFD40CF9A371CA24EF0254D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1EE552898CC24025B46312F8C519BA9A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_1FB427A78EB44C8EAD7249E28160654F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_216C7D37BBC74DC2A3534C575DCA835C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_231DFB40D4F247F78AF3C1F42A2DAB58"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_24D71964AF1745FCB4F96F385C437C11"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_276EAC312B274BDF91327AA342CBD6D5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_290DF837FF2B4E95AC42859130171CDB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_29F4B767132140058AD4D9BAFC5684D4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2C9084C3D01747869A5FB9A4FDCD8F1F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2E6D60584A1F452A9404B566190A6254"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_2F439296A81C4B48ABCE2EEC548E7EDB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_30FEFF4325124441B18324490D402094"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3754688D0F6C44109BEFC694FF78324F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_38E8EC8C971341C1B11C306E272B8494"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_39427CC6EF274976B19803DCC17C8D5F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3D97CF3C12BD4D23A7AAC83B125A9CF2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3E8A7F2B60064953B9ABE5BCAC4DF08F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_40203FFDF6ED458BAE31CCF22A1765BB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_41006177DCD04456A51A1FA530485AC4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_43B75E2A055E4EE2805BDF2EF8B0B6AA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_44AFF2AB1FBD466884ACAE4CCDFAD21A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_48EE859879284419A5F8A6A5B1694CAE"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_494E2E954F824202A0FD2E571E66128A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4D80CAD724964BA492D7CCFC10417421"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_50390C313E3B4107A40E61B41FA23570"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_513DB38460974313B2CFA5E305D80F7E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5494A9090C1040798AE7AB0B875BD187"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_574BB672B1DA41E7BB20E547EC0D8F77"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_5ABEE0B92EF441C1A8E7C1154F388171"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_61A4445B77954D37B2D31751E0CED586"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_62358704E86D4483B5270141E312AEA5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_62C2BD8DB7FC4859B5F229F82D6E42E4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_640CF288EDBD4DEC808DC59D37ACF0B2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_654B62155C5D471ABE13D526AAEB267C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_67ED7D60743A47ECA977CC12A95B2F65"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_6D9E01D120994333974F4ABC359F4446"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_70B82F12DA09431DF01BFCBBD06E1BA6"
+        "OwnerKey" = "8:_C752705191DA4C15919CAE396184E06D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_795CA81453544255B530B84C5283B39A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7A87A9E7393B49E59C704550B43C0695"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7B79FBBCA37645AD8293F1E1DD7726FB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7C5F5C694D054FEFA7F152112BB5ADD1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7FA2F40D489C4D719286B0C98DD32A96"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_7FF58B56F971489A854749354D1190BC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_83997028C88E481D8679B39777671723"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_841F736128754F1BB32DF3D02A8FCED9"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8AD41E3DB2524D7CA3D695AE75ACA172"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_8CB090467E674AC1926DE292F79794C4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_9E2A5CFCDE2246ADAB56CC22B55907D8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A07DC2AC2A314EFCA79C64ECB51614E0"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A1DB3C13BD9D495E883D0C5ECAD943B2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A1F5881562404F8C92730816C5D752F1"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A6FCD07CC3DD42F7ACEBE9CA4D110816"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A99F69A57DEA43EEB11C5ED0B55429D5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_AEB81F8521E540A98F6055FF3936ED51"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_B07BE41E5DF149148C8C85A9137CF394"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BAAD424CFD3C42DABF5BDD25F152923F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BB7DCAD03D1D450EA6B4BAEC491E7DCB"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BCB4ABE450C347C592F7421E58EF82B2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BD75A4D6641A4A7093A085E7F717C726"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_BF8E9A7E44A243F7AE0FA372965C12EA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C1CC050DE087439C83CDDF534619892D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C2C191680C6F49BD80C1A63839831CEC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C752705191DA4C15919CAE396184E06D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C9F855C986524A3895876BDCB2FFA74A"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D1BCBC83E8294840853B408627922D74"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D29BF917B85D46EDA61F5787B9AB413F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D466CB8BB48D4C3DA137CAED4D822EB7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D5DDDFC3CCD6448B862FE6882AC6E350"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_DCD1DE5FDC7C47D396FA3E95B48B5517"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E1F3F430C31349609B0D7AA1A054C68E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E786506842724FA3B3DD31000E195566"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_EC0B86681E8C4FCDABC2D03AF9749167"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F12E3A0B1A27435CB2A20C74D4EB84EF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F4ABE70921C84A129FCB0996DD04D644"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F5A6FFAB541C487BA7F2DA59BFFAA7C4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F6680C9D119E4A59821A53CA14FDD723"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FB048C6B590F401EB9C93AF82395596F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FDAED69D7961432282A07CEF6453A2B8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C752705191DA4C15919CAE396184E06D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_70B82F12DA09431DF01BFCBBD06E1BA6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\Install Modded New.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\Install Modded New.msi"
+        "PackageFilesAs" = "3:2"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "Compression" = "3:2"
+        "SignOutput" = "11:FALSE"
+        "CertificateFile" = "8:"
+        "PrivateKeyFile" = "8:"
+        "TimeStampServer" = "8:"
+        "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
+            }
+        }
+    }
+    "Deployable"
+    {
+        "CustomAction"
+        {
+        }
+        "DefaultFeature"
+        {
+        "Name" = "8:DefaultFeature"
+        "Title" = "8:"
+        "Description" = "8:"
+        }
+        "ExternalPersistence"
+        {
+            "LaunchCondition"
+            {
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_6B3768E4C48F4596BE55760351317AEA"
+                {
+                "Name" = "8:.NET Core"
+                "Message" = "8:[VSDNETCOREMSG]"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:https://dotnet.microsoft.com/download/dotnet-core/[NetCoreVerMajorDotMinor]"
+                "IsNETCore" = "11:TRUE"
+                "Architecture" = "2:0"
+                "Runtime" = "2:0"
+                }
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_CD7CFB7137B14687A68BBC162C9F5322"
+                {
+                "Name" = "8:.NET Framework"
+                "Message" = "8:[VSDNETMSG]"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.7.2"
+                "AllowLaterVersions" = "11:FALSE"
+                "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=863262"
+                }
+            }
+        }
+        "File"
+        {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_01CD5B26E31145BE98A308E7A1F2FE85"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\playerdata\\b84e6867-8983-4178-ab39-85ed7759262e.dat_old"
+            "TargetName" = "8:b84e6867-8983-4178-ab39-85ed7759262e.dat_old"
+            "Tag" = "8:"
+            "Folder" = "8:_A1AB9322A3A74F13B6ACEDF5FCC764C8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_02659A6D53B845829B231EB3EBD8E7DB"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\poi\\r.0.-1.mca"
+            "TargetName" = "8:r.0.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_A61F2C333EE642B5859EE28EA2C28252"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_06351E98DBF04D9CAC6CBBB40DED5042"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.-1.-1.mca"
+            "TargetName" = "8:r.-1.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0C82DF7130C840F1881B357227C1A8F3"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\fancymenu\\defaultscaleset.fancymenu"
+            "TargetName" = "8:defaultscaleset.fancymenu"
+            "Tag" = "8:"
+            "Folder" = "8:_6532F7B06B144901AE4E5BEA6ABBD275"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0CB6ABD7DA7843F181372C73D5649CB8"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\flywheel-forge-1.18-0.5.0a.jar"
+            "TargetName" = "8:flywheel-forge-1.18-0.5.0a.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0F24FC2728364384991BD0A454E19575"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\locals\\pt_br.local"
+            "TargetName" = "8:pt_br.local"
+            "Tag" = "8:"
+            "Folder" = "8:_7C1A6D22EC004397A912582551B30442"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_0FEF974D98CB444DB56B09D40FD8ECEC"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\session.lock"
+            "TargetName" = "8:session.lock"
+            "Tag" = "8:"
+            "Folder" = "8:_2094E96CBCFB4BD0B5B146E19FF97813"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_10CB4052420B44428E2D843D7E0862A9"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\playerdata\\b84e6867-8983-4178-ab39-85ed7759262e.dat"
+            "TargetName" = "8:b84e6867-8983-4178-ab39-85ed7759262e.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_A1AB9322A3A74F13B6ACEDF5FCC764C8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_14537BCE009A4B8C9E4ED0DDDB94343A"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\poi\\r.0.0.mca"
+            "TargetName" = "8:r.0.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_A61F2C333EE642B5859EE28EA2C28252"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1709A8506486460EA44D334B3D05EDC1"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.1.0.mca"
+            "TargetName" = "8:r.1.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_18706D1ED6504A8A943C2B7B6E0FAD49"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\entities\\r.-2.-1.mca"
+            "TargetName" = "8:r.-2.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_D5D799FD60BF4A53BA9B0B6FE3A3D27F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_18FA5C578A054386B25C3B547263A3FD"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\poi\\r.-1.0.mca"
+            "TargetName" = "8:r.-1.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_A61F2C333EE642B5859EE28EA2C28252"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1E1809E00AFD40CF9A371CA24EF0254D"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\torchslabmod-1.17.1_v1.7.1.jar"
+            "TargetName" = "8:torchslabmod-1.17.1_v1.7.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1EE552898CC24025B46312F8C519BA9A"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\locals\\en_us.local"
+            "TargetName" = "8:en_us.local"
+            "Tag" = "8:"
+            "Folder" = "8:_7C1A6D22EC004397A912582551B30442"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_1FB427A78EB44C8EAD7249E28160654F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.1.-2.mca"
+            "TargetName" = "8:r.1.-2.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_216C7D37BBC74DC2A3534C575DCA835C"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\entities\\r.-1.-1.mca"
+            "TargetName" = "8:r.-1.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_D5D799FD60BF4A53BA9B0B6FE3A3D27F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_24D71964AF1745FCB4F96F385C437C11"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.0.1.mca"
+            "TargetName" = "8:r.0.1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_276EAC312B274BDF91327AA342CBD6D5"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customization\\smpoptions.txt"
+            "TargetName" = "8:smpoptions.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_CA6075DC391249C8966E0348AC582B7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_290DF837FF2B4E95AC42859130171CDB"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\DIM1\\data\\raids_end.dat"
+            "TargetName" = "8:raids_end.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_58EB0834075E4368976D549BE757E9C1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_29F4B767132140058AD4D9BAFC5684D4"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\mcw-bridges-2.0.1-mc1.18.1.jar"
+            "TargetName" = "8:mcw-bridges-2.0.1-mc1.18.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2C9084C3D01747869A5FB9A4FDCD8F1F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\config.txt"
+            "TargetName" = "8:config.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_3D4FD127EF9A40C79B21585C2FD2C223"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2E6D60584A1F452A9404B566190A6254"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.-1.0.mca"
+            "TargetName" = "8:r.-1.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_2F439296A81C4B48ABCE2EEC548E7EDB"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customizablemenus.txt"
+            "TargetName" = "8:customizablemenus.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_3D4FD127EF9A40C79B21585C2FD2C223"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_30FEFF4325124441B18324490D402094"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\serverconfig\\create-server.toml"
+            "TargetName" = "8:create-server.toml"
+            "Tag" = "8:"
+            "Folder" = "8:_7A4B36F73A0D462E8C1757C50F71DF6F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3754688D0F6C44109BEFC694FF78324F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\loadmyresources_1.0.1_MC_1.17.1.jar"
+            "TargetName" = "8:loadmyresources_1.0.1_MC_1.17.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_38E8EC8C971341C1B11C306E272B8494"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\balm-2.3.1+0.jar"
+            "TargetName" = "8:balm-2.3.1+0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_39427CC6EF274976B19803DCC17C8D5F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\entities\\r.-1.0.mca"
+            "TargetName" = "8:r.-1.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_D5D799FD60BF4A53BA9B0B6FE3A3D27F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3D97CF3C12BD4D23A7AAC83B125A9CF2"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\level.dat_old"
+            "TargetName" = "8:level.dat_old"
+            "Tag" = "8:"
+            "Folder" = "8:_2094E96CBCFB4BD0B5B146E19FF97813"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3E8A7F2B60064953B9ABE5BCAC4DF08F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\jei-1.18.1-9.1.2.61.jar"
+            "TargetName" = "8:jei-1.18.1-9.1.2.61.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_40203FFDF6ED458BAE31CCF22A1765BB"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\MmmMmmMmmMmm-1.18-1.5.0.jar"
+            "TargetName" = "8:MmmMmmMmmMmm-1.18-1.5.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_41006177DCD04456A51A1FA530485AC4"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\data\\raids.dat"
+            "TargetName" = "8:raids.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_5A7481FD6C9147CBACD850572D893520"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_43B75E2A055E4EE2805BDF2EF8B0B6AA"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customization\\Join.txt"
+            "TargetName" = "8:Join.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_CA6075DC391249C8966E0348AC582B7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_44AFF2AB1FBD466884ACAE4CCDFAD21A"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customization\\mp.txt"
+            "TargetName" = "8:mp.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_CA6075DC391249C8966E0348AC582B7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_48EE859879284419A5F8A6A5B1694CAE"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\konkrete_forge_1.3.2_MC_1.18.jar"
+            "TargetName" = "8:konkrete_forge_1.3.2_MC_1.18.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_494E2E954F824202A0FD2E571E66128A"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\menu_identifiers.db"
+            "TargetName" = "8:menu_identifiers.db"
+            "Tag" = "8:"
+            "Folder" = "8:_3D4FD127EF9A40C79B21585C2FD2C223"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4D80CAD724964BA492D7CCFC10417421"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customization\\Blocked.txt"
+            "TargetName" = "8:Blocked.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_CA6075DC391249C8966E0348AC582B7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_50390C313E3B4107A40E61B41FA23570"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customization\\title.txt"
+            "TargetName" = "8:title.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_CA6075DC391249C8966E0348AC582B7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_513DB38460974313B2CFA5E305D80F7E"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.0.-1.mca"
+            "TargetName" = "8:r.0.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5494A9090C1040798AE7AB0B875BD187"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\DIM1\\data\\capabilities.dat"
+            "TargetName" = "8:capabilities.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_58EB0834075E4368976D549BE757E9C1"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_574BB672B1DA41E7BB20E547EC0D8F77"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\icon.png"
+            "TargetName" = "8:icon.png"
+            "Tag" = "8:"
+            "Folder" = "8:_2094E96CBCFB4BD0B5B146E19FF97813"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5ABEE0B92EF441C1A8E7C1154F388171"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\poi\\r.-2.-1.mca"
+            "TargetName" = "8:r.-2.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_A61F2C333EE642B5859EE28EA2C28252"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_61A4445B77954D37B2D31751E0CED586"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.0.0.mca"
+            "TargetName" = "8:r.0.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62358704E86D4483B5270141E312AEA5"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.-2.0.mca"
+            "TargetName" = "8:r.-2.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62C2BD8DB7FC4859B5F229F82D6E42E4"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\serverconfig\\corpse-server.toml"
+            "TargetName" = "8:corpse-server.toml"
+            "Tag" = "8:"
+            "Folder" = "8:_7A4B36F73A0D462E8C1757C50F71DF6F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_640CF288EDBD4DEC808DC59D37ACF0B2"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\locals\\zh_cn.local"
+            "TargetName" = "8:zh_cn.local"
+            "Tag" = "8:"
+            "Folder" = "8:_7C1A6D22EC004397A912582551B30442"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_654B62155C5D471ABE13D526AAEB267C"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.-2.-1.mca"
+            "TargetName" = "8:r.-2.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_67ED7D60743A47ECA977CC12A95B2F65"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\corpse-1.18.1-1.0.0.jar"
+            "TargetName" = "8:corpse-1.18.1-1.0.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6D9E01D120994333974F4ABC359F4446"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.1.-1.mca"
+            "TargetName" = "8:r.1.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_70B82F12DA09431DF01BFCBBD06E1BA6"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_70B82F12DA09431DF01BFCBBD06E1BA6"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_DF1D747FACC3443492628E4E6300E021"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_795CA81453544255B530B84C5283B39A"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.-2.-2.mca"
+            "TargetName" = "8:r.-2.-2.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7A87A9E7393B49E59C704550B43C0695"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\create-mc1.18.1_v0.4b.jar"
+            "TargetName" = "8:create-mc1.18.1_v0.4b.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7B79FBBCA37645AD8293F1E1DD7726FB"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\fancymenu_forge_2.4.3_MC_1.18.jar"
+            "TargetName" = "8:fancymenu_forge_2.4.3_MC_1.18.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7C5F5C694D054FEFA7F152112BB5ADD1"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.-1.-2.mca"
+            "TargetName" = "8:r.-1.-2.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7FA2F40D489C4D719286B0C98DD32A96"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customguis\\net.MaxRook.gui.screen.options.txt"
+            "TargetName" = "8:net.MaxRook.gui.screen.options.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_AEB0D7AB08E4481BBEF69FD1B7319BDD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_7FF58B56F971489A854749354D1190BC"
+            {
+            "SourcePath" = "8:D:\\Return\\server-icon-curved.ico"
+            "TargetName" = "8:server-icon-curved.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_DF1D747FACC3443492628E4E6300E021"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_83997028C88E481D8679B39777671723"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\Installed.bin"
+            "TargetName" = "8:InstalledNEW.bin"
+            "Tag" = "8:"
+            "Folder" = "8:_6A868668C86C4C5BA62DCEA30E1861E8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_841F736128754F1BB32DF3D02A8FCED9"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\advancements\\b84e6867-8983-4178-ab39-85ed7759262e.json"
+            "TargetName" = "8:b84e6867-8983-4178-ab39-85ed7759262e.json"
+            "Tag" = "8:"
+            "Folder" = "8:_D12A59E1D89A42A8AB788FDF70936916"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8AD41E3DB2524D7CA3D695AE75ACA172"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\entities\\r.0.0.mca"
+            "TargetName" = "8:r.0.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_D5D799FD60BF4A53BA9B0B6FE3A3D27F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8CB090467E674AC1926DE292F79794C4"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\loadmyresources_1.0.1_MC_1.18.jar"
+            "TargetName" = "8:loadmyresources_1.0.1_MC_1.18.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9E2A5CFCDE2246ADAB56CC22B55907D8"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\mcw-doors-1.0.5-mc1.18.1.jar"
+            "TargetName" = "8:mcw-doors-1.0.5-mc1.18.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A07DC2AC2A314EFCA79C64ECB51614E0"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\poi\\r.-1.-1.mca"
+            "TargetName" = "8:r.-1.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_A61F2C333EE642B5859EE28EA2C28252"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A1DB3C13BD9D495E883D0C5ECAD943B2"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\entities\\r.-2.0.mca"
+            "TargetName" = "8:r.-2.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_D5D799FD60BF4A53BA9B0B6FE3A3D27F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A1F5881562404F8C92730816C5D752F1"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\trashcans-1.0.10-mc1.18.jar"
+            "TargetName" = "8:trashcans-1.0.10-mc1.18.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A6FCD07CC3DD42F7ACEBE9CA4D110816"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\sophisticatedbackpacks-1.18-3.12.1.433.jar"
+            "TargetName" = "8:sophisticatedbackpacks-1.18-3.12.1.433.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A99F69A57DEA43EEB11C5ED0B55429D5"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\stats\\b84e6867-8983-4178-ab39-85ed7759262e.json"
+            "TargetName" = "8:b84e6867-8983-4178-ab39-85ed7759262e.json"
+            "Tag" = "8:"
+            "Folder" = "8:_B96C5C71C6044997BAE18EC3374C69CF"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_AEB81F8521E540A98F6055FF3936ED51"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customguis\\net.MaxRook.gui.screen.join.txt"
+            "TargetName" = "8:net.MaxRook.gui.screen.join.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_AEB0D7AB08E4481BBEF69FD1B7319BDD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B07BE41E5DF149148C8C85A9137CF394"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customization\\options.txt"
+            "TargetName" = "8:options.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_CA6075DC391249C8966E0348AC582B7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BAAD424CFD3C42DABF5BDD25F152923F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\supermartijn642corelib-1.0.15a-mc1.18.jar"
+            "TargetName" = "8:supermartijn642corelib-1.0.15a-mc1.18.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BB7DCAD03D1D450EA6B4BAEC491E7DCB"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\mcw-trapdoors-1.0.4-mc1.18.1.jar"
+            "TargetName" = "8:mcw-trapdoors-1.0.4-mc1.18.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BCB4ABE450C347C592F7421E58EF82B2"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\DIM-1\\data\\raids.dat"
+            "TargetName" = "8:raids.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_2D07CAD6385F4B638C10E77A0B99CF9B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BD75A4D6641A4A7093A085E7F717C726"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\data\\capabilities.dat"
+            "TargetName" = "8:capabilities.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_5A7481FD6C9147CBACD850572D893520"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BF8E9A7E44A243F7AE0FA372965C12EA"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.-2.1.mca"
+            "TargetName" = "8:r.-2.1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C1CC050DE087439C83CDDF534619892D"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\locals\\pl_pl.local"
+            "TargetName" = "8:pl_pl.local"
+            "Tag" = "8:"
+            "Folder" = "8:_7C1A6D22EC004397A912582551B30442"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C2C191680C6F49BD80C1A63839831CEC"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\serverconfig\\torchslabmod-server.toml"
+            "TargetName" = "8:torchslabmod-server.toml"
+            "Tag" = "8:"
+            "Folder" = "8:_7A4B36F73A0D462E8C1757C50F71DF6F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C9F855C986524A3895876BDCB2FFA74A"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\serverconfig\\forge-server.toml"
+            "TargetName" = "8:forge-server.toml"
+            "Tag" = "8:"
+            "Folder" = "8:_7A4B36F73A0D462E8C1757C50F71DF6F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D1BCBC83E8294840853B408627922D74"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customization\\pausemenu.txt"
+            "TargetName" = "8:pausemenu.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_CA6075DC391249C8966E0348AC582B7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D29BF917B85D46EDA61F5787B9AB413F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\poi\\r.-2.0.mca"
+            "TargetName" = "8:r.-2.0.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_A61F2C333EE642B5859EE28EA2C28252"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D466CB8BB48D4C3DA137CAED4D822EB7"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Downloads\\SkinsRestorer.jar"
+            "TargetName" = "8:SkinsRestorer.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D5DDDFC3CCD6448B862FE6882AC6E350"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\waystones-forge-1.18.1-9.0.1.jar"
+            "TargetName" = "8:waystones-forge-1.18.1-9.0.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DCD1DE5FDC7C47D396FA3E95B48B5517"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\customization\\Create.txt"
+            "TargetName" = "8:Create.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_CA6075DC391249C8966E0348AC582B7F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E1F3F430C31349609B0D7AA1A054C68E"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\mcw-windows-2.0.2-mc1.18.1.jar"
+            "TargetName" = "8:mcw-windows-2.0.2-mc1.18.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E786506842724FA3B3DD31000E195566"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\entities\\r.0.-1.mca"
+            "TargetName" = "8:r.0.-1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_D5D799FD60BF4A53BA9B0B6FE3A3D27F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EC0B86681E8C4FCDABC2D03AF9749167"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.0.-2.mca"
+            "TargetName" = "8:r.0.-2.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F12E3A0B1A27435CB2A20C74D4EB84EF"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\mods\\furniture-6.3.1-1.12.2.jar"
+            "TargetName" = "8:furniture-6.3.1-1.12.2.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F4ABE70921C84A129FCB0996DD04D644"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\level.dat"
+            "TargetName" = "8:level.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_2094E96CBCFB4BD0B5B146E19FF97813"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F5A6FFAB541C487BA7F2DA59BFFAA7C4"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\config\\fancymenu\\locals\\de_de.local"
+            "TargetName" = "8:de_de.local"
+            "Tag" = "8:"
+            "Folder" = "8:_7C1A6D22EC004397A912582551B30442"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F6680C9D119E4A59821A53CA14FDD723"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.1.1.mca"
+            "TargetName" = "8:r.1.1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FB048C6B590F401EB9C93AF82395596F"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\region\\r.-1.1.mca"
+            "TargetName" = "8:r.-1.1.mca"
+            "Tag" = "8:"
+            "Folder" = "8:_5DF899E663504DF1BDF3055EDD2C1AA2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FDAED69D7961432282A07CEF6453A2B8"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\AppData\\Roaming\\.minecraft\\saves\\Debug\\DIM-1\\data\\capabilities.dat"
+            "TargetName" = "8:capabilities.dat"
+            "Tag" = "8:"
+            "Folder" = "8:_2D07CAD6385F4B638C10E77A0B99CF9B"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "FileType"
+        {
+        }
+        "Folder"
+        {
+            "{1525181F-901A-416C-8A58-119130FE478E}:_415A0B24A6554276AB8BF92597B76C42"
+            {
+            "Name" = "8:#1919"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:ProgramMenuFolder"
+                "Folders"
+                {
+                }
+            }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_BA93F38BF3B545A1BCED65DEB7B81F77"
+            {
+            "Name" = "8:#1916"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:DesktopFolder"
+                "Folders"
+                {
+                }
+            }
+            "{3C67513D-01DD-4637-8A68-80971EB9504F}:_DF1D747FACC3443492628E4E6300E021"
+            {
+            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "Name" = "8:#1925"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:TARGETDIR"
+                "Folders"
+                {
+                }
+            }
+            "{1525181F-901A-416C-8A58-119130FE478E}:_E3AB2F6E4B02467B893DAF8E85926318"
+            {
+            "Name" = "8:#1915"
+            "AlwaysCreate" = "11:FALSE"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Property" = "8:AppDataFolder"
+                "Folders"
+                {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_A176A22EB4304C5E99FCCA80E1A1AF72"
+                    {
+                    "Name" = "8:.minecraft"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_03798584C6DF4CC893BEAA820235BD4C"
+                        "Folders"
+                        {
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_1A9F79E50D914EDAB7E34B1A8AFFAE22"
+                            {
+                            "Name" = "8:mods"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_BCDF5A13429240DC98739DDADEC5F832"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_6532F7B06B144901AE4E5BEA6ABBD275"
+                                    {
+                                    "Name" = "8:fancymenu"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_A929E1D8565A412285D88019A8EF2CC1"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_6A868668C86C4C5BA62DCEA30E1861E8"
+                                    {
+                                    "Name" = "8:SMPbeta"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_63318854F476427B8F037A027ACFFF6F"
+                                        "Folders"
+                                        {
+                                        }
+                                    }
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_6B714B4F8C3E400D95647248252EE618"
+                            {
+                            "Name" = "8:saves"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_5F64FDACF4EE4A5E98272EBA850BCF39"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_2094E96CBCFB4BD0B5B146E19FF97813"
+                                    {
+                                    "Name" = "8:Debug"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_93FB2CE86CB84D77A3722EC882E708E1"
+                                        "Folders"
+                                        {
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_5A7481FD6C9147CBACD850572D893520"
+                                            {
+                                            "Name" = "8:data"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_62AD16D404F94F5882627EDF98A5CADA"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_5DF899E663504DF1BDF3055EDD2C1AA2"
+                                            {
+                                            "Name" = "8:region"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_3999CC78997A4C84ADF79DBED2FC0B85"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_6A29EBD00228409BBC251D79360A32A2"
+                                            {
+                                            "Name" = "8:DIM-1"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_0BFD2F4F75864D36A6DC43054E4D4C1F"
+                                                "Folders"
+                                                {
+                                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_2D07CAD6385F4B638C10E77A0B99CF9B"
+                                                    {
+                                                    "Name" = "8:data"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "Condition" = "8:"
+                                                    "Transitive" = "11:FALSE"
+                                                    "Property" = "8:_362985F20F0D45E48824600B910FFAD8"
+                                                        "Folders"
+                                                        {
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_7A4B36F73A0D462E8C1757C50F71DF6F"
+                                            {
+                                            "Name" = "8:serverconfig"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_173B6890CA51419AA61AC6241EC09C14"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_9AD5CB77FC5448D0A1C273C3A5F0F289"
+                                            {
+                                            "Name" = "8:DIM1"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_F9EDF3FAC87341F7A2157E8ABFD6C8D4"
+                                                "Folders"
+                                                {
+                                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_58EB0834075E4368976D549BE757E9C1"
+                                                    {
+                                                    "Name" = "8:data"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "Condition" = "8:"
+                                                    "Transitive" = "11:FALSE"
+                                                    "Property" = "8:_281C240E18884724984265F75725DDA6"
+                                                        "Folders"
+                                                        {
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_A1AB9322A3A74F13B6ACEDF5FCC764C8"
+                                            {
+                                            "Name" = "8:playerdata"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_8E688C71570C483DA8A7383B55F9DEB3"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_A61F2C333EE642B5859EE28EA2C28252"
+                                            {
+                                            "Name" = "8:poi"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_BA1FBB4CC3994D79A5259C33D074BCE7"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_B96C5C71C6044997BAE18EC3374C69CF"
+                                            {
+                                            "Name" = "8:stats"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_F86E0DEBA403455880135E3A9D433C19"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_CC221F42242A41F59B023F04F51B39E2"
+                                            {
+                                            "Name" = "8:datapacks"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_930C1274DE314473A8943B9131375FC4"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_D12A59E1D89A42A8AB788FDF70936916"
+                                            {
+                                            "Name" = "8:advancements"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_2A64A6CB4F9441D5AE5FC289FD767250"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_D5D799FD60BF4A53BA9B0B6FE3A3D27F"
+                                            {
+                                            "Name" = "8:entities"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_0B6E12C9A3C041C2AF9530D8563012BE"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            "{9EF0B969-E518-4E46-987F-47570745A589}:_FDAE298F2D9C48F8A30B863B748EA3B3"
+                            {
+                            "Name" = "8:config"
+                            "AlwaysCreate" = "11:FALSE"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "Property" = "8:_25348B89821344A69CE56F29147DE4B1"
+                                "Folders"
+                                {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_3D4FD127EF9A40C79B21585C2FD2C223"
+                                    {
+                                    "Name" = "8:fancymenu"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_1AAC676CF5634A1A88A84BFB9D317DCF"
+                                        "Folders"
+                                        {
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_52A25A73C6EE45E6B5870B7DC91F4E02"
+                                            {
+                                            "Name" = "8:minecraftwindow"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_BAD1299EC4C841718F574FD767F08332"
+                                                "Folders"
+                                                {
+                                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_D9EC9F1956E3444081B302CB73D94803"
+                                                    {
+                                                    "Name" = "8:icons"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "Condition" = "8:"
+                                                    "Transitive" = "11:FALSE"
+                                                    "Property" = "8:_2346D30A72D84522AD58326B63219188"
+                                                        "Folders"
+                                                        {
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_66390FD271FA45719A28D08267ECB0D4"
+                                            {
+                                            "Name" = "8:panoramas"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_856A28DF203B425393BB6EE289288284"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_7C1A6D22EC004397A912582551B30442"
+                                            {
+                                            "Name" = "8:locals"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_76515ADB031845A6962D536436CDFD50"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_8D1A4CBA606146E8AB5D31FB70D5253E"
+                                            {
+                                            "Name" = "8:custom_locals"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_5001453ACDCF4FE4BC10B9A555B5EDE7"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_9A816D546B914034A74081E27BF10734"
+                                            {
+                                            "Name" = "8:buttonscripts"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_6920080088AA4B7A990D15C21D0AE2EF"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_AEB0D7AB08E4481BBEF69FD1B7319BDD"
+                                            {
+                                            "Name" = "8:customguis"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_4B8DD180A0EA488D972978FA37421142"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_CA6075DC391249C8966E0348AC582B7F"
+                                            {
+                                            "Name" = "8:customization"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_0EE069CB19584A83B0ADEA17A08BF945"
+                                                "Folders"
+                                                {
+                                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_D206A439BD434FF5A44E253FB858E1AE"
+                                                    {
+                                                    "Name" = "8:.disabled"
+                                                    "AlwaysCreate" = "11:FALSE"
+                                                    "Condition" = "8:"
+                                                    "Transitive" = "11:FALSE"
+                                                    "Property" = "8:_39D9D9E92B5A4B99B4CA5BD1BE975C38"
+                                                        "Folders"
+                                                        {
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_DCBAE14F26064B829B0E4FEF37439B72"
+                                            {
+                                            "Name" = "8:slideshows"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_C0E251AC0C0841B88FB2D248BBE572F5"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_DF2772F307A2400491570EBF86131B52"
+                                            {
+                                            "Name" = "8:animations"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_AFE647ADDFC64A39A4A60B54A74294D5"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        "LaunchCondition"
+        {
+        }
+        "Locator"
+        {
+        }
+        "MsiBootstrapper"
+        {
+        "LangId" = "3:1033"
+        "RequiresElevation" = "11:FALSE"
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:Install Modded New"
+        "ProductCode" = "8:{36590944-EF51-4BEC-B7F2-4DDDA5EE2B98}"
+        "PackageCode" = "8:{B5AE62BC-6362-4646-B90B-3B842EFB5B25}"
+        "UpgradeCode" = "8:{F7AE1FE8-45C6-4279-B0E7-A44B86476373}"
+        "AspNetVersion" = "8:2.0.50727.0"
+        "RestartWWWService" = "11:FALSE"
+        "RemovePreviousVersions" = "11:TRUE"
+        "DetectNewerInstalledVersion" = "11:TRUE"
+        "InstallAllUsers" = "11:FALSE"
+        "ProductVersion" = "8:1.0.0"
+        "Manufacturer" = "8:Max Rook (MexiMux)"
+        "ARPHELPTELEPHONE" = "8:"
+        "ARPHELPLINK" = "8:https://maxrook.nl/help/"
+        "Title" = "8:Install Modded New"
+        "Subject" = "8:"
+        "ARPCONTACT" = "8:Max Rook (MexiMux)"
+        "Keywords" = "8:"
+        "ARPCOMMENTS" = "8:Installs the correct files to join the new modded server!"
+        "ARPURLINFOABOUT" = "8:https://maxrook.nl/help/"
+        "ARPPRODUCTICON" = "8:_7FF58B56F971489A854749354D1190BC"
+        "ARPIconIndex" = "3:0"
+        "SearchPath" = "8:"
+        "UseSystemSearchPath" = "11:TRUE"
+        "TargetPlatform" = "3:0"
+        "PreBuildEvent" = "8:"
+        "PostBuildEvent" = "8:"
+        "RunPostBuildEvent" = "3:0"
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_D3B420810BE5434DAC8771647582621C"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_B14B43AA6BE74676AE6A32AEEC81B21D"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_42226804E94C43E7AE133535E046C3E4"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_20E3767BA87F4866A1835800FEB6D916"
+                            {
+                            "Name" = "8:[Manufacturer]"
+                            "Condition" = "8:"
+                            "AlwaysCreate" = "11:FALSE"
+                            "DeleteAtUninstall" = "11:FALSE"
+                            "Transitive" = "11:FALSE"
+                                "Keys"
+                                {
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Sequences"
+        {
+        }
+        "Shortcut"
+        {
+        }
+        "UserInterface"
+        {
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_0AC211FB65A7489C8FEC8941D3D6E3F4"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:1"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_6DB8636ACBBB4370B35095A840AF79FC"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_855F8C664B4B4A8B8B922AF3585493B8"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "InstallAllUsersVisible"
+                            {
+                            "Name" = "8:InstallAllUsersVisible"
+                            "DisplayName" = "8:#1059"
+                            "Description" = "8:#1159"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B7F0AB677FF741E5B30236010FF5EAF9"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_18C0018760624EEFA8579D4AF17F14A2"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:2"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_CDE11F7E81B7438DBC9082C5D8ADA66B"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_5FBADF94CDD0404290C1EE5EAF11DEDF"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:1"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_E9628F5ED79448A8ABC287A8CE9A90AA"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "UpdateText"
+                            {
+                            "Name" = "8:UpdateText"
+                            "DisplayName" = "8:#1058"
+                            "Description" = "8:#1158"
+                            "Type" = "3:15"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1258"
+                            "DefaultValue" = "8:#1258"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_61A634C7435E4FB2ABD23CA5A728304B"
+            {
+            "Name" = "8:#1901"
+            "Sequence" = "3:1"
+            "Attributes" = "3:2"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_36579D93B9E54A8B81F4CB7A9465E30E"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Progress"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "ShowProgress"
+                            {
+                            "Name" = "8:ShowProgress"
+                            "DisplayName" = "8:#1009"
+                            "Description" = "8:#1109"
+                            "Type" = "3:5"
+                            "ContextData" = "8:1;True=1;False=0"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:0"
+                            "Value" = "3:1"
+                            "DefaultValue" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_964F8D1FAFE2462E9D396F6285B0F9B0"
+            {
+            "Name" = "8:#1900"
+            "Sequence" = "3:2"
+            "Attributes" = "3:1"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0920C4AF24E5421B971F5DF99B242FDB"
+                    {
+                    "Sequence" = "3:300"
+                    "DisplayName" = "8:Confirm Installation"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_85B9DC261FF444D994CE4F416317EC11"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Welcome"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "CopyrightWarning"
+                            {
+                            "Name" = "8:CopyrightWarning"
+                            "DisplayName" = "8:#1002"
+                            "Description" = "8:#1102"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1202"
+                            "DefaultValue" = "8:#1202"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                            "Welcome"
+                            {
+                            "Name" = "8:Welcome"
+                            "DisplayName" = "8:#1003"
+                            "Description" = "8:#1103"
+                            "Type" = "3:3"
+                            "ContextData" = "8:"
+                            "Attributes" = "3:0"
+                            "Setting" = "3:1"
+                            "Value" = "8:#1203"
+                            "DefaultValue" = "8:#1203"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_B8AD493FA948439F87F17652E8369027"
+                    {
+                    "Sequence" = "3:200"
+                    "DisplayName" = "8:Installation Folder"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{DF760B10-853B-4699-99F2-AFF7185B4A62}:_9B7F05D8BBC546D1AE465EE9864ED2D0"
+            {
+            "Name" = "8:#1902"
+            "Sequence" = "3:2"
+            "Attributes" = "3:3"
+                "Dialogs"
+                {
+                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_9289593091404300B8B439FA0468B155"
+                    {
+                    "Sequence" = "3:100"
+                    "DisplayName" = "8:Finished"
+                    "UseDynamicProperties" = "11:TRUE"
+                    "IsDependency" = "11:FALSE"
+                    "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
+                        "Properties"
+                        {
+                            "BannerBitmap"
+                            {
+                            "Name" = "8:BannerBitmap"
+                            "DisplayName" = "8:#1001"
+                            "Description" = "8:#1101"
+                            "Type" = "3:8"
+                            "ContextData" = "8:Bitmap"
+                            "Attributes" = "3:4"
+                            "Setting" = "3:1"
+                            "UsePlugInResources" = "11:TRUE"
+                            }
+                        }
+                    }
+                }
+            }
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_BA8850DE988144BD9938FFD15F08C06E"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdUserInterface.wim"
+            }
+            "{2479F3F5-0309-486D-8047-8187E2CE5BA0}:_EDEF140A2B684610A7AF1FE74366672B"
+            {
+            "UseDynamicProperties" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "SourcePath" = "8:<VsdDialogDir>\\VsdBasicDialogs.wim"
+            }
+        }
+        "MergeModule"
+        {
+        }
+        "ProjectOutput"
+        {
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_231DFB40D4F247F78AF3C1F42A2DAB58"
+            {
+            "SourcePath" = "8:..\\URLread\\obj\\Debug\\net6.0\\apphost.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_DF1D747FACC3443492628E4E6300E021"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:PublishItems"
+            "OutputProjectGuid" = "8:{C01DE99D-BB25-463C-B0AA-F94B541711F7}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C752705191DA4C15919CAE396184E06D"
+            {
+            "SourcePath" = "8:..\\Updater\\obj\\Debug\\Updater.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_DF1D747FACC3443492628E4E6300E021"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:Built"
+            "OutputProjectGuid" = "8:{A5DAAD0E-9108-48F3-8F12-561E930EC48E}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+        }
+    }
+}

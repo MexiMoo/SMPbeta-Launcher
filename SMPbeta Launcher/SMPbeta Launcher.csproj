@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SMPbeta_Launcher</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>server-icon-curved.ico</ApplicationIcon>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>Max Rook (MexiMux)</Company>
+    <Authors>Max Rook (MexiMux)</Authors>
+    <Copyright>© 2021 Max Rook (MexiMux) | All rights reserved</Copyright>
+    <PackageProjectUrl>https://maxrook.nl/server</PackageProjectUrl>
+    <StartupObject>SMPbeta_Launcher.Program</StartupObject>
+    <AssemblyVersion>1.2.0</AssemblyVersion>
+    <FileVersion>1.2.0</FileVersion>
+    <Version>1.2.0</Version>
+	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1054.31" />
+    <PackageReference Include="Microsoft.Windows.ImplementationLibrary" Version="1.0.211019.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Updater\Updater.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+	<PropertyGroup>
+		<WebView2LoaderPreference>Static</WebView2LoaderPreference>
+		<PlatformTarget>AnyCPU</PlatformTarget>
+		<PackageIcon>server-icon-curved-1.png</PackageIcon>
+		<Description>An alternative launcher made for the SMPbeta server!</Description>
+	</PropertyGroup>
+
+</Project>
