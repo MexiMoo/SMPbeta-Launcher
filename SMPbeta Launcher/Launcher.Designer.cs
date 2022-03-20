@@ -30,7 +30,7 @@ namespace SMPbeta_Launcher
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Launcher));
             this.ControlBar = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
+            this.BETA = new System.Windows.Forms.Label();
             this.Minimize = new System.Windows.Forms.Button();
             this.Close = new System.Windows.Forms.Button();
             this.Spacer_Close = new System.Windows.Forms.Panel();
@@ -59,7 +59,7 @@ namespace SMPbeta_Launcher
             // ControlBar
             // 
             this.ControlBar.BackColor = System.Drawing.Color.Black;
-            this.ControlBar.Controls.Add(this.label3);
+            this.ControlBar.Controls.Add(this.BETA);
             this.ControlBar.Controls.Add(this.Minimize);
             this.ControlBar.Controls.Add(this.Close);
             this.ControlBar.Controls.Add(this.Spacer_Close);
@@ -72,18 +72,18 @@ namespace SMPbeta_Launcher
             this.ControlBar.Size = new System.Drawing.Size(1174, 16);
             this.ControlBar.TabIndex = 1;
             // 
-            // label3
+            // BETA
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.Crimson;
-            this.label3.Location = new System.Drawing.Point(122, 0);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 15);
-            this.label3.TabIndex = 5;
-            this.label3.Text = "BETA";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BETA.AutoSize = true;
+            this.BETA.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.BETA.ForeColor = System.Drawing.Color.Crimson;
+            this.BETA.Location = new System.Drawing.Point(122, 0);
+            this.BETA.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.BETA.Name = "BETA";
+            this.BETA.Size = new System.Drawing.Size(39, 15);
+            this.BETA.TabIndex = 5;
+            this.BETA.Text = "BETA";
+            this.BETA.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // Minimize
             // 
@@ -402,7 +402,7 @@ namespace SMPbeta_Launcher
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button Info;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label BETA;
         private System.Windows.Forms.NotifyIcon Notify_Icon;
     }
 }
