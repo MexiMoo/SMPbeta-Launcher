@@ -270,7 +270,7 @@ namespace SMPbeta_Launcher
             // pictureBox3
             // 
             this.pictureBox3.Image = global::SMPbeta_Launcher.Properties.Resources.TBN2;
-            this.pictureBox3.Location = new System.Drawing.Point(0, -128);
+            this.pictureBox3.Location = new System.Drawing.Point(0, -103);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(493, 421);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -331,9 +331,9 @@ namespace SMPbeta_Launcher
             // pictureBox2
             // 
             this.pictureBox2.Image = global::SMPbeta_Launcher.Properties.Resources.TBN1;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 23);
+            this.pictureBox2.Location = new System.Drawing.Point(0, -16);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(493, 588);
+            this.pictureBox2.Size = new System.Drawing.Size(493, 659);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
