@@ -4,30 +4,50 @@ using System.ComponentModel;
 using System.Timers;
 using System.Data;
 using System.Drawing;
+using System.Media;
 using System.Reflection;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
+using System.Windows;
+using System.Windows.Media;
 using System.Windows.Forms;
 using System.IO;
 using System.Net;
 using System.Diagnostics;
 using Updater;
 using Microsoft.Web.WebView2.Core;
+using WMPLib;
+using System.Runtime.InteropServices;
 
 namespace SMPbeta_Launcher
 {
     public partial class FirstSetup : Form
     {
+        [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
+
+        private static extern IntPtr CreateRoundRectRgn
+            (
+            int nLeftRect,
+            int nTopRect,
+            int nRightRect,
+            int nBottomRect,
+            int nWidthEllipse,
+            int nHeightEllipse
+            );
+
         public FirstSetup()
         {
             InitializeComponent();
+            Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
             //FirstBootWBV();
         }
 
         private void Download_Start_Click(object sender, EventArgs e)
         {
+            Properties.Settings.Default["TosAccepted"] = true;
+            Properties.Settings.Default.Save();
             End_FB_Click();
         }
 
@@ -43,7 +63,7 @@ namespace SMPbeta_Launcher
             {
                 Process.Start(wbvApp);
                 File.Delete(wbv);
-                MessageBox.Show("The launcher will now close for settings to take effect! You can reopen the launcher after this message!");
+                System.Windows.MessageBox.Show("The launcher will now close for settings to take effect! You can reopen the launcher after this message!");
                 System.Windows.Forms.Application.Exit();
                 System.Environment.Exit(1);
             }
@@ -75,10 +95,10 @@ namespace SMPbeta_Launcher
 
             if (File.Exists(PSetup))
             {
-                MessageBox.Show("Please complete the setup process that will pop up to install all of the needed resources. To proceed press 'OK'");
+                System.Windows.MessageBox.Show("Please complete the setup process that will pop up to install all of the needed resources. To proceed press 'OK'");
                 p.Start();
                 //Process.Start(PSetup);
-                MessageBox.Show("The launcher will now close for settings to take effect! You can reopen the launcher after this message!");
+                System.Windows.MessageBox.Show("The launcher will now close for settings to take effect! You can reopen the launcher after this message!");
                 System.Windows.Forms.Application.Exit();
                 System.Environment.Exit(1);
             }
@@ -97,8 +117,6 @@ namespace SMPbeta_Launcher
         private void To_3_Click(object sender, EventArgs e)
         {
             tabControl1.SelectedTab = tabPage3;
-            var FS = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "bin", "FB.bin");
-            File.Delete(FS);
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -114,7 +132,7 @@ namespace SMPbeta_Launcher
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Can't open link!                                                                                                  Please copy the link and paste it into your browser to visit it!");
+                System.Windows.MessageBox.Show("Can't open link!                                                                                                  Please copy the link and paste it into your browser to visit it!");
             }
         }
 

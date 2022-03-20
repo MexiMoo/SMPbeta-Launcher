@@ -62,6 +62,7 @@
 update handeler for the servers and additional files. All of the updates are handled via the server.
 This launcher is capable of handeling all of the SMPbeta's servers with all of the nessesary items.
 
-This program is made in C# and C++.</value>
+This program is made in C# using .NET 6
+</value>
   </data>
 </root>

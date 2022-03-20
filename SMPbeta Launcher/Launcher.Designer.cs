@@ -27,6 +27,7 @@ namespace SMPbeta_Launcher
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Launcher));
             this.ControlBar = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
@@ -47,6 +48,7 @@ namespace SMPbeta_Launcher
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.ChildPanel = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.Notify_Icon = new System.Windows.Forms.NotifyIcon(this.components);
             this.ControlBar.SuspendLayout();
             this.Menu.SuspendLayout();
             this.Button_Position.SuspendLayout();
@@ -65,8 +67,9 @@ namespace SMPbeta_Launcher
             this.ControlBar.Controls.Add(this.Name_1);
             this.ControlBar.Dock = System.Windows.Forms.DockStyle.Top;
             this.ControlBar.Location = new System.Drawing.Point(0, 0);
+            this.ControlBar.Margin = new System.Windows.Forms.Padding(2);
             this.ControlBar.Name = "ControlBar";
-            this.ControlBar.Size = new System.Drawing.Size(1200, 20);
+            this.ControlBar.Size = new System.Drawing.Size(1174, 16);
             this.ControlBar.TabIndex = 1;
             // 
             // label3
@@ -74,9 +77,10 @@ namespace SMPbeta_Launcher
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Crimson;
-            this.label3.Location = new System.Drawing.Point(152, 0);
+            this.label3.Location = new System.Drawing.Point(122, 0);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 20);
+            this.label3.Size = new System.Drawing.Size(39, 15);
             this.label3.TabIndex = 5;
             this.label3.Text = "BETA";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -88,9 +92,10 @@ namespace SMPbeta_Launcher
             this.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Minimize.Font = new System.Drawing.Font("Nirmala UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Minimize.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.Minimize.Location = new System.Drawing.Point(1135, 0);
+            this.Minimize.Location = new System.Drawing.Point(1122, 0);
+            this.Minimize.Margin = new System.Windows.Forms.Padding(2);
             this.Minimize.Name = "Minimize";
-            this.Minimize.Size = new System.Drawing.Size(25, 20);
+            this.Minimize.Size = new System.Drawing.Size(20, 16);
             this.Minimize.TabIndex = 4;
             this.Minimize.Text = "-";
             this.Minimize.UseVisualStyleBackColor = true;
@@ -103,9 +108,10 @@ namespace SMPbeta_Launcher
             this.Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Close.Font = new System.Drawing.Font("Nirmala UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Close.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.Close.Location = new System.Drawing.Point(1160, 0);
+            this.Close.Location = new System.Drawing.Point(1142, 0);
+            this.Close.Margin = new System.Windows.Forms.Padding(2);
             this.Close.Name = "Close";
-            this.Close.Size = new System.Drawing.Size(25, 20);
+            this.Close.Size = new System.Drawing.Size(20, 16);
             this.Close.TabIndex = 3;
             this.Close.Text = "x";
             this.Close.UseVisualStyleBackColor = true;
@@ -114,9 +120,10 @@ namespace SMPbeta_Launcher
             // Spacer_Close
             // 
             this.Spacer_Close.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Spacer_Close.Location = new System.Drawing.Point(1185, 0);
+            this.Spacer_Close.Location = new System.Drawing.Point(1162, 0);
+            this.Spacer_Close.Margin = new System.Windows.Forms.Padding(2);
             this.Spacer_Close.Name = "Spacer_Close";
-            this.Spacer_Close.Size = new System.Drawing.Size(15, 20);
+            this.Spacer_Close.Size = new System.Drawing.Size(12, 16);
             this.Spacer_Close.TabIndex = 2;
             // 
             // label1
@@ -124,9 +131,10 @@ namespace SMPbeta_Launcher
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.DarkOrange;
-            this.label1.Location = new System.Drawing.Point(70, 0);
+            this.label1.Location = new System.Drawing.Point(56, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(74, 20);
+            this.label1.Size = new System.Drawing.Size(61, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "Launcher";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -138,8 +146,9 @@ namespace SMPbeta_Launcher
             this.Name_1.Font = new System.Drawing.Font("Segoe UI Black", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Name_1.ForeColor = System.Drawing.SystemColors.Window;
             this.Name_1.Location = new System.Drawing.Point(0, 0);
+            this.Name_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.Name_1.Name = "Name_1";
-            this.Name_1.Size = new System.Drawing.Size(75, 20);
+            this.Name_1.Size = new System.Drawing.Size(61, 15);
             this.Name_1.TabIndex = 0;
             this.Name_1.Text = "SMPbeta";
             this.Name_1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -156,9 +165,10 @@ namespace SMPbeta_Launcher
             this.Menu.Controls.Add(this.News);
             this.Menu.Controls.Add(this.Button_Position);
             this.Menu.Dock = System.Windows.Forms.DockStyle.Left;
-            this.Menu.Location = new System.Drawing.Point(0, 20);
+            this.Menu.Location = new System.Drawing.Point(0, 16);
+            this.Menu.Margin = new System.Windows.Forms.Padding(2);
             this.Menu.Name = "Menu";
-            this.Menu.Size = new System.Drawing.Size(130, 710);
+            this.Menu.Size = new System.Drawing.Size(104, 710);
             this.Menu.TabIndex = 1;
             this.Menu.Paint += new System.Windows.Forms.PaintEventHandler(this.Menu_Paint);
             // 
@@ -171,9 +181,10 @@ namespace SMPbeta_Launcher
             this.Info.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Info.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.Info.ImageKey = "(none)";
-            this.Info.Location = new System.Drawing.Point(0, 620);
+            this.Info.Location = new System.Drawing.Point(0, 638);
+            this.Info.Margin = new System.Windows.Forms.Padding(2);
             this.Info.Name = "Info";
-            this.Info.Size = new System.Drawing.Size(130, 45);
+            this.Info.Size = new System.Drawing.Size(104, 36);
             this.Info.TabIndex = 8;
             this.Info.Text = "Info";
             this.Info.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -184,24 +195,25 @@ namespace SMPbeta_Launcher
             // Nav
             // 
             this.Nav.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.Nav.Location = new System.Drawing.Point(0, 151);
+            this.Nav.Location = new System.Drawing.Point(0, 121);
+            this.Nav.Margin = new System.Windows.Forms.Padding(2);
             this.Nav.Name = "Nav";
-            this.Nav.Size = new System.Drawing.Size(3, 100);
+            this.Nav.Size = new System.Drawing.Size(2, 80);
             this.Nav.TabIndex = 7;
             // 
             // Settings
             // 
             this.Settings.BackColor = System.Drawing.Color.Transparent;
             this.Settings.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Settings.Enabled = false;
             this.Settings.FlatAppearance.BorderSize = 0;
             this.Settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Settings.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Settings.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.Settings.ImageKey = "(none)";
-            this.Settings.Location = new System.Drawing.Point(0, 665);
+            this.Settings.Location = new System.Drawing.Point(0, 674);
+            this.Settings.Margin = new System.Windows.Forms.Padding(2);
             this.Settings.Name = "Settings";
-            this.Settings.Size = new System.Drawing.Size(130, 45);
+            this.Settings.Size = new System.Drawing.Size(104, 36);
             this.Settings.TabIndex = 6;
             this.Settings.Text = "Settings";
             this.Settings.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -217,9 +229,10 @@ namespace SMPbeta_Launcher
             this.Profile3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Profile3.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Profile3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.Profile3.Location = new System.Drawing.Point(0, 251);
+            this.Profile3.Location = new System.Drawing.Point(0, 202);
+            this.Profile3.Margin = new System.Windows.Forms.Padding(2);
             this.Profile3.Name = "Profile3";
-            this.Profile3.Size = new System.Drawing.Size(130, 42);
+            this.Profile3.Size = new System.Drawing.Size(104, 34);
             this.Profile3.TabIndex = 5;
             this.Profile3.Text = "1.12.2 [Modded]";
             this.Profile3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -235,9 +248,10 @@ namespace SMPbeta_Launcher
             this.Profile2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Profile2.Font = new System.Drawing.Font("Nirmala UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Profile2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.Profile2.Location = new System.Drawing.Point(0, 209);
+            this.Profile2.Location = new System.Drawing.Point(0, 168);
+            this.Profile2.Margin = new System.Windows.Forms.Padding(2);
             this.Profile2.Name = "Profile2";
-            this.Profile2.Size = new System.Drawing.Size(130, 42);
+            this.Profile2.Size = new System.Drawing.Size(104, 34);
             this.Profile2.TabIndex = 4;
             this.Profile2.Text = "1.18.1 [Modded]";
             this.Profile2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -253,9 +267,10 @@ namespace SMPbeta_Launcher
             this.Profile1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Profile1.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Profile1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.Profile1.Location = new System.Drawing.Point(0, 167);
+            this.Profile1.Location = new System.Drawing.Point(0, 134);
+            this.Profile1.Margin = new System.Windows.Forms.Padding(2);
             this.Profile1.Name = "Profile1";
-            this.Profile1.Size = new System.Drawing.Size(130, 42);
+            this.Profile1.Size = new System.Drawing.Size(104, 34);
             this.Profile1.TabIndex = 3;
             this.Profile1.Text = "1.18.1";
             this.Profile1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -271,9 +286,10 @@ namespace SMPbeta_Launcher
             this.News.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.News.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.News.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.News.Location = new System.Drawing.Point(0, 125);
+            this.News.Location = new System.Drawing.Point(0, 100);
+            this.News.Margin = new System.Windows.Forms.Padding(2);
             this.News.Name = "News";
-            this.News.Size = new System.Drawing.Size(130, 42);
+            this.News.Size = new System.Drawing.Size(104, 34);
             this.News.TabIndex = 2;
             this.News.Text = "News";
             this.News.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -286,16 +302,18 @@ namespace SMPbeta_Launcher
             this.Button_Position.Controls.Add(this.pictureBox1);
             this.Button_Position.Dock = System.Windows.Forms.DockStyle.Top;
             this.Button_Position.Location = new System.Drawing.Point(0, 0);
+            this.Button_Position.Margin = new System.Windows.Forms.Padding(2);
             this.Button_Position.Name = "Button_Position";
-            this.Button_Position.Size = new System.Drawing.Size(130, 125);
+            this.Button_Position.Size = new System.Drawing.Size(104, 100);
             this.Button_Position.TabIndex = 1;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::SMPbeta_Launcher.Properties.Resources.server_icon_rounded;
-            this.pictureBox1.Location = new System.Drawing.Point(16, 14);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(13, 11);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 95);
+            this.pictureBox1.Size = new System.Drawing.Size(80, 76);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -303,8 +321,8 @@ namespace SMPbeta_Launcher
             // ChildPanel
             // 
             this.ChildPanel.Controls.Add(this.label2);
-            this.ChildPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ChildPanel.Location = new System.Drawing.Point(130, 20);
+            this.ChildPanel.Location = new System.Drawing.Point(104, 16);
+            this.ChildPanel.Margin = new System.Windows.Forms.Padding(2);
             this.ChildPanel.Name = "ChildPanel";
             this.ChildPanel.Size = new System.Drawing.Size(1070, 710);
             this.ChildPanel.TabIndex = 2;
@@ -316,6 +334,7 @@ namespace SMPbeta_Launcher
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(0, 0);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(1070, 710);
             this.label2.TabIndex = 0;
@@ -323,27 +342,36 @@ namespace SMPbeta_Launcher
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // Notify_Icon
+            // 
+            this.Notify_Icon.BalloonTipTitle = "SMPbeta Launcher";
+            this.Notify_Icon.Icon = ((System.Drawing.Icon)(resources.GetObject("Notify_Icon.Icon")));
+            this.Notify_Icon.Text = "SMPbeta Launcher";
+            this.Notify_Icon.Visible = true;
+            // 
             // Launcher
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoSize = true;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(29)))), ((int)(((byte)(44)))));
-            this.ClientSize = new System.Drawing.Size(1200, 730);
+            this.ClientSize = new System.Drawing.Size(1174, 726);
             this.Controls.Add(this.ChildPanel);
             this.Controls.Add(this.Menu);
             this.Controls.Add(this.ControlBar);
             this.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1200, 730);
-            this.MinimumSize = new System.Drawing.Size(1200, 730);
+            this.MaximumSize = new System.Drawing.Size(1174, 726);
+            this.MinimumSize = new System.Drawing.Size(1174, 726);
             this.Name = "Launcher";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SMPbeta Launcher";
             this.TransparencyKey = System.Drawing.Color.Transparent;
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Launcher_FormClosed);
+            this.Load += new System.EventHandler(this.Launcher_Load);
             this.ControlBar.ResumeLayout(false);
             this.ControlBar.PerformLayout();
             this.Menu.ResumeLayout(false);
@@ -375,6 +403,7 @@ namespace SMPbeta_Launcher
         private System.Windows.Forms.Button Info;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.NotifyIcon Notify_Icon;
     }
 }
 

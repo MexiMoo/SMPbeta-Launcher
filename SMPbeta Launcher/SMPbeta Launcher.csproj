@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <RootNamespace>SMPbeta_Launcher</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>server-icon-curved.ico</ApplicationIcon>
@@ -12,15 +12,27 @@
     <Copyright>© 2021 Max Rook (MexiMux) | All rights reserved</Copyright>
     <PackageProjectUrl>https://maxrook.nl/server</PackageProjectUrl>
     <StartupObject>SMPbeta_Launcher.Program</StartupObject>
-    <AssemblyVersion>1.2.0</AssemblyVersion>
-    <FileVersion>1.2.0</FileVersion>
-    <Version>1.2.0</Version>
+    <AssemblyVersion>1.2.2</AssemblyVersion>
+    <FileVersion>1.2.2</FileVersion>
+    <Version>1.2.2</Version>
 	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
+
+  <ItemGroup>
+    <COMReference Include="WMPLib">
+      <WrapperTool>tlbimp</WrapperTool>
+      <VersionMinor>0</VersionMinor>
+      <VersionMajor>1</VersionMajor>
+      <Guid>6bf52a50-394a-11d3-b153-00c04f79faa6</Guid>
+      <Lcid>0</Lcid>
+      <Isolated>false</Isolated>
+      <EmbedInteropTypes>true</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1054.31" />
@@ -63,6 +75,10 @@
 		<PlatformTarget>AnyCPU</PlatformTarget>
 		<PackageIcon>server-icon-curved-1.png</PackageIcon>
 		<Description>An alternative launcher made for the SMPbeta server!</Description>
+		<RepositoryUrl>https://github.com/MexiMoo/SMPbeta-Launcher</RepositoryUrl>
+		<SignAssembly>True</SignAssembly>
+		<AssemblyOriginatorKeyFile>C:\Key.snk</AssemblyOriginatorKeyFile>
+		<UseWPF>True</UseWPF>
 	</PropertyGroup>
 
 </Project>

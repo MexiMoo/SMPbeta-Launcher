@@ -125,9 +125,10 @@ namespace SMPbeta_Launcher
             this.Info_Content.Controls.Add(this.CR_Version);
             this.Info_Content.Controls.Add(this.CR_1);
             this.Info_Content.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Info_Content.Location = new System.Drawing.Point(0, 78);
+            this.Info_Content.Location = new System.Drawing.Point(0, 76);
+            this.Info_Content.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Info_Content.Name = "Info_Content";
-            this.Info_Content.Size = new System.Drawing.Size(961, 551);
+            this.Info_Content.Size = new System.Drawing.Size(1070, 634);
             this.Info_Content.TabIndex = 2;
             this.Info_Content.Paint += new System.Windows.Forms.PaintEventHandler(this.Info_Content_Paint);
             // 
@@ -136,20 +137,22 @@ namespace SMPbeta_Launcher
             this.Installed_Switch.Alignment = System.Windows.Forms.TabAlignment.Bottom;
             this.Installed_Switch.Controls.Add(this.Switch_List);
             this.Installed_Switch.Controls.Add(this.Switch_Tree);
-            this.Installed_Switch.Location = new System.Drawing.Point(12, 162);
+            this.Installed_Switch.Location = new System.Drawing.Point(10, 122);
+            this.Installed_Switch.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_Switch.Multiline = true;
             this.Installed_Switch.Name = "Installed_Switch";
             this.Installed_Switch.SelectedIndex = 0;
-            this.Installed_Switch.Size = new System.Drawing.Size(768, 235);
+            this.Installed_Switch.Size = new System.Drawing.Size(889, 338);
             this.Installed_Switch.TabIndex = 23;
             // 
             // Switch_List
             // 
             this.Switch_List.Controls.Add(this.Installed);
             this.Switch_List.Location = new System.Drawing.Point(4, 4);
+            this.Switch_List.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Switch_List.Name = "Switch_List";
-            this.Switch_List.Padding = new System.Windows.Forms.Padding(3);
-            this.Switch_List.Size = new System.Drawing.Size(760, 202);
+            this.Switch_List.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Switch_List.Size = new System.Drawing.Size(881, 310);
             this.Switch_List.TabIndex = 0;
             this.Switch_List.Text = "List";
             this.Switch_List.UseVisualStyleBackColor = true;
@@ -167,17 +170,19 @@ namespace SMPbeta_Launcher
             this.Installed.Controls.Add(this.Installed_2);
             this.Installed.Controls.Add(this.Installed_1);
             this.Installed.Location = new System.Drawing.Point(0, 0);
+            this.Installed.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed.Name = "Installed";
-            this.Installed.Size = new System.Drawing.Size(760, 199);
+            this.Installed.Size = new System.Drawing.Size(885, 310);
             this.Installed.TabIndex = 20;
             // 
             // Installed_8
             // 
             this.Installed_8.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Installed_8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Installed_8.Location = new System.Drawing.Point(0, 203);
+            this.Installed_8.Location = new System.Drawing.Point(0, 245);
+            this.Installed_8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_8.Name = "Installed_8";
-            this.Installed_8.Size = new System.Drawing.Size(739, 28);
+            this.Installed_8.Size = new System.Drawing.Size(885, 35);
             this.Installed_8.TabIndex = 7;
             this.Installed_8.Text = "SMPbeta Diag [Diagnostics]";
             this.Installed_8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -188,9 +193,10 @@ namespace SMPbeta_Launcher
             // 
             this.Installed_7.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Installed_7.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Installed_7.Location = new System.Drawing.Point(0, 174);
+            this.Installed_7.Location = new System.Drawing.Point(0, 210);
+            this.Installed_7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_7.Name = "Installed_7";
-            this.Installed_7.Size = new System.Drawing.Size(739, 29);
+            this.Installed_7.Size = new System.Drawing.Size(885, 35);
             this.Installed_7.TabIndex = 6;
             this.Installed_7.Text = "Minecraft 1.18.1 [Spigot]";
             this.Installed_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -201,9 +207,10 @@ namespace SMPbeta_Launcher
             // 
             this.Installed_6.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Installed_6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Installed_6.Location = new System.Drawing.Point(0, 145);
+            this.Installed_6.Location = new System.Drawing.Point(0, 175);
+            this.Installed_6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_6.Name = "Installed_6";
-            this.Installed_6.Size = new System.Drawing.Size(739, 29);
+            this.Installed_6.Size = new System.Drawing.Size(885, 35);
             this.Installed_6.TabIndex = 5;
             this.Installed_6.Text = "Minecraft 1.18.1 [Forge]";
             this.Installed_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -214,9 +221,10 @@ namespace SMPbeta_Launcher
             // 
             this.Installed_5.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Installed_5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Installed_5.Location = new System.Drawing.Point(0, 116);
+            this.Installed_5.Location = new System.Drawing.Point(0, 140);
+            this.Installed_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_5.Name = "Installed_5";
-            this.Installed_5.Size = new System.Drawing.Size(739, 29);
+            this.Installed_5.Size = new System.Drawing.Size(885, 35);
             this.Installed_5.TabIndex = 4;
             this.Installed_5.Text = "Minecraft 1.12.2 [Forge]";
             this.Installed_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -227,9 +235,10 @@ namespace SMPbeta_Launcher
             // 
             this.Installed_4.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Installed_4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Installed_4.Location = new System.Drawing.Point(0, 87);
+            this.Installed_4.Location = new System.Drawing.Point(0, 105);
+            this.Installed_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_4.Name = "Installed_4";
-            this.Installed_4.Size = new System.Drawing.Size(739, 29);
+            this.Installed_4.Size = new System.Drawing.Size(885, 35);
             this.Installed_4.TabIndex = 3;
             this.Installed_4.Text = "Minecraft 1.18.1";
             this.Installed_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -240,9 +249,10 @@ namespace SMPbeta_Launcher
             // 
             this.Installed_3.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Installed_3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Installed_3.Location = new System.Drawing.Point(0, 58);
+            this.Installed_3.Location = new System.Drawing.Point(0, 70);
+            this.Installed_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_3.Name = "Installed_3";
-            this.Installed_3.Size = new System.Drawing.Size(739, 29);
+            this.Installed_3.Size = new System.Drawing.Size(885, 35);
             this.Installed_3.TabIndex = 2;
             this.Installed_3.Text = "SMPbeta Modded Client Installer";
             this.Installed_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -253,9 +263,10 @@ namespace SMPbeta_Launcher
             // 
             this.Installed_2.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Installed_2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.Installed_2.Location = new System.Drawing.Point(0, 29);
+            this.Installed_2.Location = new System.Drawing.Point(0, 35);
+            this.Installed_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_2.Name = "Installed_2";
-            this.Installed_2.Size = new System.Drawing.Size(739, 29);
+            this.Installed_2.Size = new System.Drawing.Size(885, 35);
             this.Installed_2.TabIndex = 1;
             this.Installed_2.Text = "SMPbeta Server Dependencies [Updates and Checks] (Included= Shaders)";
             this.Installed_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -267,8 +278,9 @@ namespace SMPbeta_Launcher
             this.Installed_1.BackColor = System.Drawing.Color.WhiteSmoke;
             this.Installed_1.Dock = System.Windows.Forms.DockStyle.Top;
             this.Installed_1.Location = new System.Drawing.Point(0, 0);
+            this.Installed_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_1.Name = "Installed_1";
-            this.Installed_1.Size = new System.Drawing.Size(739, 29);
+            this.Installed_1.Size = new System.Drawing.Size(885, 35);
             this.Installed_1.TabIndex = 0;
             this.Installed_1.Text = "SMPbeta Server Connection Drivers";
             this.Installed_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -279,9 +291,10 @@ namespace SMPbeta_Launcher
             // 
             this.Switch_Tree.Controls.Add(this.Installed_Tree);
             this.Switch_Tree.Location = new System.Drawing.Point(4, 4);
+            this.Switch_Tree.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Switch_Tree.Name = "Switch_Tree";
-            this.Switch_Tree.Padding = new System.Windows.Forms.Padding(3);
-            this.Switch_Tree.Size = new System.Drawing.Size(760, 202);
+            this.Switch_Tree.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Switch_Tree.Size = new System.Drawing.Size(881, 310);
             this.Switch_Tree.TabIndex = 1;
             this.Switch_Tree.Text = "Tree View";
             this.Switch_Tree.UseVisualStyleBackColor = true;
@@ -289,8 +302,8 @@ namespace SMPbeta_Launcher
             // 
             // Installed_Tree
             // 
-            this.Installed_Tree.Cursor = System.Windows.Forms.Cursors.Default;
-            this.Installed_Tree.Location = new System.Drawing.Point(-4, -4);
+            this.Installed_Tree.Location = new System.Drawing.Point(-4, -3);
+            this.Installed_Tree.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_Tree.Name = "Installed_Tree";
             treeNode1.Name = "1.18.1";
             treeNode1.Text = "1.18.1";
@@ -320,25 +333,25 @@ namespace SMPbeta_Launcher
             treeNode13.Text = "Add-In\'s";
             this.Installed_Tree.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
             treeNode13});
-            this.Installed_Tree.Size = new System.Drawing.Size(768, 209);
+            this.Installed_Tree.Size = new System.Drawing.Size(889, 313);
             this.Installed_Tree.TabIndex = 0;
             this.Installed_Tree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // About_Lab
             // 
             this.About_Lab.AutoSize = true;
-            this.About_Lab.Location = new System.Drawing.Point(12, 416);
+            this.About_Lab.Location = new System.Drawing.Point(10, 474);
             this.About_Lab.Name = "About_Lab";
-            this.About_Lab.Size = new System.Drawing.Size(109, 20);
+            this.About_Lab.Size = new System.Drawing.Size(88, 15);
             this.About_Lab.TabIndex = 10;
             this.About_Lab.Text = "About product:";
             // 
             // CR_2
             // 
             this.CR_2.AutoSize = true;
-            this.CR_2.Location = new System.Drawing.Point(12, 54);
+            this.CR_2.Location = new System.Drawing.Point(10, 44);
             this.CR_2.Name = "CR_2";
-            this.CR_2.Size = new System.Drawing.Size(57, 20);
+            this.CR_2.Size = new System.Drawing.Size(45, 15);
             this.CR_2.TabIndex = 22;
             this.CR_2.Text = "Version";
             // 
@@ -347,10 +360,12 @@ namespace SMPbeta_Launcher
             this.About_Content.AutoScroll = true;
             this.About_Content.BackColor = System.Drawing.Color.WhiteSmoke;
             this.About_Content.Controls.Add(this.About_Content_Lab);
-            this.About_Content.Location = new System.Drawing.Point(12, 439);
+            this.About_Content.Location = new System.Drawing.Point(10, 493);
+            this.About_Content.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.About_Content.Name = "About_Content";
-            this.About_Content.Size = new System.Drawing.Size(768, 100);
+            this.About_Content.Size = new System.Drawing.Size(889, 130);
             this.About_Content.TabIndex = 21;
+            this.About_Content.Paint += new System.Windows.Forms.PaintEventHandler(this.About_Content_Paint);
             // 
             // About_Content_Lab
             // 
@@ -358,7 +373,7 @@ namespace SMPbeta_Launcher
             this.About_Content_Lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.About_Content_Lab.Location = new System.Drawing.Point(0, 0);
             this.About_Content_Lab.Name = "About_Content_Lab";
-            this.About_Content_Lab.Size = new System.Drawing.Size(693, 100);
+            this.About_Content_Lab.Size = new System.Drawing.Size(552, 75);
             this.About_Content_Lab.TabIndex = 0;
             this.About_Content_Lab.Text = resources.GetString("About_Content_Lab.Text");
             this.About_Content_Lab.Click += new System.EventHandler(this.label1_Click);
@@ -367,9 +382,10 @@ namespace SMPbeta_Launcher
             // 
             this.ToS_Revoke.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.ToS_Revoke.ForeColor = System.Drawing.Color.Red;
-            this.ToS_Revoke.Location = new System.Drawing.Point(786, 342);
+            this.ToS_Revoke.Location = new System.Drawing.Point(905, 352);
+            this.ToS_Revoke.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ToS_Revoke.Name = "ToS_Revoke";
-            this.ToS_Revoke.Size = new System.Drawing.Size(157, 29);
+            this.ToS_Revoke.Size = new System.Drawing.Size(153, 45);
             this.ToS_Revoke.TabIndex = 19;
             this.ToS_Revoke.Text = "Revoke Data Gathering";
             this.ToS_Revoke.UseVisualStyleBackColor = true;
@@ -378,26 +394,27 @@ namespace SMPbeta_Launcher
             // Privacy_Lab
             // 
             this.Privacy_Lab.AutoSize = true;
-            this.Privacy_Lab.Location = new System.Drawing.Point(786, 319);
+            this.Privacy_Lab.Location = new System.Drawing.Point(905, 335);
             this.Privacy_Lab.Name = "Privacy_Lab";
-            this.Privacy_Lab.Size = new System.Drawing.Size(58, 20);
+            this.Privacy_Lab.Size = new System.Drawing.Size(48, 15);
             this.Privacy_Lab.TabIndex = 18;
             this.Privacy_Lab.Text = "Privacy:";
             // 
             // Websites_Info_Lab
             // 
             this.Websites_Info_Lab.AutoSize = true;
-            this.Websites_Info_Lab.Location = new System.Drawing.Point(786, 229);
+            this.Websites_Info_Lab.Location = new System.Drawing.Point(905, 221);
             this.Websites_Info_Lab.Name = "Websites_Info_Lab";
-            this.Websites_Info_Lab.Size = new System.Drawing.Size(71, 20);
+            this.Websites_Info_Lab.Size = new System.Drawing.Size(57, 15);
             this.Websites_Info_Lab.TabIndex = 17;
             this.Websites_Info_Lab.Text = "Websites:";
             // 
             // Website_Info_2
             // 
-            this.Website_Info_2.Location = new System.Drawing.Point(786, 287);
+            this.Website_Info_2.Location = new System.Drawing.Point(905, 288);
+            this.Website_Info_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Website_Info_2.Name = "Website_Info_2";
-            this.Website_Info_2.Size = new System.Drawing.Size(157, 29);
+            this.Website_Info_2.Size = new System.Drawing.Size(153, 45);
             this.Website_Info_2.TabIndex = 16;
             this.Website_Info_2.Text = "2nd Website";
             this.Website_Info_2.UseVisualStyleBackColor = true;
@@ -405,9 +422,10 @@ namespace SMPbeta_Launcher
             // 
             // Website_Info_1
             // 
-            this.Website_Info_1.Location = new System.Drawing.Point(786, 252);
+            this.Website_Info_1.Location = new System.Drawing.Point(905, 239);
+            this.Website_Info_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Website_Info_1.Name = "Website_Info_1";
-            this.Website_Info_1.Size = new System.Drawing.Size(157, 29);
+            this.Website_Info_1.Size = new System.Drawing.Size(153, 45);
             this.Website_Info_1.TabIndex = 15;
             this.Website_Info_1.Text = "Main Website";
             this.Website_Info_1.UseVisualStyleBackColor = true;
@@ -417,9 +435,10 @@ namespace SMPbeta_Launcher
             // 
             this.CrashCL.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.CrashCL.ForeColor = System.Drawing.Color.Red;
-            this.CrashCL.Location = new System.Drawing.Point(786, 197);
+            this.CrashCL.Location = new System.Drawing.Point(905, 172);
+            this.CrashCL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CrashCL.Name = "CrashCL";
-            this.CrashCL.Size = new System.Drawing.Size(157, 29);
+            this.CrashCL.Size = new System.Drawing.Size(153, 45);
             this.CrashCL.TabIndex = 14;
             this.CrashCL.Text = "Crash Client";
             this.CrashCL.UseVisualStyleBackColor = true;
@@ -427,9 +446,10 @@ namespace SMPbeta_Launcher
             // 
             // Info_Copy_Button
             // 
-            this.Info_Copy_Button.Location = new System.Drawing.Point(786, 162);
+            this.Info_Copy_Button.Location = new System.Drawing.Point(905, 122);
+            this.Info_Copy_Button.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Info_Copy_Button.Name = "Info_Copy_Button";
-            this.Info_Copy_Button.Size = new System.Drawing.Size(157, 29);
+            this.Info_Copy_Button.Size = new System.Drawing.Size(153, 45);
             this.Info_Copy_Button.TabIndex = 12;
             this.Info_Copy_Button.Text = "Copy Info";
             this.Info_Copy_Button.UseVisualStyleBackColor = true;
@@ -438,27 +458,27 @@ namespace SMPbeta_Launcher
             // Installed_Lab
             // 
             this.Installed_Lab.AutoSize = true;
-            this.Installed_Lab.Location = new System.Drawing.Point(12, 139);
+            this.Installed_Lab.Location = new System.Drawing.Point(10, 104);
             this.Installed_Lab.Name = "Installed_Lab";
-            this.Installed_Lab.Size = new System.Drawing.Size(68, 20);
+            this.Installed_Lab.Size = new System.Drawing.Size(54, 15);
             this.Installed_Lab.TabIndex = 8;
             this.Installed_Lab.Text = "Installed:";
             // 
             // CR_8
             // 
             this.CR_8.AutoSize = true;
-            this.CR_8.Location = new System.Drawing.Point(411, 94);
+            this.CR_8.Location = new System.Drawing.Point(360, 82);
             this.CR_8.Name = "CR_8";
-            this.CR_8.Size = new System.Drawing.Size(128, 20);
+            this.CR_8.Size = new System.Drawing.Size(101, 15);
             this.CR_8.TabIndex = 7;
             this.CR_8.Text = "All rights reserved";
             // 
             // CR_7
             // 
             this.CR_7.AutoSize = true;
-            this.CR_7.Location = new System.Drawing.Point(411, 74);
+            this.CR_7.Location = new System.Drawing.Point(360, 64);
             this.CR_7.Name = "CR_7";
-            this.CR_7.Size = new System.Drawing.Size(202, 20);
+            this.CR_7.Size = new System.Drawing.Size(162, 15);
             this.CR_7.TabIndex = 6;
             this.CR_7.Text = "© 2021 Max Rook (MexiMux)";
             this.CR_7.Click += new System.EventHandler(this.CR_7_Click);
@@ -466,54 +486,55 @@ namespace SMPbeta_Launcher
             // CR_6
             // 
             this.CR_6.AutoSize = true;
-            this.CR_6.Location = new System.Drawing.Point(411, 54);
+            this.CR_6.Location = new System.Drawing.Point(360, 44);
             this.CR_6.Name = "CR_6";
-            this.CR_6.Size = new System.Drawing.Size(126, 20);
+            this.CR_6.Size = new System.Drawing.Size(98, 15);
             this.CR_6.TabIndex = 5;
-            this.CR_6.Text = "Distro 18.1.2:5000";
+            this.CR_6.Text = "Distro 18.1.2:5001";
+            this.CR_6.Click += new System.EventHandler(this.CR_6_Click);
             // 
             // CR_5
             // 
             this.CR_5.AutoSize = true;
-            this.CR_5.Location = new System.Drawing.Point(411, 34);
+            this.CR_5.Location = new System.Drawing.Point(360, 26);
             this.CR_5.Name = "CR_5";
-            this.CR_5.Size = new System.Drawing.Size(275, 20);
+            this.CR_5.Size = new System.Drawing.Size(222, 15);
             this.CR_5.TabIndex = 4;
             this.CR_5.Text = "SMPbeta custom code, logo\'s and music";
             // 
             // CR_4
             // 
             this.CR_4.AutoSize = true;
-            this.CR_4.Location = new System.Drawing.Point(12, 94);
+            this.CR_4.Location = new System.Drawing.Point(10, 82);
             this.CR_4.Name = "CR_4";
-            this.CR_4.Size = new System.Drawing.Size(128, 20);
+            this.CR_4.Size = new System.Drawing.Size(101, 15);
             this.CR_4.TabIndex = 3;
             this.CR_4.Text = "All rights reserved";
             // 
             // CR_3
             // 
             this.CR_3.AutoSize = true;
-            this.CR_3.Location = new System.Drawing.Point(12, 74);
+            this.CR_3.Location = new System.Drawing.Point(10, 64);
             this.CR_3.Name = "CR_3";
-            this.CR_3.Size = new System.Drawing.Size(202, 20);
+            this.CR_3.Size = new System.Drawing.Size(162, 15);
             this.CR_3.TabIndex = 2;
             this.CR_3.Text = "© 2021 Max Rook (MexiMux)";
             // 
             // CR_Version
             // 
             this.CR_Version.AutoSize = true;
-            this.CR_Version.Location = new System.Drawing.Point(65, 54);
+            this.CR_Version.Location = new System.Drawing.Point(57, 44);
             this.CR_Version.Name = "CR_Version";
-            this.CR_Version.Size = new System.Drawing.Size(50, 20);
+            this.CR_Version.Size = new System.Drawing.Size(40, 15);
             this.CR_Version.TabIndex = 1;
             this.CR_Version.Text = "1.0.0.0";
             // 
             // CR_1
             // 
             this.CR_1.AutoSize = true;
-            this.CR_1.Location = new System.Drawing.Point(12, 34);
+            this.CR_1.Location = new System.Drawing.Point(10, 26);
             this.CR_1.Name = "CR_1";
-            this.CR_1.Size = new System.Drawing.Size(131, 20);
+            this.CR_1.Size = new System.Drawing.Size(106, 15);
             this.CR_1.TabIndex = 0;
             this.CR_1.Text = "SMPbeta Launcher";
             // 
@@ -525,29 +546,30 @@ namespace SMPbeta_Launcher
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(961, 97);
+            this.panel2.Size = new System.Drawing.Size(1070, 73);
             this.panel2.TabIndex = 7;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // Logo
             // 
             this.Logo.Image = global::SMPbeta_Launcher.Properties.Resources.logo;
-            this.Logo.Location = new System.Drawing.Point(0, -61);
+            this.Logo.Location = new System.Drawing.Point(0, -46);
+            this.Logo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Logo.Name = "Logo";
-            this.Logo.Size = new System.Drawing.Size(284, 214);
+            this.Logo.Size = new System.Drawing.Size(248, 160);
             this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.Logo.TabIndex = 7;
             this.Logo.TabStop = false;
             // 
             // Info
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(961, 629);
+            this.ClientSize = new System.Drawing.Size(1070, 710);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.Info_Content);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Info";
             this.Text = "Info";
             this.Load += new System.EventHandler(this.Info_Load);

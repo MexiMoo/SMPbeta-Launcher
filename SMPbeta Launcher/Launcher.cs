@@ -42,10 +42,26 @@ namespace SMPbeta_Launcher
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
             ExtNews();
             FirstBoot();
+            KillDup();
+            TrayMenuContext();
 
             Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
 
             this.TransparencyKey = Color.Empty;
+        }
+
+        void KillDup()
+        {
+            Process process = Process.GetCurrentProcess();
+            var dupl = (Process.GetProcessesByName(process.ProcessName));
+            if (dupl.Length > 1)
+            {
+                foreach (var p in dupl)
+                {
+                    if (p.Id != process.Id)
+                        p.Kill();
+                }
+            }
         }
 
         #region Updater
@@ -82,12 +98,7 @@ namespace SMPbeta_Launcher
 
         void FirstBoot()
         {
-            var FS = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "bin", "FB.bin");
-
-            string info = string.Format("{0}",
-              FS);
-
-            if (File.Exists(FS))
+            if(Properties.Settings.Default.TosAccepted == false)
             {
                 using (FirstSetup Fs = new FirstSetup())
                 {
@@ -194,7 +205,43 @@ namespace SMPbeta_Launcher
 
         private void Close_MouseClick(object sender, MouseEventArgs e)
         {
-            Environment.Exit(0);
+            if (Properties.Settings.Default.RunBG == false)
+            {
+                Environment.Exit(0);
+            }
+            else
+            {
+                this.Hide();
+                Hidden();
+                TrayMenuContext();
+            }
+            
+        }
+
+        void Hidden()
+        {
+            if (Properties.Settings.Default.BgMessage == true)
+            {
+                Notify_Icon.BalloonTipText = "SMPbeta has closed! It will be running in the background to check for updates.";
+                Notify_Icon.ShowBalloonTip(1000);
+            }
+        }
+
+        private void TrayMenuContext()
+        {
+            this.Notify_Icon.ContextMenuStrip = new System.Windows.Forms.ContextMenuStrip();
+            this.Notify_Icon.ContextMenuStrip.Items.Add("Search for update", null, (s, e) => MessageBox.Show("Error (0X3NI): This function has not yet been implemented - Message", "Exeption (0X3NI)"));
+            this.Notify_Icon.ContextMenuStrip.Items.Add("Website", null, Website_Open_Click);
+            this.Notify_Icon.ContextMenuStrip.Items.Add("Exit", null, (s, e) => Environment.Exit(0));
+        }
+
+        private void Website_Open_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://maxrook.nl/",
+                UseShellExecute = true
+            });
         }
 
         private void Minimize_MouseClick(object sender, MouseEventArgs e)
@@ -229,6 +276,16 @@ namespace SMPbeta_Launcher
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Launcher_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            //remove this
+        }
+
+        private void Launcher_Load(object sender, EventArgs e)
         {
 
         }

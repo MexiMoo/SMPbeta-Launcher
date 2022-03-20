@@ -66,11 +66,6 @@ namespace SMPbeta_Launcher
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("Valid", "Licence Status");
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -139,12 +134,12 @@ namespace SMPbeta_Launcher
         private void Info_Copy_Button_Click(object sender, EventArgs e)
         {
             string copy = @"SMPbeta Launcher
-            Version 1.0.0
-            SMPbetaLauncher.1.Release/1.0.0+00145.102
+            Version 1.2.2
+            SMPbetaLauncher.1.Release/1.2.2+30145.156
             SMPbeta custom code, logo's and music
-            Distro 18.1.2:5000
+            Distro 18.1.2:5001
              
-            Installed Version: Distributed
+            Installed Version: Distributed - Release
              
             Installed components:
             SMPbeta Server Connection Drivers
@@ -167,7 +162,7 @@ namespace SMPbeta_Launcher
             Minecraft 1.12.2 [Forge]
 
             Software compiled on:
-            7-1-2022
+            20-3-2022
 
             Build License:
             Max Rook (MexiMux)
@@ -179,16 +174,19 @@ namespace SMPbeta_Launcher
             Yes
 
             Build Software:
-            Microsoft Visual Studio 2019
+            Microsoft Visual Studio 2022
+
+            .NET version:
+            .NET 6
 
             Language:
-            C#, C++
+            C#
 
             Website:
             https://maxrook.nl, http://meximux.com/
 
             Copyright:
-            © 2021 Max Rook (MexiMux)
+            © 2021-2022 Max Rook (MexiMux)
             All rights reserved";
 
             System.Windows.Forms.Clipboard.SetText(copy);
@@ -197,16 +195,11 @@ namespace SMPbeta_Launcher
 
         private void ToS_Revoke_Click(object sender, EventArgs e)
         {
-            DialogResult dialogResult = MessageBox.Show("Changed your mind about accepting our terms of service? Understandable.     Do you want to revoke your agreement to our terms of service?                          (You have to agree again to our terms of service to use this program again!)", "Revoke Terms", MessageBoxButtons.YesNo);
+            DialogResult dialogResult = MessageBox.Show("Changed your mind about accepting our terms of service? Understandable. Do you want to revoke your agreement to our terms of service?                                                                                                          (You have to agree again to our terms of service to use this program again!)", "Revoke Terms", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
-                var FS = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "bin", "FB.bin");
-
-                string info = string.Format("{0}",
-                  FS);
-
-                string path = @FS;        
-                using (FileStream fs = File.Create(path))   
+                Properties.Settings.Default["TosAccepted"] = false;
+                Properties.Settings.Default.Save();
                 System.Environment.Exit(0);
             }
             else if (dialogResult == DialogResult.No)
@@ -253,6 +246,16 @@ namespace SMPbeta_Launcher
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+
+        private void CR_6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void About_Content_Paint(object sender, PaintEventArgs e)
         {
 
         }

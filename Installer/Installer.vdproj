@@ -165,6 +165,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_13EA0EBDA35E4262AB252415E8C66948"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_16F3AE73296D4F24AB6395C0D572D6D1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -339,6 +345,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_33DD252EE9CB4B57AFDC59D07ACB10A8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3496D0FF2E77486289A8510AAFF7DA17"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -346,6 +358,12 @@
         "Entry"
         {
         "MsmKey" = "8:_34A9B2551F9B4EFA86F1D73008810BA5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3584A524781046448DBEB650A0CB6D82"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -406,6 +424,12 @@
         "Entry"
         {
         "MsmKey" = "8:_3F600AC65A784D53A6A229FF9D608103"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3F6F1C90231243789611E0958EA986F9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -753,6 +777,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_70CDF869436A4AE9930D1409C81ED272"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_72C2F78E12EC45E4A8B54C1DA7C3A8B6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -951,6 +981,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_9F0CE598A7C2495880C524DC152DE20C"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9F268DECEB0042C793D4899DB6D14DF4"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1059,6 +1095,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B5A9ED6537594DB280F052F2E7062757"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B613AD4FA2DC469887EE64CC215A1C4E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1162,6 +1204,12 @@
         "Entry"
         {
         "MsmKey" = "8:_C23B0940C64146F1895A264F0E64DAF7"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C3B4619BD1034BB887AD64135AAFF64D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1341,6 +1389,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_E94EF95E28DF4AC9A1542BD3B33A2BAD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_E994D056B0CC435A8A8A58F7FB13FD6B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1395,6 +1449,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F187073C22DB44F5B70139F85E67B3CA"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F2530CAED6264453BB75A2E2DB5D859F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1437,6 +1497,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F6B6264D6F44458A90F4412846A57E4E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F8F9F453815A4AB197E893763314FF01"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1444,12 +1510,6 @@
         "Entry"
         {
         "MsmKey" = "8:_F97E9C902E5F4728B6E3C8B822C767E3"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FAE6AE5C6786466C978033418F23BAB5"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1493,6 +1553,12 @@
         {
         "MsmKey" = "8:_FFDE40419765433183C9C6A809A9DB2B"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_70CDF869436A4AE9930D1409C81ED272"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -2100,6 +2166,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_13EA0EBDA35E4262AB252415E8C66948"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\Terralith_v2.0.12_Fabric+Forge.jar"
+            "TargetName" = "8:Terralith_v2.0.12_Fabric+Forge.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_16F3AE73296D4F24AB6395C0D572D6D1"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.12\\Baubles-1.12-1.5.2.jar"
@@ -2680,6 +2766,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_33DD252EE9CB4B57AFDC59D07ACB10A8"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\guardvillagers-1.18.1.4.0.jar"
+            "TargetName" = "8:guardvillagers-1.18.1.4.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3496D0FF2E77486289A8510AAFF7DA17"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\better-nether-5.3.11.jar"
@@ -2706,6 +2812,26 @@
             "TargetName" = "8:fmlloader-1.18.1-39.0.14.jar"
             "Tag" = "8:"
             "Folder" = "8:_64EA612708D74FD39CA411C5A95E63FF"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3584A524781046448DBEB650A0CB6D82"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\ecologics-FORGE-1.18.1-1.2.1.jar"
+            "TargetName" = "8:ecologics-FORGE-1.18.1-1.2.1.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -2886,6 +3012,26 @@
             "TargetName" = "8:antlr4-runtime-4.9.1.jar"
             "Tag" = "8:"
             "Folder" = "8:_F1647949B0894F5D84B199F3CCCE1C04"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3F6F1C90231243789611E0958EA986F9"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\geckolib-1.18-forge-3.0.11.jar"
+            "TargetName" = "8:geckolib-1.18-forge-3.0.11.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4040,6 +4186,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_70CDF869436A4AE9930D1409C81ED272"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:SMPbeta Launcher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_70CDF869436A4AE9930D1409C81ED272"
+                    {
+                    "Name" = "8:SMPbeta Launcher.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:D:\\Return\\SMPbeta Launcher OLD\\SMPbeta Launcher\\bin\\Debug\\netcoreapp3.1\\SMPbeta Launcher.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_B524858919344F35A43101CC7F8B5AC7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_72C2F78E12EC45E4A8B54C1DA7C3A8B6"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\libraries\\com\\github\\jponge\\lzma-java\\1.3\\lzma-java-1.3.jar"
@@ -4700,6 +4877,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9F0CE598A7C2495880C524DC152DE20C"
+            {
+            "SourcePath" = "8:D:\\Return\\SMPbeta Launcher OLD\\SMPbeta Launcher\\bin\\Debug\\netcoreapp3.1\\SMPbeta Launcher.pdb"
+            "TargetName" = "8:SMPbeta Launcher.pdb"
+            "Tag" = "8:"
+            "Folder" = "8:_B524858919344F35A43101CC7F8B5AC7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9F268DECEB0042C793D4899DB6D14DF4"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.12\\Galacticraft-Planets-1.12.2-4.0.2.281.jar"
@@ -5060,6 +5257,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B5A9ED6537594DB280F052F2E7062757"
+            {
+            "SourcePath" = "8:D:\\Return\\SMPbeta Launcher OLD\\SMPbeta Launcher\\bin\\Debug\\netcoreapp3.1\\SMPbeta Launcher.exe"
+            "TargetName" = "8:SMPbeta Launcher.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_B524858919344F35A43101CC7F8B5AC7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B613AD4FA2DC469887EE64CC215A1C4E"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\versions\\SMPbeta 1.12.2 [Modded]\\SMPbeta 1.12.2 [Modded].jar"
@@ -5406,6 +5623,26 @@
             "TargetName" = "8:loadmyresources_1.0.1_MC_1.18.jar"
             "Tag" = "8:"
             "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C3B4619BD1034BB887AD64135AAFF64D"
+            {
+            "SourcePath" = "8:D:\\Return\\SMPbeta Launcher OLD\\SMPbeta Launcher\\bin\\Debug\\netcoreapp3.1\\SMPbeta Launcher.runtimeconfig.dev.json"
+            "TargetName" = "8:SMPbeta Launcher.runtimeconfig.dev.json"
+            "Tag" = "8:"
+            "Folder" = "8:_B524858919344F35A43101CC7F8B5AC7"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -6000,6 +6237,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E94EF95E28DF4AC9A1542BD3B33A2BAD"
+            {
+            "SourcePath" = "8:D:\\Return\\SMPbeta Launcher OLD\\SMPbeta Launcher\\bin\\Debug\\netcoreapp3.1\\SMPbeta Launcher.runtimeconfig.json"
+            "TargetName" = "8:SMPbeta Launcher.runtimeconfig.json"
+            "Tag" = "8:"
+            "Folder" = "8:_B524858919344F35A43101CC7F8B5AC7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E994D056B0CC435A8A8A58F7FB13FD6B"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\libraries\\de\\oceanlabs\\mcp\\mcp_config\\1.18.1-20211210.034407\\mcp_config-1.18.1-20211210.034407-mappings.txt"
@@ -6180,6 +6437,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F187073C22DB44F5B70139F85E67B3CA"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\Nullscape_v1.1_Fabric+Forge.jar"
+            "TargetName" = "8:Nullscape_v1.1_Fabric+Forge.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F2530CAED6264453BB75A2E2DB5D859F"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\SMPbeta Launcher\\fancymenu\\customization\\title.txt"
@@ -6320,6 +6597,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F6B6264D6F44458A90F4412846A57E4E"
+            {
+            "SourcePath" = "8:D:\\Return\\SMPbeta Launcher OLD\\SMPbeta Launcher\\bin\\Debug\\netcoreapp3.1\\SMPbeta Launcher.deps.json"
+            "TargetName" = "8:SMPbeta Launcher.deps.json"
+            "Tag" = "8:"
+            "Folder" = "8:_B524858919344F35A43101CC7F8B5AC7"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F8F9F453815A4AB197E893763314FF01"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\saves\\Debug\\data\\capabilities.dat"
@@ -6346,26 +6643,6 @@
             "TargetName" = "8:obfuscate-0.2.6-1.12.2.jar"
             "Tag" = "8:"
             "Folder" = "8:_642FF111EB424313A51C36A5E9BC9CBC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FAE6AE5C6786466C978033418F23BAB5"
-            {
-            "SourcePath" = "8:D:\\Return\\FB.bin"
-            "TargetName" = "8:FB.bin"
-            "Tag" = "8:"
-            "Folder" = "8:_BAE36F1B1E204F4C89F12F7D5319A268"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -7170,6 +7447,28 @@
                             "Property" = "8:_6B0BEB812CDB4E9D9532986719A93F52"
                                 "Folders"
                                 {
+                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_2BBEB64503A948299D8DFD1AACBCCC94"
+                                    {
+                                    "Name" = "8:Debug"
+                                    "AlwaysCreate" = "11:FALSE"
+                                    "Condition" = "8:"
+                                    "Transitive" = "11:FALSE"
+                                    "Property" = "8:_00DB520B01B743E889716F5BBDA43402"
+                                        "Folders"
+                                        {
+                                            "{9EF0B969-E518-4E46-987F-47570745A589}:_B524858919344F35A43101CC7F8B5AC7"
+                                            {
+                                            "Name" = "8:netcoreapp3.1"
+                                            "AlwaysCreate" = "11:FALSE"
+                                            "Condition" = "8:"
+                                            "Transitive" = "11:FALSE"
+                                            "Property" = "8:_EE26A996890E4D0983DBDC21CF94631E"
+                                                "Folders"
+                                                {
+                                                }
+                                            }
+                                        }
+                                    }
                                 }
                             }
                         }
@@ -9238,15 +9537,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SMPbeta Launcher"
-        "ProductCode" = "8:{6A6EAF93-549C-497D-83BC-932F8BF78B08}"
-        "PackageCode" = "8:{470F17D6-782F-4F26-B3F9-46AE6F268F40}"
+        "ProductCode" = "8:{CBDDE85D-2D3E-4B8E-9428-F3C18BB2E840}"
+        "PackageCode" = "8:{681581C2-1369-4350-9FBB-FE216CCF82FA}"
         "UpgradeCode" = "8:{6BA2AFCC-6A42-4F32-B1F0-05F1915FCA0C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.2.0"
+        "ProductVersion" = "8:1.2.2"
         "Manufacturer" = "8:Max Rook (MexiMux)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://maxrook.nl/help/"
@@ -10197,7 +10496,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3863E6A7EC2F4EAA9995D0684E1C23F1"
             {
-            "SourcePath" = "8:..\\SMPbeta Launcher\\obj\\Debug\\netcoreapp3.1\\apphost.exe"
+            "SourcePath" = "8:..\\SMPbeta Launcher\\obj\\Debug\\net6.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3B4750CDF5534D9BBB6C198DB4A7B53A"
