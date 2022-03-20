@@ -66,7 +66,7 @@ namespace Updater
             }
             else if (result == DialogResult.Abort)
             {
-                MessageBox.Show("The update download was cancelled.\nThis program has not been modified.", "Update Download Cancelled", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("The update download was stopped.\nThis program has not been modified.", "Update Download Stoped", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
