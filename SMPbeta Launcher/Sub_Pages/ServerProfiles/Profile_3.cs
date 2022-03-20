@@ -79,7 +79,12 @@ namespace SMPbeta_Launcher
             LoadVersion();
             startLoad();
             await PutTaskDelay();
-            Environment.Exit(0);
+            Load.MarqueeAnimationSpeed = 0;
+            if (Properties.Settings.Default.BgMessage == true)
+            {
+                Notify_Icon.BalloonTipText = "The SMPbeta launcher has downloaded the selected profile! Have fun playing!";
+                Notify_Icon.ShowBalloonTip(1000);
+            }
         }
 
         void LoadVersion()

@@ -16,6 +16,7 @@ using System.Diagnostics;
 using Updater;
 using Microsoft.Web.WebView2.Core;
 using System.Drawing.Drawing2D;
+using System.Runtime.InteropServices;
 
 namespace SMPbeta_Launcher
 {
@@ -79,13 +80,19 @@ namespace SMPbeta_Launcher
         private async void Start_Click_1(object sender, EventArgs e)
         {
             Load.Style = ProgressBarStyle.Marquee;
+            Start.Enabled = true;
             Load.MarqueeAnimationSpeed = 1;
             Info_Label.Text = "Loading...";
             await PutTaskDelay();
             startLoad();
-            Start.Enabled = false;
             await PutTaskDelay();
-            Environment.Exit(0);
+            Load.MarqueeAnimationSpeed = 0;
+            Start.Enabled = false;
+            if (Properties.Settings.Default.BgMessage == true)
+            {
+                Notify_Icon.BalloonTipText = "The SMPbeta launcher has downloaded the selected profile! Have fun playing!";
+                Notify_Icon.ShowBalloonTip(1000);
+            }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -100,7 +107,12 @@ namespace SMPbeta_Launcher
 
         private void Start_Click(object sender, EventArgs e)
         {
-            Environment.Exit(0);
+            Start.Enabled = false;
+            if (Properties.Settings.Default.BgMessage == true)
+            {
+                Notify_Icon.BalloonTipText = "The SMPbeta launcher has downloaded the selected profile! Have fun playing!";
+                Notify_Icon.ShowBalloonTip(1000);
+            }
         }
 
         private void button7_Click(object sender, EventArgs e)

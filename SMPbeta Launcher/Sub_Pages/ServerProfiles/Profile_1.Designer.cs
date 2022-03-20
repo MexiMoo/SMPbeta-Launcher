@@ -29,10 +29,21 @@ namespace SMPbeta_Launcher
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Profile_1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.button3 = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
@@ -70,19 +81,14 @@ namespace SMPbeta_Launcher
             this.label1 = new System.Windows.Forms.Label();
             this.Logo = new System.Windows.Forms.PictureBox();
             this.BG1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.button6 = new System.Windows.Forms.Button();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.button5 = new System.Windows.Forms.Button();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.Notify_Icon = new System.Windows.Forms.NotifyIcon(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            this.panel11.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel9.SuspendLayout();
@@ -97,10 +103,6 @@ namespace SMPbeta_Launcher
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.BG1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel11.SuspendLayout();
-            this.panel10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -147,6 +149,136 @@ namespace SMPbeta_Launcher
             this.panel3.Size = new System.Drawing.Size(281, 247);
             this.panel3.TabIndex = 6;
             // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.button5);
+            this.panel10.Controls.Add(this.label15);
+            this.panel10.Controls.Add(this.label16);
+            this.panel10.Controls.Add(this.pictureBox7);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel10.Location = new System.Drawing.Point(0, 273);
+            this.panel10.Margin = new System.Windows.Forms.Padding(1);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(262, 39);
+            this.panel10.TabIndex = 7;
+            // 
+            // button5
+            // 
+            this.button5.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button5.Location = new System.Drawing.Point(152, 0);
+            this.button5.Margin = new System.Windows.Forms.Padding(1);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(104, 39);
+            this.button5.TabIndex = 3;
+            this.button5.Text = "...";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label15
+            // 
+            this.label15.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label15.ForeColor = System.Drawing.Color.Lime;
+            this.label15.Location = new System.Drawing.Point(99, 0);
+            this.label15.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(53, 39);
+            this.label15.TabIndex = 2;
+            this.label15.Text = "Online";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label16
+            // 
+            this.label16.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label16.Location = new System.Drawing.Point(55, 0);
+            this.label16.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(44, 39);
+            this.label16.TabIndex = 1;
+            this.label16.Text = "Hub";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox7.Image = global::SMPbeta_Launcher.Properties.Resources.server_icon_rounded;
+            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(1);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(55, 39);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 0;
+            this.pictureBox7.TabStop = false;
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.button6);
+            this.panel11.Controls.Add(this.label17);
+            this.panel11.Controls.Add(this.label18);
+            this.panel11.Controls.Add(this.pictureBox8);
+            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel11.Location = new System.Drawing.Point(0, 234);
+            this.panel11.Margin = new System.Windows.Forms.Padding(1);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(262, 39);
+            this.panel11.TabIndex = 6;
+            // 
+            // button6
+            // 
+            this.button6.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button6.Location = new System.Drawing.Point(196, 0);
+            this.button6.Margin = new System.Windows.Forms.Padding(1);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(60, 39);
+            this.button6.TabIndex = 3;
+            this.button6.Text = "...";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // label17
+            // 
+            this.label17.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label17.ForeColor = System.Drawing.Color.Lime;
+            this.label17.Location = new System.Drawing.Point(141, 0);
+            this.label17.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(55, 39);
+            this.label17.TabIndex = 2;
+            this.label17.Text = "Online";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label18
+            // 
+            this.label18.Dock = System.Windows.Forms.DockStyle.Left;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label18.Location = new System.Drawing.Point(55, 0);
+            this.label18.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(86, 39);
+            this.label18.TabIndex = 1;
+            this.label18.Text = "OneBlock";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pictureBox8.Image = global::SMPbeta_Launcher.Properties.Resources.server_icon_rounded;
+            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(1);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(55, 39);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 0;
+            this.pictureBox8.TabStop = false;
+            // 
             // panel8
             // 
             this.panel8.Controls.Add(this.button3);
@@ -157,7 +289,7 @@ namespace SMPbeta_Launcher
             this.panel8.Location = new System.Drawing.Point(0, 195);
             this.panel8.Margin = new System.Windows.Forms.Padding(1);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(258, 39);
+            this.panel8.Size = new System.Drawing.Size(262, 39);
             this.panel8.TabIndex = 5;
             // 
             // button3
@@ -222,7 +354,7 @@ namespace SMPbeta_Launcher
             this.panel9.Location = new System.Drawing.Point(0, 156);
             this.panel9.Margin = new System.Windows.Forms.Padding(1);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(258, 39);
+            this.panel9.Size = new System.Drawing.Size(262, 39);
             this.panel9.TabIndex = 4;
             // 
             // button4
@@ -287,7 +419,7 @@ namespace SMPbeta_Launcher
             this.panel7.Location = new System.Drawing.Point(0, 117);
             this.panel7.Margin = new System.Windows.Forms.Padding(1);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(258, 39);
+            this.panel7.Size = new System.Drawing.Size(262, 39);
             this.panel7.TabIndex = 3;
             // 
             // button2
@@ -352,7 +484,7 @@ namespace SMPbeta_Launcher
             this.panel6.Location = new System.Drawing.Point(0, 78);
             this.panel6.Margin = new System.Windows.Forms.Padding(1);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(258, 39);
+            this.panel6.Size = new System.Drawing.Size(262, 39);
             this.panel6.TabIndex = 2;
             // 
             // button1
@@ -417,7 +549,7 @@ namespace SMPbeta_Launcher
             this.panel5.Location = new System.Drawing.Point(0, 39);
             this.panel5.Margin = new System.Windows.Forms.Padding(1);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(258, 39);
+            this.panel5.Size = new System.Drawing.Size(262, 39);
             this.panel5.TabIndex = 1;
             // 
             // button7
@@ -482,7 +614,7 @@ namespace SMPbeta_Launcher
             this.panel4.Location = new System.Drawing.Point(0, 0);
             this.panel4.Margin = new System.Windows.Forms.Padding(1);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(258, 39);
+            this.panel4.Size = new System.Drawing.Size(262, 39);
             this.panel4.TabIndex = 0;
             // 
             // Info_1
@@ -543,7 +675,7 @@ namespace SMPbeta_Launcher
             this.Info_Label.ForeColor = System.Drawing.SystemColors.Control;
             this.Info_Label.Location = new System.Drawing.Point(4, 442);
             this.Info_Label.Name = "Info_Label";
-            this.Info_Label.Size = new System.Drawing.Size(0, 20);
+            this.Info_Label.Size = new System.Drawing.Size(0, 15);
             this.Info_Label.TabIndex = 5;
             // 
             // label2
@@ -552,7 +684,7 @@ namespace SMPbeta_Launcher
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(4, 468);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 20);
+            this.label2.Size = new System.Drawing.Size(52, 15);
             this.label2.TabIndex = 4;
             this.label2.Text = "Progress";
             // 
@@ -616,135 +748,12 @@ namespace SMPbeta_Launcher
             this.BG1.TabStop = false;
             this.BG1.Click += new System.EventHandler(this.BG1_Click);
             // 
-            // pictureBox8
+            // Notify_Icon
             // 
-            this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox8.Image = global::SMPbeta_Launcher.Properties.Resources.server_icon_rounded;
-            this.pictureBox8.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(1);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(55, 39);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 0;
-            this.pictureBox8.TabStop = false;
-            // 
-            // label18
-            // 
-            this.label18.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label18.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label18.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label18.Location = new System.Drawing.Point(55, 0);
-            this.label18.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(86, 39);
-            this.label18.TabIndex = 1;
-            this.label18.Text = "OneBlock";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label17
-            // 
-            this.label17.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label17.ForeColor = System.Drawing.Color.Lime;
-            this.label17.Location = new System.Drawing.Point(141, 0);
-            this.label17.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(55, 39);
-            this.label17.TabIndex = 2;
-            this.label17.Text = "Online";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button6.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(196, 0);
-            this.button6.Margin = new System.Windows.Forms.Padding(1);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(60, 39);
-            this.button6.TabIndex = 3;
-            this.button6.Text = "...";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.button6);
-            this.panel11.Controls.Add(this.label17);
-            this.panel11.Controls.Add(this.label18);
-            this.panel11.Controls.Add(this.pictureBox8);
-            this.panel11.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel11.Location = new System.Drawing.Point(0, 234);
-            this.panel11.Margin = new System.Windows.Forms.Padding(1);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(258, 39);
-            this.panel11.TabIndex = 6;
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.button5);
-            this.panel10.Controls.Add(this.label15);
-            this.panel10.Controls.Add(this.label16);
-            this.panel10.Controls.Add(this.pictureBox7);
-            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel10.Location = new System.Drawing.Point(0, 273);
-            this.panel10.Margin = new System.Windows.Forms.Padding(1);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(258, 39);
-            this.panel10.TabIndex = 7;
-            // 
-            // label16
-            // 
-            this.label16.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label16.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label16.Location = new System.Drawing.Point(55, 0);
-            this.label16.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(44, 39);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "Hub";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label15
-            // 
-            this.label15.Dock = System.Windows.Forms.DockStyle.Left;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label15.ForeColor = System.Drawing.Color.Lime;
-            this.label15.Location = new System.Drawing.Point(99, 0);
-            this.label15.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(53, 39);
-            this.label15.TabIndex = 2;
-            this.label15.Text = "Online";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button5
-            // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button5.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button5.Location = new System.Drawing.Point(152, 0);
-            this.button5.Margin = new System.Windows.Forms.Padding(1);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(104, 39);
-            this.button5.TabIndex = 3;
-            this.button5.Text = "...";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pictureBox7.Image = global::SMPbeta_Launcher.Properties.Resources.server_icon_rounded;
-            this.pictureBox7.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(1);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(55, 39);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 0;
-            this.pictureBox7.TabStop = false;
+            this.Notify_Icon.BalloonTipTitle = "Download Comlete!";
+            this.Notify_Icon.Icon = ((System.Drawing.Icon)(resources.GetObject("Notify_Icon.Icon")));
+            this.Notify_Icon.Text = "SMPBeta Launcher";
+            this.Notify_Icon.Visible = true;
             // 
             // Profile_1
             // 
@@ -762,6 +771,10 @@ namespace SMPbeta_Launcher
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            this.panel11.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel9.ResumeLayout(false);
@@ -776,10 +789,6 @@ namespace SMPbeta_Launcher
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.BG1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel11.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -836,5 +845,6 @@ namespace SMPbeta_Launcher
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.NotifyIcon Notify_Icon;
     }
 }

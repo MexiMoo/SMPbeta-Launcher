@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Profile_3));
             this.Logo = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.Load = new System.Windows.Forms.ProgressBar();
@@ -48,6 +50,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.BG1 = new System.Windows.Forms.PictureBox();
+            this.Notify_Icon = new System.Windows.Forms.NotifyIcon(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.Logo)).BeginInit();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -76,7 +79,7 @@
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
             this.label2.Location = new System.Drawing.Point(4, 468);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 20);
+            this.label2.Size = new System.Drawing.Size(52, 15);
             this.label2.TabIndex = 4;
             this.label2.Text = "Progress";
             // 
@@ -175,7 +178,7 @@
             this.Info_Label.ForeColor = System.Drawing.SystemColors.Control;
             this.Info_Label.Location = new System.Drawing.Point(4, 442);
             this.Info_Label.Name = "Info_Label";
-            this.Info_Label.Size = new System.Drawing.Size(0, 20);
+            this.Info_Label.Size = new System.Drawing.Size(0, 15);
             this.Info_Label.TabIndex = 5;
             // 
             // Info_1
@@ -305,6 +308,13 @@
             this.BG1.TabIndex = 10;
             this.BG1.TabStop = false;
             // 
+            // Notify_Icon
+            // 
+            this.Notify_Icon.BalloonTipTitle = "Download Complete!";
+            this.Notify_Icon.Icon = ((System.Drawing.Icon)(resources.GetObject("Notify_Icon.Icon")));
+            this.Notify_Icon.Text = "SMPbeta Launcher";
+            this.Notify_Icon.Visible = true;
+            // 
             // Profile_3
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -352,5 +362,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox BG1;
+        private System.Windows.Forms.NotifyIcon Notify_Icon;
     }
 }
