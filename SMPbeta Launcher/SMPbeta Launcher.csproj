@@ -12,9 +12,9 @@
     <Copyright>© 2021 Max Rook (MexiMux) | All rights reserved</Copyright>
     <PackageProjectUrl>https://maxrook.nl/server</PackageProjectUrl>
     <StartupObject>SMPbeta_Launcher.Program</StartupObject>
-    <AssemblyVersion>1.2.2.1</AssemblyVersion>
-    <FileVersion>1.2.2.1</FileVersion>
-    <Version>1.2.2.1</Version>
+    <AssemblyVersion>1.2.31</AssemblyVersion>
+    <FileVersion>1.2.31</FileVersion>
+    <Version>1.2.31</Version>
 	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 

@@ -411,6 +411,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_3C84A457C9694AC7BEEC4AED47647D79"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3CC814F344E645ECB0650A79F8491360"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -460,6 +466,12 @@
         "Entry"
         {
         "MsmKey" = "8:_415A7958C2C64276BB40BC213D134FAF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_4455C2828871441C9AA7A2F508A18BB9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -723,6 +735,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_6A2454499AD341479BD9E4FC10DE86E4"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_6A4948E5C0AE4C48B55EC76A657FC8A0"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -897,6 +915,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8DC8D1D7A2BC469BBED44A3F12D6B1AD"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_900A97C5C3B34E53971D359A505757F9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -999,6 +1023,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_A1790C8FF92B4B6D9796E40B6202A675"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_A1CD4C4CF77840488F679E28262A995B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1024,6 +1054,12 @@
         "Entry"
         {
         "MsmKey" = "8:_A7D8F1F104304E4E8445F28512520BE8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_A8E51E40BDC2484199A4670F59764F5D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1173,6 +1209,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_BEDA0356D0F74162878510EF5290307D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_BF1E7079C9D14E0D85B78440DC996638"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1288,6 +1330,12 @@
         "Entry"
         {
         "MsmKey" = "8:_D9AF33124AAD42FC81FEE509C316AB4B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_D9EA925A88E04118A37ADC047CDE001B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1437,6 +1485,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_EFAE2A2685B64E84937F9E2B5784CF00"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_EFE47CC2595043BFA5DA9FB54243FA83"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1492,6 +1546,12 @@
         "Entry"
         {
         "MsmKey" = "8:_F4EC1610296F4BAE85DC8F6D30000B0D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F58A316F1B994D3D898AFAC4E4284052"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1553,12 +1613,6 @@
         {
         "MsmKey" = "8:_FFDE40419765433183C9C6A809A9DB2B"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_70CDF869436A4AE9930D1409C81ED272"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -2966,6 +3020,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3C84A457C9694AC7BEEC4AED47647D79"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\ThisRocks-1.18.1-1.0.0.jar"
+            "TargetName" = "8:ThisRocks-1.18.1-1.0.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_3CC814F344E645ECB0650A79F8491360"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\Mantle-1.18.1-1.8.31.jar"
@@ -3132,6 +3206,26 @@
             "TargetName" = "8:Microsoft.Web.WebView2.Core.dll"
             "Tag" = "8:"
             "Folder" = "8:_1EA7C82AC6B543D689924944BE126377"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4455C2828871441C9AA7A2F508A18BB9"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\creeperoverhaul-1.18.1-0.3.0-forge.jar"
+            "TargetName" = "8:creeperoverhaul-1.18.1-0.3.0-forge.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4006,6 +4100,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6A2454499AD341479BD9E4FC10DE86E4"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\enchanting_overhauled-1.0.6.jar"
+            "TargetName" = "8:enchanting_overhauled-1.0.6.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6A4948E5C0AE4C48B55EC76A657FC8A0"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\libraries\\net\\minecraftforge\\forge\\1.18.1-39.0.14\\forge-1.18.1-39.0.14-universal.jar"
@@ -4597,6 +4711,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8DC8D1D7A2BC469BBED44A3F12D6B1AD"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\glider_1.18.1-1.0.0.jar"
+            "TargetName" = "8:glider_1.18.1-1.0.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_900A97C5C3B34E53971D359A505757F9"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\SMPbeta Launcher\\fancymenu\\customization\\options.txt"
@@ -4937,6 +5071,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A1790C8FF92B4B6D9796E40B6202A675"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\AwesomeDungeonNether-Forge-1.18.1-1.0.0.jar"
+            "TargetName" = "8:AwesomeDungeonNether-Forge-1.18.1-1.0.0.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A1CD4C4CF77840488F679E28262A995B"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.12\\SMPbeta\\SMPbeta.jar"
@@ -5023,6 +5177,26 @@
             "TargetName" = "8:mp.txt"
             "Tag" = "8:"
             "Folder" = "8:_F19FE8D1321A4E5BA7D26CE20D384C23"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_A8E51E40BDC2484199A4670F59764F5D"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\VendingMachine-1.18-1.0.0.7.jar"
+            "TargetName" = "8:VendingMachine-1.18-1.0.0.7.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5517,6 +5691,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BEDA0356D0F74162878510EF5290307D"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\SkyVillages+1.0.1+1.18.jar"
+            "TargetName" = "8:SkyVillages+1.0.1+1.18.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BF1E7079C9D14E0D85B78440DC996638"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\libraries\\net\\sf\\jopt-simple\\jopt-simple\\6.0-alpha-3\\jopt-simple-6.0-alpha-3.jar"
@@ -5901,6 +6095,26 @@
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\konkrete_forge_1.3.2_MC_1.18.jar"
             "TargetName" = "8:konkrete_forge_1.3.2_MC_1.18.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D9EA925A88E04118A37ADC047CDE001B"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\effective-1.1.jar"
+            "TargetName" = "8:effective-1.1.jar"
             "Tag" = "8:"
             "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
@@ -6397,6 +6611,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EFAE2A2685B64E84937F9E2B5784CF00"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\DungeonCrawl-1.18.1-2.3.7.jar"
+            "TargetName" = "8:DungeonCrawl-1.18.1-2.3.7.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EFE47CC2595043BFA5DA9FB54243FA83"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\libraries\\org\\ow2\\asm\\asm-analysis\\9.1\\asm-analysis-9.1.jar"
@@ -6583,6 +6817,26 @@
             "TargetName" = "8:mowziesmobs-1.5.8.jar"
             "Tag" = "8:"
             "Folder" = "8:_642FF111EB424313A51C36A5E9BC9CBC"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F58A316F1B994D3D898AFAC4E4284052"
+            {
+            "SourcePath" = "8:D:\\..MCmods\\LibraryFerret-Forge-1.18.1-1.0.3.jar"
+            "TargetName" = "8:LibraryFerret-Forge-1.18.1-1.0.3.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9537,15 +9791,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SMPbeta Launcher"
-        "ProductCode" = "8:{51F5E206-ECF8-4CB7-AA30-084FDA91D8DD}"
-        "PackageCode" = "8:{7B8FFF57-30C6-4701-96CC-44661E9627D9}"
+        "ProductCode" = "8:{8D3FFFF8-AC5B-49DF-854E-CCB6BD1E55CC}"
+        "PackageCode" = "8:{C0353E4A-6C64-45EF-99C0-FB0B2BCCC1E9}"
         "UpgradeCode" = "8:{6BA2AFCC-6A42-4F32-B1F0-05F1915FCA0C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.2.3"
+        "ProductVersion" = "8:1.2.31"
         "Manufacturer" = "8:Max Rook (MexiMux)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://maxrook.nl/help/"
