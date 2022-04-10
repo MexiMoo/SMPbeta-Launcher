@@ -121,11 +121,11 @@ namespace SMPbeta_Launcher
                 {
                     string fileName = SA.FileName;
                     File.Copy(fileName, shadersOP, true);
+                    MessageBox.Show("The following shaders have been succesfully installed: " + SA.SafeFileName);
                 }
                 catch (Exception ex)
                 {
                     MessageBox.Show("The selected shaders failed to load: " + SA.FileName);
-                    MessageBox.Show(SA.FileName + "  To  " + shadersFolder);
                 }
             }
         }
