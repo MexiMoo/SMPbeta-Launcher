@@ -134,14 +134,14 @@ namespace SMPbeta_Launcher
         private void Info_Copy_Button_Click(object sender, EventArgs e)
         {
             string copy = @"SMPbeta Launcher
-            Version 1.2.2.1
-            SMPbetaLauncher.1.Release/1.2.2+30145.156
+            Version 1.2.32
+            SMPbetaLauncher.1.Release/1.2.2+30145.157
             SMPbeta custom code, logo's and music
             Distro 18.1.2:5001
              
             Installed Version: Distributed - Release
              
-            Installed components:
+            Required Installed components:
             SMPbeta Server Connection Drivers
             SMPbeta Server Dependencies [Updates and Checks] (Included= Shaders)
             SMPbeta Modded Client Installer
@@ -162,7 +162,7 @@ namespace SMPbeta_Launcher
             Minecraft 1.12.2 [Forge]
 
             Software compiled on:
-            20-3-2022
+            3-4-2022
 
             Build License:
             Max Rook (MexiMux)

@@ -15,5 +15,8 @@ Dutch</Value>
     <Setting Name="RunBG" Description="This value will let the program run in background" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">True</Value>
     </Setting>
+    <Setting Name="eSH" Description="Enables shaders for the user!" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

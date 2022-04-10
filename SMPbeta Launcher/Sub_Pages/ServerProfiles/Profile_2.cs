@@ -27,41 +27,6 @@ namespace SMPbeta_Launcher
             InitializeComponent();
         }
 
-        private void Start_Click(object sender, EventArgs e)
-        {
-            var launch = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), "Minecraft Launcher", "MinecraftLauncher.exe");
-            var installed = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), ".minecraft", "mods", "SMPbeta", "InstalledNEW.bin");
-            var serverFiles = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), "Max Rook (MexiMux)", "SMPbeta Launcher", "Content", "Install Modded New.msi");
-
-            var i = new Process();
-            i.StartInfo = new ProcessStartInfo(serverFiles)
-            {
-                UseShellExecute = true
-            };
-
-            if (File.Exists(serverFiles))
-            {
-                if (File.Exists(installed))
-                {
-                    Process.Start(launch);
-                    System.Windows.Forms.Application.Exit();
-                    System.Environment.Exit(1);
-                }
-                else
-                {
-                    i.Start();
-                    MessageBox.Show("When the installer is done installing, press ok.", "Installing Mods...");
-                    Process.Start(launch);
-                    System.Windows.Forms.Application.Exit();
-                    System.Environment.Exit(1);
-                }
-            }
-            else
-            {
-                //Do Nothing
-            }
-        }
-
         private void Info_1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Server is running correctly!", "Server Info");
@@ -77,11 +42,6 @@ namespace SMPbeta_Launcher
 
         }
 
-        private void panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
         private void startLoad()
         {
             Thread thread = new Thread(() =>
@@ -89,7 +49,7 @@ namespace SMPbeta_Launcher
                 WebClient client = new WebClient();
                 client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
                 client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_LoadCompleted);
-                client.DownloadFileAsync(new Uri("https://maxrook.nl/wp-content/uploads/2022/01/Installer.7z.001"), @"C:\bin\");
+                client.DownloadFileAsync(new Uri("https://maxrook.nl/wp-content/uploads/2022/01/"), @"C:\bin\");
             });
             thread.Start();
         }
@@ -154,6 +114,7 @@ namespace SMPbeta_Launcher
             var installedC = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "profiles.dump", "1.18.x modded", "config");
             var installedM = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "profiles.dump", "1.18.x modded", "mods");
             var installedS = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "profiles.dump", "1.18.x modded", "saves");
+            var installedSH = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "profiles.dump", "1.18.x modded", "shaders");
 
 
             string dataPathModsstr = string.Format("{0}",
@@ -206,6 +167,32 @@ namespace SMPbeta_Launcher
                 foreach (string Path in Directory.GetFiles(installedS, "*.*", SearchOption.AllDirectories))
                 {
                     File.Copy(Path, Path.Replace(installedS, dataPathSaves), true);
+                }
+
+                //Optional: Shaders
+                if (Properties.Settings.Default.eSH == true)
+                {
+                    foreach (string dirPath in Directory.GetDirectories(installedS, "*", SearchOption.AllDirectories))
+                    {
+                        Directory.CreateDirectory(dirPath.Replace(installedS, dataPathSaves));
+                    }
+
+                    DirectoryInfo iSHa = new DirectoryInfo(@installedSH);
+                    FileInfo[] filesnewSHa = iSHa.GetFiles();
+                    foreach (string Path in Directory.GetFiles(installedSH, "*.*", SearchOption.AllDirectories))
+                    {
+                        File.Copy(Path, Path.Replace(installedSH, dataPathMods), true);
+                    }
+                }
+                else
+                {
+                    string rootFolderPath = dataPathMods;
+                    string fileToDelete = "OptiFine_1.18.1_HD_U_H5.jar";
+                    string[] fileList = System.IO.Directory.GetFiles(rootFolderPath, fileToDelete);
+                    foreach (string file in fileList)
+                    {
+                        System.IO.File.Delete(file);
+                    }
                 }
             }
             else

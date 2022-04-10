@@ -32,8 +32,12 @@ namespace SMPbeta_Launcher
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.Shaders_Import = new System.Windows.Forms.Button();
+            this.Game_Shaders = new System.Windows.Forms.CheckBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.RunBG = new System.Windows.Forms.CheckBox();
             this.Update = new System.Windows.Forms.Button();
             this.Ip_Ao = new System.Windows.Forms.Button();
             this.BgMessage = new System.Windows.Forms.CheckBox();
@@ -41,9 +45,7 @@ namespace SMPbeta_Launcher
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.Ao = new System.Windows.Forms.OpenFileDialog();
-            this.RunBG = new System.Windows.Forms.CheckBox();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
@@ -77,12 +79,53 @@ namespace SMPbeta_Launcher
             this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.Shaders_Import);
+            this.panel2.Controls.Add(this.Game_Shaders);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Location = new System.Drawing.Point(0, 95);
             this.panel2.Margin = new System.Windows.Forms.Padding(1);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(531, 909);
             this.panel2.TabIndex = 7;
+            // 
+            // label5
+            // 
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(121, 22);
+            this.label5.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(420, 19);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "Only avalable for 1.18.1 [Modded]";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Shaders_Import
+            // 
+            this.Shaders_Import.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.Shaders_Import.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Shaders_Import.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Shaders_Import.Location = new System.Drawing.Point(5, 582);
+            this.Shaders_Import.Margin = new System.Windows.Forms.Padding(1);
+            this.Shaders_Import.Name = "Shaders_Import";
+            this.Shaders_Import.Size = new System.Drawing.Size(156, 29);
+            this.Shaders_Import.TabIndex = 14;
+            this.Shaders_Import.Text = "Import Shaders...";
+            this.Shaders_Import.UseVisualStyleBackColor = true;
+            this.Shaders_Import.Click += new System.EventHandler(this.Shaders_Import_Click);
+            // 
+            // Game_Shaders
+            // 
+            this.Game_Shaders.AutoSize = true;
+            this.Game_Shaders.ForeColor = System.Drawing.SystemColors.Control;
+            this.Game_Shaders.Location = new System.Drawing.Point(5, 21);
+            this.Game_Shaders.Margin = new System.Windows.Forms.Padding(1);
+            this.Game_Shaders.Name = "Game_Shaders";
+            this.Game_Shaders.Size = new System.Drawing.Size(105, 19);
+            this.Game_Shaders.TabIndex = 14;
+            this.Game_Shaders.Text = "Enable Shaders";
+            this.Game_Shaders.UseVisualStyleBackColor = true;
+            this.Game_Shaders.CheckedChanged += new System.EventHandler(this.Game_Shaders_CheckedChanged);
             // 
             // label4
             // 
@@ -115,6 +158,21 @@ namespace SMPbeta_Launcher
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(538, 909);
             this.panel3.TabIndex = 8;
+            // 
+            // RunBG
+            // 
+            this.RunBG.AutoSize = true;
+            this.RunBG.Checked = true;
+            this.RunBG.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.RunBG.ForeColor = System.Drawing.SystemColors.Control;
+            this.RunBG.Location = new System.Drawing.Point(2, 84);
+            this.RunBG.Margin = new System.Windows.Forms.Padding(1);
+            this.RunBG.Name = "RunBG";
+            this.RunBG.Size = new System.Drawing.Size(245, 19);
+            this.RunBG.TabIndex = 13;
+            this.RunBG.Text = "Let SMPbeta Launcher run in background\r\n";
+            this.RunBG.UseVisualStyleBackColor = true;
+            this.RunBG.CheckedChanged += new System.EventHandler(this.RunBG_CheckedChanged);
             // 
             // Update
             // 
@@ -212,45 +270,15 @@ namespace SMPbeta_Launcher
             this.label2.Text = "Client Settings";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label3
-            // 
-            this.label3.ForeColor = System.Drawing.Color.Red;
-            this.label3.Location = new System.Drawing.Point(255, 7);
-            this.label3.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(549, 79);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Game settings can not be changed here because it has not been implemented yet! To" +
-    " change settings please use the Minecraft Launcher and Minecraft Settings for no" +
-    "w!";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label3.Click += new System.EventHandler(this.label3_Click);
-            // 
             // Ao
             // 
             this.Ao.FileName = "Import Add-On";
-            // 
-            // RunBG
-            // 
-            this.RunBG.AutoSize = true;
-            this.RunBG.Checked = true;
-            this.RunBG.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.RunBG.ForeColor = System.Drawing.SystemColors.Control;
-            this.RunBG.Location = new System.Drawing.Point(2, 84);
-            this.RunBG.Margin = new System.Windows.Forms.Padding(1);
-            this.RunBG.Name = "RunBG";
-            this.RunBG.Size = new System.Drawing.Size(245, 19);
-            this.RunBG.TabIndex = 13;
-            this.RunBG.Text = "Let SMPbeta Launcher run in background\r\n";
-            this.RunBG.UseVisualStyleBackColor = true;
-            this.RunBG.CheckedChanged += new System.EventHandler(this.RunBG_CheckedChanged);
             // 
             // Settings
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1070, 710);
-            this.Controls.Add(this.label3);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -260,6 +288,7 @@ namespace SMPbeta_Launcher
             this.Name = "Settings";
             this.Text = "Gsettings";
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -271,7 +300,6 @@ namespace SMPbeta_Launcher
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label9;
@@ -282,5 +310,8 @@ namespace SMPbeta_Launcher
         private System.Windows.Forms.OpenFileDialog Ao;
         private System.Windows.Forms.Button Update;
         private System.Windows.Forms.CheckBox RunBG;
+        private System.Windows.Forms.Button Shaders_Import;
+        private System.Windows.Forms.CheckBox Game_Shaders;
+        private System.Windows.Forms.Label label5;
     }
 }

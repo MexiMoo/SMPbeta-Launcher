@@ -1,4 +1,4 @@
-﻿//Programmed in C# and C++
+﻿//Programmed in C#
 //For more information visit: https://maxrook.nl/server
 
 using System;
@@ -17,6 +17,7 @@ using System.Net;
 using System.Diagnostics;
 using Updater;
 using System.Runtime.InteropServices;
+using System.Net;
 
 namespace SMPbeta_Launcher
 {
@@ -286,6 +287,11 @@ namespace SMPbeta_Launcher
         }
 
         private void Launcher_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }

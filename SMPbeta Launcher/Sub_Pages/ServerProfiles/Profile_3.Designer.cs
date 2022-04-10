@@ -96,6 +96,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.Start.BackColor = System.Drawing.Color.Transparent;
+            this.Start.Enabled = false;
             this.Start.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Start.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Start.ForeColor = System.Drawing.SystemColors.Control;
@@ -363,5 +364,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox BG1;
         private System.Windows.Forms.NotifyIcon Notify_Icon;
+        private System.Windows.Forms.Label InfoERR;
     }
 }

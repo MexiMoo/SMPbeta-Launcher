@@ -87,15 +87,14 @@ namespace SMPbeta_Launcher
             // 
             // Minimize
             // 
-            this.Minimize.Dock = System.Windows.Forms.DockStyle.Right;
             this.Minimize.FlatAppearance.BorderSize = 0;
             this.Minimize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Minimize.Font = new System.Drawing.Font("Nirmala UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Minimize.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.Minimize.Location = new System.Drawing.Point(1122, 0);
+            this.Minimize.Location = new System.Drawing.Point(1122, -2);
             this.Minimize.Margin = new System.Windows.Forms.Padding(2);
             this.Minimize.Name = "Minimize";
-            this.Minimize.Size = new System.Drawing.Size(20, 16);
+            this.Minimize.Size = new System.Drawing.Size(20, 19);
             this.Minimize.TabIndex = 4;
             this.Minimize.Text = "-";
             this.Minimize.UseVisualStyleBackColor = true;
@@ -103,15 +102,14 @@ namespace SMPbeta_Launcher
             // 
             // Close
             // 
-            this.Close.Dock = System.Windows.Forms.DockStyle.Right;
             this.Close.FlatAppearance.BorderSize = 0;
             this.Close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Close.Font = new System.Drawing.Font("Nirmala UI", 6F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Close.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.Close.Location = new System.Drawing.Point(1142, 0);
+            this.Close.Location = new System.Drawing.Point(1142, -3);
             this.Close.Margin = new System.Windows.Forms.Padding(2);
             this.Close.Name = "Close";
-            this.Close.Size = new System.Drawing.Size(20, 16);
+            this.Close.Size = new System.Drawing.Size(20, 19);
             this.Close.TabIndex = 3;
             this.Close.Text = "x";
             this.Close.UseVisualStyleBackColor = true;
@@ -404,6 +402,7 @@ namespace SMPbeta_Launcher
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label BETA;
         private System.Windows.Forms.NotifyIcon Notify_Icon;
+        private System.Windows.Forms.Label label3;
     }
 }
 

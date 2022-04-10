@@ -86,5 +86,21 @@ namespace SMPbeta_Launcher.Properties {
                 this["RunBG"] = value;
             }
         }
+        
+        /// <summary>
+        /// Enables shaders for the user!
+        /// </summary>
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.SettingsDescriptionAttribute("Enables shaders for the user!")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool eSH {
+            get {
+                return ((bool)(this["eSH"]));
+            }
+            set {
+                this["eSH"] = value;
+            }
+        }
     }
 }

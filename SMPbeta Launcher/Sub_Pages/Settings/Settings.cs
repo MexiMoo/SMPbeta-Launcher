@@ -5,6 +5,8 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading.Tasks;
+using System.IO;
 
 namespace SMPbeta_Launcher
 {
@@ -15,6 +17,7 @@ namespace SMPbeta_Launcher
             InitializeComponent();
             BgMessageCB();
             RunBGc();
+            RunSHc();
             this.TransparencyKey = Color.Empty;
         }
 
@@ -91,6 +94,65 @@ namespace SMPbeta_Launcher
             else
             {
                 RunBG.CheckState = CheckState.Checked;
+            }
+        }
+
+        private void Shaders_Import_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog SA = new OpenFileDialog();
+            SA.Filter = "Zipped archive|*.zip;*.7z|All files|*.*";
+            SA.InitialDirectory = @"C:\";
+            SA.RestoreDirectory = true;
+            SA.Multiselect = false;
+            SA.Title = "Import Shaders";
+            DialogResult SAselected = SA.ShowDialog();
+
+            string shadersFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), ".minecraft", "shaderpacks");
+            string shadersOP = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), ".minecraft", "shaderpacks", SA.SafeFileName);
+
+            if (Directory.Exists(shadersFolder) == false)
+            {
+                Directory.CreateDirectory(shadersFolder);
+            }
+
+            if (SAselected == DialogResult.OK)
+            {
+                try
+                {
+                    string fileName = SA.FileName;
+                    File.Copy(fileName, shadersOP, true);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("The selected shaders failed to load: " + SA.FileName);
+                    MessageBox.Show(SA.FileName + "  To  " + shadersFolder);
+                }
+            }
+        }
+
+        private void Game_Shaders_CheckedChanged(object sender, EventArgs e)
+        {
+            if (Game_Shaders.Checked)
+            {
+                    Properties.Settings.Default["eSH"] = true;
+                    Properties.Settings.Default.Save();
+            }
+            else if (!Game_Shaders.Checked)
+            {
+                Properties.Settings.Default["eSH"] = false;
+                Properties.Settings.Default.Save();
+            }
+        }
+
+        void RunSHc()
+        {
+            if (Properties.Settings.Default.eSH == false)
+            {
+                Game_Shaders.CheckState = CheckState.Unchecked;
+            }
+            else
+            {
+                Game_Shaders.CheckState = CheckState.Checked;
             }
         }
     }

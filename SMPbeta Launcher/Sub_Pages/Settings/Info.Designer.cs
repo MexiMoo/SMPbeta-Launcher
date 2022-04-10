@@ -152,7 +152,7 @@ namespace SMPbeta_Launcher
             this.Switch_List.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Switch_List.Name = "Switch_List";
             this.Switch_List.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Switch_List.Size = new System.Drawing.Size(881, 305);
+            this.Switch_List.Size = new System.Drawing.Size(881, 310);
             this.Switch_List.TabIndex = 0;
             this.Switch_List.Text = "List";
             this.Switch_List.UseVisualStyleBackColor = true;
@@ -294,7 +294,7 @@ namespace SMPbeta_Launcher
             this.Switch_Tree.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Switch_Tree.Name = "Switch_Tree";
             this.Switch_Tree.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Switch_Tree.Size = new System.Drawing.Size(881, 305);
+            this.Switch_Tree.Size = new System.Drawing.Size(881, 310);
             this.Switch_Tree.TabIndex = 1;
             this.Switch_Tree.Text = "Tree View";
             this.Switch_Tree.UseVisualStyleBackColor = true;
@@ -342,7 +342,7 @@ namespace SMPbeta_Launcher
             this.About_Lab.AutoSize = true;
             this.About_Lab.Location = new System.Drawing.Point(10, 474);
             this.About_Lab.Name = "About_Lab";
-            this.About_Lab.Size = new System.Drawing.Size(109, 20);
+            this.About_Lab.Size = new System.Drawing.Size(88, 15);
             this.About_Lab.TabIndex = 10;
             this.About_Lab.Text = "About product:";
             // 
@@ -351,7 +351,7 @@ namespace SMPbeta_Launcher
             this.CR_2.AutoSize = true;
             this.CR_2.Location = new System.Drawing.Point(10, 44);
             this.CR_2.Name = "CR_2";
-            this.CR_2.Size = new System.Drawing.Size(57, 20);
+            this.CR_2.Size = new System.Drawing.Size(45, 15);
             this.CR_2.TabIndex = 22;
             this.CR_2.Text = "Version";
             // 
@@ -373,7 +373,7 @@ namespace SMPbeta_Launcher
             this.About_Content_Lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.About_Content_Lab.Location = new System.Drawing.Point(0, 0);
             this.About_Content_Lab.Name = "About_Content_Lab";
-            this.About_Content_Lab.Size = new System.Drawing.Size(693, 100);
+            this.About_Content_Lab.Size = new System.Drawing.Size(552, 75);
             this.About_Content_Lab.TabIndex = 0;
             this.About_Content_Lab.Text = resources.GetString("About_Content_Lab.Text");
             this.About_Content_Lab.Click += new System.EventHandler(this.label1_Click);
@@ -396,7 +396,7 @@ namespace SMPbeta_Launcher
             this.Privacy_Lab.AutoSize = true;
             this.Privacy_Lab.Location = new System.Drawing.Point(905, 335);
             this.Privacy_Lab.Name = "Privacy_Lab";
-            this.Privacy_Lab.Size = new System.Drawing.Size(58, 20);
+            this.Privacy_Lab.Size = new System.Drawing.Size(48, 15);
             this.Privacy_Lab.TabIndex = 18;
             this.Privacy_Lab.Text = "Privacy:";
             // 
@@ -405,7 +405,7 @@ namespace SMPbeta_Launcher
             this.Websites_Info_Lab.AutoSize = true;
             this.Websites_Info_Lab.Location = new System.Drawing.Point(905, 221);
             this.Websites_Info_Lab.Name = "Websites_Info_Lab";
-            this.Websites_Info_Lab.Size = new System.Drawing.Size(71, 20);
+            this.Websites_Info_Lab.Size = new System.Drawing.Size(57, 15);
             this.Websites_Info_Lab.TabIndex = 17;
             this.Websites_Info_Lab.Text = "Websites:";
             // 
@@ -460,7 +460,7 @@ namespace SMPbeta_Launcher
             this.Installed_Lab.AutoSize = true;
             this.Installed_Lab.Location = new System.Drawing.Point(10, 104);
             this.Installed_Lab.Name = "Installed_Lab";
-            this.Installed_Lab.Size = new System.Drawing.Size(68, 20);
+            this.Installed_Lab.Size = new System.Drawing.Size(54, 15);
             this.Installed_Lab.TabIndex = 8;
             this.Installed_Lab.Text = "Installed:";
             // 
@@ -469,7 +469,7 @@ namespace SMPbeta_Launcher
             this.CR_8.AutoSize = true;
             this.CR_8.Location = new System.Drawing.Point(360, 82);
             this.CR_8.Name = "CR_8";
-            this.CR_8.Size = new System.Drawing.Size(128, 20);
+            this.CR_8.Size = new System.Drawing.Size(101, 15);
             this.CR_8.TabIndex = 7;
             this.CR_8.Text = "All rights reserved";
             // 
@@ -478,7 +478,7 @@ namespace SMPbeta_Launcher
             this.CR_7.AutoSize = true;
             this.CR_7.Location = new System.Drawing.Point(360, 64);
             this.CR_7.Name = "CR_7";
-            this.CR_7.Size = new System.Drawing.Size(202, 20);
+            this.CR_7.Size = new System.Drawing.Size(162, 15);
             this.CR_7.TabIndex = 6;
             this.CR_7.Text = "© 2021 Max Rook (MexiMux)";
             this.CR_7.Click += new System.EventHandler(this.CR_7_Click);
@@ -488,7 +488,7 @@ namespace SMPbeta_Launcher
             this.CR_6.AutoSize = true;
             this.CR_6.Location = new System.Drawing.Point(360, 44);
             this.CR_6.Name = "CR_6";
-            this.CR_6.Size = new System.Drawing.Size(126, 20);
+            this.CR_6.Size = new System.Drawing.Size(98, 15);
             this.CR_6.TabIndex = 5;
             this.CR_6.Text = "Distro 18.1.2:5001";
             this.CR_6.Click += new System.EventHandler(this.CR_6_Click);
@@ -498,7 +498,7 @@ namespace SMPbeta_Launcher
             this.CR_5.AutoSize = true;
             this.CR_5.Location = new System.Drawing.Point(360, 26);
             this.CR_5.Name = "CR_5";
-            this.CR_5.Size = new System.Drawing.Size(275, 20);
+            this.CR_5.Size = new System.Drawing.Size(222, 15);
             this.CR_5.TabIndex = 4;
             this.CR_5.Text = "SMPbeta custom code, logo\'s and music";
             // 
@@ -507,7 +507,7 @@ namespace SMPbeta_Launcher
             this.CR_4.AutoSize = true;
             this.CR_4.Location = new System.Drawing.Point(10, 82);
             this.CR_4.Name = "CR_4";
-            this.CR_4.Size = new System.Drawing.Size(128, 20);
+            this.CR_4.Size = new System.Drawing.Size(101, 15);
             this.CR_4.TabIndex = 3;
             this.CR_4.Text = "All rights reserved";
             // 
@@ -516,7 +516,7 @@ namespace SMPbeta_Launcher
             this.CR_3.AutoSize = true;
             this.CR_3.Location = new System.Drawing.Point(10, 64);
             this.CR_3.Name = "CR_3";
-            this.CR_3.Size = new System.Drawing.Size(202, 20);
+            this.CR_3.Size = new System.Drawing.Size(162, 15);
             this.CR_3.TabIndex = 2;
             this.CR_3.Text = "© 2021 Max Rook (MexiMux)";
             // 
@@ -525,7 +525,7 @@ namespace SMPbeta_Launcher
             this.CR_Version.AutoSize = true;
             this.CR_Version.Location = new System.Drawing.Point(57, 44);
             this.CR_Version.Name = "CR_Version";
-            this.CR_Version.Size = new System.Drawing.Size(50, 20);
+            this.CR_Version.Size = new System.Drawing.Size(40, 15);
             this.CR_Version.TabIndex = 1;
             this.CR_Version.Text = "1.0.0.0";
             // 
@@ -534,7 +534,7 @@ namespace SMPbeta_Launcher
             this.CR_1.AutoSize = true;
             this.CR_1.Location = new System.Drawing.Point(10, 26);
             this.CR_1.Name = "CR_1";
-            this.CR_1.Size = new System.Drawing.Size(131, 20);
+            this.CR_1.Size = new System.Drawing.Size(106, 15);
             this.CR_1.TabIndex = 0;
             this.CR_1.Text = "SMPbeta Launcher";
             // 
