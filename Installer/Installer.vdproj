@@ -1017,6 +1017,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_966B9B2B2A644CAC8955CD1C05BA2FAC"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_9712F7E0F0B7469BACCFD4FFF35B131F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1431,6 +1437,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_DB9A0DE520A24D9AB27D57F0197A3052"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_DBBEE3815AA54193A4868591F62CF6CD"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1539,12 +1551,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_EA02417642FB41DB81EA26639601EABA"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_EC60289D29764C06A06B430B8BA8B2D3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1636,6 +1642,12 @@
         "Entry"
         {
         "MsmKey" = "8:_FB3B1294A5E0479987783AAA1E7F1FD8"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FBA6A558B1B04355ACCA20303AE261E1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -5123,6 +5135,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_966B9B2B2A644CAC8955CD1C05BA2FAC"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\config\\fancymenu\\customization\\Join.txt"
+            "TargetName" = "8:Join.txt"
+            "Tag" = "8:"
+            "Folder" = "8:_A50DD60C2EBA4FF2862AA23B66902AF6"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_9712F7E0F0B7469BACCFD4FFF35B131F"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.12\\Advanced Solar Panels-4.3.0.jar"
@@ -6503,6 +6535,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DB9A0DE520A24D9AB27D57F0197A3052"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\The_Undergarden-1.18.1-0.6.3.jar"
+            "TargetName" = "8:The_Undergarden-1.18.1-0.6.3.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DBBEE3815AA54193A4868591F62CF6CD"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\libraries\\org\\jline\\jline-reader\\3.12.1\\jline-reader-3.12.1.jar"
@@ -6863,26 +6915,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EA02417642FB41DB81EA26639601EABA"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\config\\fancymenu\\customization\\Join.txt"
-            "TargetName" = "8:Join.txt"
-            "Tag" = "8:"
-            "Folder" = "8:_A50DD60C2EBA4FF2862AA23B66902AF6"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EC60289D29764C06A06B430B8BA8B2D3"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\libraries\\net\\minecraftforge\\forge\\1.18.1-39.0.14\\forge-1.18.1-39.0.14-client.jar"
@@ -7189,6 +7221,26 @@
             "TargetName" = "8:r.-1.0.mca"
             "Tag" = "8:"
             "Folder" = "8:_A31C901EFEFD47C2BEC87C4293B9129D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FBA6A558B1B04355ACCA20303AE261E1"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\multibeds-1.18-1.9.6.jar"
+            "TargetName" = "8:multibeds-1.18-1.9.6.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -10127,15 +10179,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SMPbeta Launcher"
-        "ProductCode" = "8:{809C5EDC-9278-47A5-9978-30D01023C4B5}"
-        "PackageCode" = "8:{7C5BDC1D-D685-47AA-BD0C-932EF7B2CCE3}"
+        "ProductCode" = "8:{CD8DA01C-9395-4996-ACFE-28432AA1D7E1}"
+        "PackageCode" = "8:{0FC0D5DF-EBB1-4C68-994B-72D648C309E8}"
         "UpgradeCode" = "8:{6BA2AFCC-6A42-4F32-B1F0-05F1915FCA0C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.2.32"
+        "ProductVersion" = "8:1.2.33"
         "Manufacturer" = "8:Max Rook (MexiMux)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://maxrook.nl/help/"
@@ -10169,44 +10221,6 @@
                     "Transitive" = "11:FALSE"
                         "Keys"
                         {
-                            "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_8CF20A8A39864462894A699024DAC1C6"
-                            {
-                            "Name" = "8:[Manufacturer]"
-                            "Condition" = "8:"
-                            "AlwaysCreate" = "11:FALSE"
-                            "DeleteAtUninstall" = "11:FALSE"
-                            "Transitive" = "11:FALSE"
-                                "Keys"
-                                {
-                                }
-                                "Values"
-                                {
-                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_32DE5B9F56A74170B0DDB769A387C62D"
-                                    {
-                                    "Name" = "8:BindThermalControl"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:TRUE"
-                                    "ValueTypes" = "3:2"
-                                    "Value" = "8:MZ 3   4   ÿÿ  ¸       @                                   €   efºe ´\tÍ!¸1LÍ!This program cannot be run in DOS mode."
-                                    }
-                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_8466769C29A847429E846FF52D3D471C"
-                                    {
-                                    "Name" = "8:registerToDatabase"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "ValueTypes" = "3:3"
-                                    "Value" = "3:0"
-                                    }
-                                    "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_8DDA64C0618A478E96EFEA50D237C09D"
-                                    {
-                                    "Name" = "8:sendOnlyOpenedSoftware"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "ValueTypes" = "3:3"
-                                    "Value" = "3:0"
-                                    }
-                                }
-                            }
                         }
                         "Values"
                         {
@@ -10376,6 +10390,30 @@
                         }
                         "Values"
                         {
+                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_277BE32B9C3C44BE8D64B7D973F9EDBA"
+                            {
+                            "Name" = "8:registerToDatabase"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "ValueTypes" = "3:3"
+                            "Value" = "3:0"
+                            }
+                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_380898E935DA4484B2CA63C01FD0251C"
+                            {
+                            "Name" = "8:BindThermalControl"
+                            "Condition" = "8:"
+                            "Transitive" = "11:TRUE"
+                            "ValueTypes" = "3:2"
+                            "Value" = "8:MZ 3   4   ÿÿ  ¸       @                                   €   efºe ´\tÍ!¸1LÍ!This program cannot be run in DOS mode."
+                            }
+                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_4CA60F6D51384194815CC745BA875DF5"
+                            {
+                            "Name" = "8:sendOnlyOpenedSoftware"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "ValueTypes" = "3:3"
+                            "Value" = "3:0"
+                            }
                             "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_A5617F6ED1AA408080D3CA56BDD7C4E6"
                             {
                             "Name" = "8:(Default)"
@@ -10392,6 +10430,20 @@
                             "ValueTypes" = "3:1"
                             "Value" = "8:SMPbeta"
                             }
+                        }
+                    }
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_C5AAE2DDE926429DB8695D1756D20217"
+                    {
+                    "Name" = "8:MRO"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:TRUE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                        }
+                        "Values"
+                        {
                         }
                     }
                 }

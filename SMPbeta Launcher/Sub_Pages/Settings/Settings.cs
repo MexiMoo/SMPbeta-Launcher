@@ -66,11 +66,6 @@ namespace SMPbeta_Launcher
             //string ext = Path.GetExtension(Ao.FileName);
         }
 
-        private void Update_Click(object sender, EventArgs e)
-        {
-            Environment.Exit(0);
-        }
-
         private void RunBG_CheckedChanged(object sender, EventArgs e)
         {
             if (RunBG.Checked)

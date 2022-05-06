@@ -18,6 +18,7 @@ using System.Diagnostics;
 using Updater;
 using System.Runtime.InteropServices;
 using System.Net;
+using Microsoft.Win32;
 
 namespace SMPbeta_Launcher
 {
@@ -49,6 +50,12 @@ namespace SMPbeta_Launcher
             Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
 
             this.TransparencyKey = Color.Empty;
+
+            string version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"MRO");
+            key.SetValue("SMPbetaInstalled", "true");
+            key.SetValue("Version", version);
+            key.Close();
         }
 
         void KillDup()
@@ -231,7 +238,7 @@ namespace SMPbeta_Launcher
         private void TrayMenuContext()
         {
             this.Notify_Icon.ContextMenuStrip = new System.Windows.Forms.ContextMenuStrip();
-            this.Notify_Icon.ContextMenuStrip.Items.Add("Search for update", null, (s, e) => MessageBox.Show("Error (0X3NI): This function has not yet been implemented - Message", "Exeption (0X3NI)"));
+            this.Notify_Icon.ContextMenuStrip.Items.Add("Search for update", null, (s, e) => MessageBox.Show("This update is auto-enabled. The app will alway's search for an update."));
             this.Notify_Icon.ContextMenuStrip.Items.Add("Website", null, Website_Open_Click);
             this.Notify_Icon.ContextMenuStrip.Items.Add("Exit", null, (s, e) => Environment.Exit(0));
         }

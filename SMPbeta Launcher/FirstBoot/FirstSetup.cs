@@ -20,6 +20,8 @@ using Updater;
 using Microsoft.Web.WebView2.Core;
 using WMPLib;
 using System.Runtime.InteropServices;
+using Microsoft.Win32;
+using SMPbeta_Launcher.FirstBoot;
 
 namespace SMPbeta_Launcher
 {
@@ -41,36 +43,38 @@ namespace SMPbeta_Launcher
         {
             InitializeComponent();
             Region = System.Drawing.Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
+
+            string version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            RegistryKey key = Registry.CurrentUser.CreateSubKey(@"MRO");  
+            key.SetValue("SMPbetaInstalled", "true");
+            key.SetValue("Version", version);
+            key.Close();
             //FirstBootWBV();
         }
 
         private void Download_Start_Click(object sender, EventArgs e)
         {
+            //Will ry to receive data from the app that is stored
+            RegistryKey key = Registry.CurrentUser.OpenSubKey(@"MRO");
+            if (key != null)
+            {
+                var UpI = key.GetValue("UpdaterInstalled");
+                key.Close();
+
+                if (UpI != null)
+                {
+                    //Do Nothing
+                }
+                else
+                {
+                    InstallUpdater IU = new InstallUpdater();
+                    IU.ShowDialog();
+                }
+            }
+
             Properties.Settings.Default["TosAccepted"] = true;
             Properties.Settings.Default.Save();
             End_FB_Click();
-        }
-
-        void FirstBootWBV()
-        {
-            var wbv = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "bin", "WBV.bin");
-            var wbvApp = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "Req", "MicrosoftEdgeWebview2Setup.exe");
-
-            string info = string.Format("{0}",
-              wbv);
-
-            if (File.Exists(wbv))
-            {
-                Process.Start(wbvApp);
-                File.Delete(wbv);
-                System.Windows.MessageBox.Show("The launcher will now close for settings to take effect! You can reopen the launcher after this message!");
-                System.Windows.Forms.Application.Exit();
-                System.Environment.Exit(1);
-            }
-            else
-            {
-                //Do Nothing
-            }
         }
 
         private void End_FB_Click()

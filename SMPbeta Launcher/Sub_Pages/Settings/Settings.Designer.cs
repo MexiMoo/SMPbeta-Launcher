@@ -38,7 +38,6 @@ namespace SMPbeta_Launcher
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.RunBG = new System.Windows.Forms.CheckBox();
-            this.Update = new System.Windows.Forms.Button();
             this.Ip_Ao = new System.Windows.Forms.Button();
             this.BgMessage = new System.Windows.Forms.CheckBox();
             this.Save = new System.Windows.Forms.Button();
@@ -146,7 +145,6 @@ namespace SMPbeta_Launcher
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel3.Controls.Add(this.RunBG);
-            this.panel3.Controls.Add(this.Update);
             this.panel3.Controls.Add(this.Ip_Ao);
             this.panel3.Controls.Add(this.BgMessage);
             this.panel3.Controls.Add(this.Save);
@@ -173,20 +171,6 @@ namespace SMPbeta_Launcher
             this.RunBG.Text = "Let SMPbeta Launcher run in background\r\n";
             this.RunBG.UseVisualStyleBackColor = true;
             this.RunBG.CheckedChanged += new System.EventHandler(this.RunBG_CheckedChanged);
-            // 
-            // Update
-            // 
-            this.Update.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.Update.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Update.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Update.Location = new System.Drawing.Point(160, 582);
-            this.Update.Margin = new System.Windows.Forms.Padding(1);
-            this.Update.Name = "Update";
-            this.Update.Size = new System.Drawing.Size(156, 29);
-            this.Update.TabIndex = 12;
-            this.Update.Text = "Search for update";
-            this.Update.UseVisualStyleBackColor = true;
-            this.Update.Click += new System.EventHandler(this.Update_Click);
             // 
             // Ip_Ao
             // 
@@ -308,7 +292,6 @@ namespace SMPbeta_Launcher
         private System.Windows.Forms.CheckBox BgMessage;
         private System.Windows.Forms.Button Ip_Ao;
         private System.Windows.Forms.OpenFileDialog Ao;
-        private System.Windows.Forms.Button Update;
         private System.Windows.Forms.CheckBox RunBG;
         private System.Windows.Forms.Button Shaders_Import;
         private System.Windows.Forms.CheckBox Game_Shaders;
