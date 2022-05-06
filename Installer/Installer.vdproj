@@ -87,6 +87,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_09BB436FDDDF44E6BFA432594F9DAFF3"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_0A47EA7D594D4AB2A9DE9C15066E802A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -568,12 +574,6 @@
         "Entry"
         {
         "MsmKey" = "8:_4EDAA96BDEB245349E79AFD7AB47D2FE"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_4F0F23EE91054C859E6BDA86CE97D5A1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1227,6 +1227,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_BB684BD9E58C47629015CDB9FFF32DEF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_BBB5B7ABC92D4E8095807AE098F63CD3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1317,6 +1323,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_C29112E7A9F24DFE98828A0734972B11"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_C3B4619BD1034BB887AD64135AAFF64D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1324,12 +1336,6 @@
         "Entry"
         {
         "MsmKey" = "8:_C49A66E5AB894A64931634ED2274F350"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_C57201D9DF1E440D9F1C81B8B1A714F8"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1642,12 +1648,6 @@
         "Entry"
         {
         "MsmKey" = "8:_FB3B1294A5E0479987783AAA1E7F1FD8"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FBA6A558B1B04355ACCA20303AE261E1"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2030,6 +2030,26 @@
             "TargetName" = "8:toml-3.6.4.jar"
             "Tag" = "8:"
             "Folder" = "8:_CB69970C0E0644D9956F23BE5651113A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_09BB436FDDDF44E6BFA432594F9DAFF3"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\shetiphiancore-1.18-3.10.4.jar"
+            "TargetName" = "8:shetiphiancore-1.18-3.10.4.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -3630,26 +3650,6 @@
             "TargetName" = "8:InstalledNEW.bin"
             "Tag" = "8:"
             "Folder" = "8:_957F326AF6A84AE58428BF244654F56E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4F0F23EE91054C859E6BDA86CE97D5A1"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\DungeonCrawl-1.18.1-2.3.7.jar"
-            "TargetName" = "8:DungeonCrawl-1.18.1-2.3.7.jar"
-            "Tag" = "8:"
-            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5835,6 +5835,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BB684BD9E58C47629015CDB9FFF32DEF"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\DungeonCrawl-1.18.1-2.3.7.jar"
+            "TargetName" = "8:DungeonCrawl-1.18.1-2.3.7.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_BBB5B7ABC92D4E8095807AE098F63CD3"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.12\\industrialcraft-2-2.8.187-ex112.jar"
@@ -6135,6 +6155,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C29112E7A9F24DFE98828A0734972B11"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\multibeds-1.18-1.9.3.jar"
+            "TargetName" = "8:multibeds-1.18-1.9.3.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C3B4619BD1034BB887AD64135AAFF64D"
             {
             "SourcePath" = "8:D:\\Return\\SMPbeta Launcher OLD\\SMPbeta Launcher\\bin\\Debug\\netcoreapp3.1\\SMPbeta Launcher.runtimeconfig.dev.json"
@@ -6161,26 +6201,6 @@
             "TargetName" = "8:ironchest-1.12.2-7.0.72.847.jar"
             "Tag" = "8:"
             "Folder" = "8:_642FF111EB424313A51C36A5E9BC9CBC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_C57201D9DF1E440D9F1C81B8B1A714F8"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\DungeonCrawl-1.18.1-2.3.7.jar"
-            "TargetName" = "8:DungeonCrawl-1.18.1-2.3.7.jar"
-            "Tag" = "8:"
-            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -7221,26 +7241,6 @@
             "TargetName" = "8:r.-1.0.mca"
             "Tag" = "8:"
             "Folder" = "8:_A31C901EFEFD47C2BEC87C4293B9129D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FBA6A558B1B04355ACCA20303AE261E1"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\multibeds-1.18-1.9.6.jar"
-            "TargetName" = "8:multibeds-1.18-1.9.6.jar"
-            "Tag" = "8:"
-            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -10180,7 +10180,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SMPbeta Launcher"
         "ProductCode" = "8:{CD8DA01C-9395-4996-ACFE-28432AA1D7E1}"
-        "PackageCode" = "8:{0FC0D5DF-EBB1-4C68-994B-72D648C309E8}"
+        "PackageCode" = "8:{3DFB10A0-D9C9-478A-B1EF-E32E860665BF}"
         "UpgradeCode" = "8:{6BA2AFCC-6A42-4F32-B1F0-05F1915FCA0C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
