@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_0079618B83A84CF8866A6EA6469DF44E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_00B16747A7BA40CE9B867340788BC416"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -285,12 +291,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_28FCD98199864F4B89B6E2996D0FF423"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_29DCAF1593E14783BFC0C6EF59AD48B3"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -411,12 +411,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_3863E6A7EC2F4EAA9995D0684E1C23F1"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_38FF6349BBB5438D812CE1506E3B6FBA"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -490,12 +484,6 @@
         "Entry"
         {
         "MsmKey" = "8:_4106699E2A7249BE9501D25EECE69B4F"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_415A7958C2C64276BB40BC213D134FAF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -585,12 +573,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_511C0B07355348A5993EC7DE0F37A99E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_518AF43FBA67487C8B9A7AF881199A6F"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -616,12 +598,6 @@
         "Entry"
         {
         "MsmKey" = "8:_538B94BC0E2646979E19CB6A401A5650"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_54568D27308348EF85237E36935935DF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -778,12 +754,6 @@
         "Entry"
         {
         "MsmKey" = "8:_6C518300BA4F42E7A4EE4B5E09AB720C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6D5BFE3D56B0455F96318D4C4FEACBFE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1486,12 +1456,6 @@
         "Entry"
         {
         "MsmKey" = "8:_DF3BC903F642416F9DAB58AB4C29E169"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_DFD689CBE4F5485C931F8404563574BF"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2704,26 +2668,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_28FCD98199864F4B89B6E2996D0FF423"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\.nuget\\packages\\microsoft.web.webview2\\1.0.1054.31\\runtimes\\win-x64\\native\\WebView2Loader.dll"
-            "TargetName" = "8:WebView2Loader.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_4C0FCAB21D3E496D9847B83C2BD6AA0D"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_29DCAF1593E14783BFC0C6EF59AD48B3"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\versions\\SMPbeta 1.18.1 [Modded]\\SMPbeta 1.18.1 [Modded].json"
@@ -3384,26 +3328,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_415A7958C2C64276BB40BC213D134FAF"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\.nuget\\packages\\microsoft.web.webview2\\1.0.1054.31\\runtimes\\win-x64\\native_uap\\Microsoft.Web.WebView2.Core.dll"
-            "TargetName" = "8:Microsoft.Web.WebView2.Core.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_1EA7C82AC6B543D689924944BE126377"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_44B9D4C4982449A88A5F51FBE4CF751B"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\fancymenu\\defaultscaleset.fancymenu"
@@ -3684,26 +3608,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_511C0B07355348A5993EC7DE0F37A99E"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\.nuget\\packages\\microsoft.web.webview2\\1.0.1054.31\\runtimes\\win-x86\\native\\WebView2Loader.dll"
-            "TargetName" = "8:WebView2Loader.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_B1B5C5FADACA46758ED01C7D0C841252"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_518AF43FBA67487C8B9A7AF881199A6F"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\libraries\\com\\google\\guava\\guava\\31.0.1-jre\\guava-31.0.1-jre.jar"
@@ -3790,26 +3694,6 @@
             "TargetName" = "8:level.dat"
             "Tag" = "8:"
             "Folder" = "8:_C0B60284DAFC40B1937A99E2818EDFE9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_54568D27308348EF85237E36935935DF"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\.nuget\\packages\\microsoft.web.webview2\\1.0.1054.31\\runtimes\\win-arm64\\native\\WebView2Loader.dll"
-            "TargetName" = "8:WebView2Loader.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_D478A717C9C74698B30FCA59A7192EE1"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -4330,26 +4214,6 @@
             "TargetName" = "8:1.18.1.jar"
             "Tag" = "8:"
             "Folder" = "8:_8EB5531FE4E648BA82C9A69DCEBFBEEC"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6D5BFE3D56B0455F96318D4C4FEACBFE"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\.nuget\\packages\\microsoft.web.webview2\\1.0.1054.31\\runtimes\\win-arm64\\native_uap\\Microsoft.Web.WebView2.Core.dll"
-            "TargetName" = "8:Microsoft.Web.WebView2.Core.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_EAB204589D9346DB8921CF3501806815"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -6715,26 +6579,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DFD689CBE4F5485C931F8404563574BF"
-            {
-            "SourcePath" = "8:..\\..\\..\\..\\.nuget\\packages\\microsoft.web.webview2\\1.0.1054.31\\runtimes\\win-x86\\native_uap\\Microsoft.Web.WebView2.Core.dll"
-            "TargetName" = "8:Microsoft.Web.WebView2.Core.dll"
-            "Tag" = "8:"
-            "Folder" = "8:_704089F476C442C5B1878CBAA995C55E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E0A1A89ADA2C4388AA4BCBFBC5A8C0F1"
             {
             "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\libraries\\net\\md-5\\SpecialSource\\1.10.0\\SpecialSource-1.10.0.jar"
@@ -7411,127 +7255,6 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_A0B7D1FB5374455589B25B0748488C53"
-                    {
-                    "Name" = "8:runtimes"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_32A30B5C1BAE43BDBC07D858F51C5C91"
-                        "Folders"
-                        {
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_11A0F28B4BD2410C8298A6F9D3A09A36"
-                            {
-                            "Name" = "8:win-arm64"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_D9434B3D96DE4F849BA326707BBAE149"
-                                "Folders"
-                                {
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_D478A717C9C74698B30FCA59A7192EE1"
-                                    {
-                                    "Name" = "8:native"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "Property" = "8:_573C61CDACE04EF6AB55F01410A2C177"
-                                        "Folders"
-                                        {
-                                        }
-                                    }
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_EAB204589D9346DB8921CF3501806815"
-                                    {
-                                    "Name" = "8:native_uap"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "Property" = "8:_F1F698BC38B0473199AF1AD6585B0DFA"
-                                        "Folders"
-                                        {
-                                        }
-                                    }
-                                }
-                            }
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_20E760D99CCB497EA33411150478DE8E"
-                            {
-                            "Name" = "8:win-x86"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_ED3E3554332B4F9FAC5EC9E8DE7D11AA"
-                                "Folders"
-                                {
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_704089F476C442C5B1878CBAA995C55E"
-                                    {
-                                    "Name" = "8:native_uap"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "Property" = "8:_7C88D400C7A14DF6AB703A2DCD8F725F"
-                                        "Folders"
-                                        {
-                                        }
-                                    }
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_B1B5C5FADACA46758ED01C7D0C841252"
-                                    {
-                                    "Name" = "8:native"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "Property" = "8:_B7DBF54F4BBD462CAC33803B6132F6A7"
-                                        "Folders"
-                                        {
-                                        }
-                                    }
-                                }
-                            }
-                            "{9EF0B969-E518-4E46-987F-47570745A589}:_342EB12B27E149178120DAF53EB58B2C"
-                            {
-                            "Name" = "8:win-x64"
-                            "AlwaysCreate" = "11:FALSE"
-                            "Condition" = "8:"
-                            "Transitive" = "11:FALSE"
-                            "Property" = "8:_73332D7A32E942B688DCCA157EECFE81"
-                                "Folders"
-                                {
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_1EA7C82AC6B543D689924944BE126377"
-                                    {
-                                    "Name" = "8:native_uap"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "Property" = "8:_BC107AD30FAF41B9891B5B847B327B36"
-                                        "Folders"
-                                        {
-                                        }
-                                    }
-                                    "{9EF0B969-E518-4E46-987F-47570745A589}:_4C0FCAB21D3E496D9847B83C2BD6AA0D"
-                                    {
-                                    "Name" = "8:native"
-                                    "AlwaysCreate" = "11:FALSE"
-                                    "Condition" = "8:"
-                                    "Transitive" = "11:FALSE"
-                                    "Property" = "8:_0E046D2A154C48468FBAC811AC3C7BCB"
-                                        "Folders"
-                                        {
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_CB507AD9AA6E4D508B118B3CB6052267"
-                    {
-                    "Name" = "8:Content"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_881F78FBFD624FE1BD1D1FEEF21E1CC0"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
             "{1525181F-901A-416C-8A58-119130FE478E}:_60DD8EDD425542D8B18C9C57A0712FD6"
@@ -10179,15 +9902,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SMPbeta Launcher"
-        "ProductCode" = "8:{CD8DA01C-9395-4996-ACFE-28432AA1D7E1}"
-        "PackageCode" = "8:{3DFB10A0-D9C9-478A-B1EF-E32E860665BF}"
+        "ProductCode" = "8:{7D0B334A-0E76-4A92-AD55-1F3CD265D0DE}"
+        "PackageCode" = "8:{88CD778F-ADEC-48C4-88D3-0127716597AB}"
         "UpgradeCode" = "8:{6BA2AFCC-6A42-4F32-B1F0-05F1915FCA0C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.2.33"
+        "ProductVersion" = "8:1.2.34"
         "Manufacturer" = "8:Max Rook (MexiMux)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://maxrook.nl/help/"
@@ -10232,6 +9955,36 @@
             {
                 "Keys"
                 {
+                    "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_B37729C96FAB42D3B9161B20899AEA7C"
+                    {
+                    "Name" = "8:MRO"
+                    "Condition" = "8:"
+                    "AlwaysCreate" = "11:FALSE"
+                    "DeleteAtUninstall" = "11:FALSE"
+                    "Transitive" = "11:FALSE"
+                        "Keys"
+                        {
+                        }
+                        "Values"
+                        {
+                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_68E097AD48BB4DCEB9F5E73E8E7D72FF"
+                            {
+                            "Name" = "8:SMPbetaInstalled"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "ValueTypes" = "3:1"
+                            "Value" = "8:true"
+                            }
+                            "{ADCFDA98-8FDD-45E4-90BC-E3D20B029870}:_A123B960C2FA48B8B71B56F3F611EDFC"
+                            {
+                            "Name" = "8:Version"
+                            "Condition" = "8:"
+                            "Transitive" = "11:FALSE"
+                            "ValueTypes" = "3:1"
+                            "Value" = "8:1.2.34"
+                            }
+                        }
+                    }
                     "{60EA8692-D2D5-43EB-80DC-7906BF13D6EF}:_EC37553A68AA4F4A90A3307FF97EE6A5"
                     {
                     "Name" = "8:Software"
@@ -10466,30 +10219,30 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_084DADE5AC8E403AB11FD2E1A3934DEF"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7630FB90628248D68652E374F4713C77"
             {
-            "Name" = "8:SMPbeta Launcher"
+            "Name" = "8:SMPbeta"
             "Arguments" = "8:"
             "Description" = "8:Enter the wonderfull SMPbeta Multiverse!"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_3863E6A7EC2F4EAA9995D0684E1C23F1"
-            "Folder" = "8:_B8A850840DA541748D5F2965C78FA8BF"
+            "Target" = "8:_0079618B83A84CF8866A6EA6469DF44E"
+            "Folder" = "8:_763884927B1A4B1392BBBBC7D431BE3A"
             "WorkingFolder" = "8:_3B4750CDF5534D9BBB6C198DB4A7B53A"
             "Icon" = "8:_1993BE52D89C46F0B70A5649DADB1BBC"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_8C74E0F9B36B4E29A97D371670D511E7"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_920B9E9885C24BAC838853ED813EAD96"
             {
-            "Name" = "8:SMPbeta Launcher"
+            "Name" = "8:SMPbeta"
             "Arguments" = "8:"
             "Description" = "8:Enter the wonderfull SMPbeta Multiverse!"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_3863E6A7EC2F4EAA9995D0684E1C23F1"
-            "Folder" = "8:_763884927B1A4B1392BBBBC7D431BE3A"
+            "Target" = "8:_0079618B83A84CF8866A6EA6469DF44E"
+            "Folder" = "8:_B8A850840DA541748D5F2965C78FA8BF"
             "WorkingFolder" = "8:_3B4750CDF5534D9BBB6C198DB4A7B53A"
             "Icon" = "8:_1993BE52D89C46F0B70A5649DADB1BBC"
             "Feature" = "8:"
@@ -11160,9 +10913,9 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_3863E6A7EC2F4EAA9995D0684E1C23F1"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0079618B83A84CF8866A6EA6469DF44E"
             {
-            "SourcePath" = "8:..\\SMPbeta Launcher\\obj\\Debug\\net6.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\SMPbeta Launcher\\obj\\Debug\\net6.0-windows\\SMPbeta Launcher.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3B4750CDF5534D9BBB6C198DB4A7B53A"
@@ -11181,7 +10934,7 @@
             "IsolateTo" = "8:"
             "ProjectOutputGroupRegister" = "3:1"
             "OutputConfiguration" = "8:"
-            "OutputGroupCanonicalName" = "8:PublishItems"
+            "OutputGroupCanonicalName" = "8:Built"
             "OutputProjectGuid" = "8:{41BABF0F-EB80-4487-B854-07CED4AEF231}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
