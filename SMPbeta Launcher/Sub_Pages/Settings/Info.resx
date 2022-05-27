@@ -58,11 +58,15 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="About_Content_Lab.Text" xml:space="preserve">
-    <value>This product is custom made for the ease of use for the users of the SMPbeta server. This program is the
-update handeler for the servers and additional files. All of the updates are handled via the server.
-This launcher is capable of handeling all of the SMPbeta's servers with all of the nessesary items.
+    <value>This product is custom made for the ease of use for the users of the SMPbeta server. This program is the update handeler for the servers and additional files.
+All of the updates are handled via the server. This launcher is capable of handeling all of the SMPbeta's servers with all of the nessesary items.
 
 This program is made in C# using .NET 6
+
+Forge is a program of the FML team, credits of Forge go to them.
+All of the mods are made by their developers so the credits of the mods go to all of them.
+We do not claim rights on Forge and/or the mods. To see the credts of the mods, please visit the "SMPbeta settings"
+tab in the minecraft settings and click "Credits" to see the credits of the developers.
 </value>
   </data>
 </root>

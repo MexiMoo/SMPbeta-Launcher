@@ -54,7 +54,12 @@ namespace SMPbeta_Launcher
 
         private void Download_Start_Click(object sender, EventArgs e)
         {
-            //Will ry to receive data from the app that is stored
+
+
+            Properties.Settings.Default["TosAccepted"] = true;
+            Properties.Settings.Default.Save();
+
+            //Will try to receive data from the app that is stored
             RegistryKey key = Registry.CurrentUser.OpenSubKey(@"MRO");
             if (key != null)
             {
@@ -71,46 +76,6 @@ namespace SMPbeta_Launcher
                     IU.ShowDialog();
                 }
             }
-
-            Properties.Settings.Default["TosAccepted"] = true;
-            Properties.Settings.Default.Save();
-            End_FB_Click();
-        }
-
-        private void End_FB_Click()
-        {
-            var PSetup = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), "Max Rook (MexiMux)", "SMPbeta Launcher", "Content", "Res Installer.msi");
-            var p = new Process();
-            p.StartInfo = new ProcessStartInfo(PSetup)
-            {
-                UseShellExecute = true
-            };
-
-            var delProfiles = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), ".minecraft", "launcher_profiles.json");
-
-            if (File.Exists(delProfiles))
-            {
-                File.Delete(delProfiles);
-            }
-            else
-            {
-                //Do Nothing
-            }
-
-            if (File.Exists(PSetup))
-            {
-                System.Windows.MessageBox.Show("Please complete the setup process that will pop up to install all of the needed resources. To proceed press 'OK'");
-                p.Start();
-                //Process.Start(PSetup);
-                System.Windows.MessageBox.Show("The launcher will now close for settings to take effect! You can reopen the launcher after this message!");
-                System.Windows.Forms.Application.Exit();
-                System.Environment.Exit(1);
-            }
-            else
-            {
-                //Do Nothing
-            }
-
             this.Close();
         }
 
