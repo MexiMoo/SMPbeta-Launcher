@@ -7,6 +7,8 @@ An alternate Minecraft launcher for the SMPbeta server!
 
 This launcher will allow you to join the SMPbeta server. This launcher also allows to join the side-modded servers!
 
+#
+# DISCLAIMER: The credits of Forge and the mods being used, goes to their developers! We only use these pieces of software!
 
 Website: https://maxrook.nl/server/
 
