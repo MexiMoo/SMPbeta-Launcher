@@ -491,7 +491,7 @@ namespace SMPbeta_Launcher
             this.CR_6.Name = "CR_6";
             this.CR_6.Size = new System.Drawing.Size(98, 15);
             this.CR_6.TabIndex = 5;
-            this.CR_6.Text = "Distro 18.1.2:5001";
+            this.CR_6.Text = "Distro 18.1.2:5002";
             this.CR_6.Click += new System.EventHandler(this.CR_6_Click);
             // 
             // CR_5

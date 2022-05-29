@@ -137,9 +137,9 @@ namespace SMPbeta_Launcher
 
             string copy = @"SMPbeta Launcher
             Version " + version + @"
-            SMPbetaLauncher.1.Release/" + version + @"+23451.167
+            SMPbetaLauncher.1.Release/" + version + @"+23621.594
             SMPbeta custom code, logo's and music
-            Distro 18.1.2:5001
+            Distro 18.1.2:5002
              
             Installed Version: Distributed - Release
              
@@ -164,7 +164,7 @@ namespace SMPbeta_Launcher
             Minecraft 1.12.2 [Forge]
 
             Software compiled on:
-            27-5-2022
+            29-5-2022
 
             Build License:
             Max Rook (MexiMux)

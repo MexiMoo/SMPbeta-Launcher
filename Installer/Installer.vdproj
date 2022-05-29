@@ -861,6 +861,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_5910A64226A54B059DE3768B2CE23729"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_5922428084BA48569999A9009D3E88DB"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -5160,6 +5166,26 @@
             "TargetName" = "8:r.-2.1.mca"
             "Tag" = "8:"
             "Folder" = "8:_617B8563E6774F128CF023C83593C56D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5910A64226A54B059DE3768B2CE23729"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\1.18\\mods\\JustEnoughResources-1.18.1-0.13.1.141.jar"
+            "TargetName" = "8:JustEnoughResources-1.18.1-0.13.1.141.jar"
+            "Tag" = "8:"
+            "Folder" = "8:_33B62D63C7CD465EB8DBDA90E9D4765E"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -14981,15 +15007,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SMPbeta Launcher"
-        "ProductCode" = "8:{C8DA28DF-7A57-4A41-BD5C-57F6B3CD2D37}"
-        "PackageCode" = "8:{90EA4C65-1FCE-411F-AF00-0390F500F113}"
+        "ProductCode" = "8:{276A7104-6AB1-40D2-A5F7-3AB1AAE844B1}"
+        "PackageCode" = "8:{4C6F9A91-3478-419A-B79B-1BEA34EB021C}"
         "UpgradeCode" = "8:{6BA2AFCC-6A42-4F32-B1F0-05F1915FCA0C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.2.35"
+        "ProductVersion" = "8:1.2.36"
         "Manufacturer" = "8:Max Rook (MexiMux)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://maxrook.nl/help/"
@@ -15060,7 +15086,7 @@
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
                             "ValueTypes" = "3:1"
-                            "Value" = "8:1.2.35"
+                            "Value" = "8:1.2.36"
                             }
                         }
                     }
