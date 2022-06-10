@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net6.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows7.0</TargetFramework>
     <RootNamespace>SMPbeta_Launcher</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationIcon>server-icon-curved.ico</ApplicationIcon>
@@ -12,9 +12,9 @@
     <Copyright>© 2021-2022 Max Rook (MexiMux) | All rights reserved</Copyright>
     <PackageProjectUrl>https://maxrook.nl/server</PackageProjectUrl>
     <StartupObject>SMPbeta_Launcher.Program</StartupObject>
-    <AssemblyVersion>1.2.36</AssemblyVersion>
-    <FileVersion>1.2.36</FileVersion>
-    <Version>1.2.36</Version>
+    <AssemblyVersion>1.2.37</AssemblyVersion>
+    <FileVersion>1.2.37</FileVersion>
+    <Version>1.2.37</Version>
 	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 

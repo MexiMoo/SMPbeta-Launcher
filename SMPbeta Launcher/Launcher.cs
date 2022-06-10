@@ -2,23 +2,14 @@
 //For more information visit: https://maxrook.nl/server
 
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Timers;
-using System.Data;
 using System.Drawing;
 using System.Reflection;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
-using System.Net;
 using System.Diagnostics;
 using Updater;
 using System.Runtime.InteropServices;
-using System.Net;
 using Microsoft.Win32;
+using SMPbeta_Launcher.FirstBoot;
 
 namespace SMPbeta_Launcher
 {
@@ -56,6 +47,14 @@ namespace SMPbeta_Launcher
             key.SetValue("SMPbetaInstalled", "true");
             key.SetValue("Version", version);
             key.Close();
+
+            var startTimeSpan = TimeSpan.Zero;
+            var periodTimeSpan = TimeSpan.FromMinutes(10);
+
+            var timer = new System.Threading.Timer((e) =>
+            {
+                doUpdate();
+            }, null, startTimeSpan, periodTimeSpan);
         }
 
         void KillDup()
@@ -68,6 +67,53 @@ namespace SMPbeta_Launcher
                 {
                     if (p.Id != process.Id)
                         p.Kill();
+                }
+            }
+        }
+
+        private void doUpdate()
+        {
+            //Gets raw data from the project
+            System.Net.WebClient wc = new System.Net.WebClient();
+
+            //Using this in a try/catch so the program won't crash if there is no internet.
+            byte[] raw = wc.DownloadData("https://raw.githubusercontent.com/MexiMoo/SMPbeta-Launcher/master/SMPbeta%20Launcher/SMPbeta%20Launcher.csproj");
+
+            string webData = System.Text.Encoding.UTF8.GetString(raw);
+
+            //Extracts one line
+            string GetLine(string text, int lineNo)
+            {
+                string[] lines = text.Replace("\r", "").Split('\n');
+                return lines.Length >= lineNo ? lines[lineNo - 1] : null;
+            }
+
+            //Filters out the junk
+            int startPos = webData.LastIndexOf("    <Version>") + "    <Version>".Length;
+            int length = webData.IndexOf("</Version>") - startPos;
+            string onlineAppVersion = webData.Substring(startPos, length);
+
+            //Will ry to receive data from the app that is stored
+            RegistryKey key = Registry.CurrentUser.OpenSubKey(@"MRO");
+            if (key != null)
+            {
+                var AppIsInstalled = key.GetValue("SMPbetaInstalled");
+                var AppVersion = key.GetValue("Version");
+                key.Close();
+
+                //Removes unused revision number from version
+                string appVersionLocalRaw = (string)AppVersion.ToString();
+                string appVersionLocal = appVersionLocalRaw.Remove(appVersionLocalRaw.Length - 2);
+
+                //Compares the versions
+                if (appVersionLocal != onlineAppVersion)
+                {
+                    InstallUpdater IU = new InstallUpdater();
+                    IU.ShowDialog();
+                }
+                else
+                {
+                    //Do nothing
                 }
             }
         }
@@ -271,36 +317,6 @@ namespace SMPbeta_Launcher
             this.ChildPanel.Tag = childForm;
             childForm.BringToFront();
             childForm.Show();
-        }
-
-        private void ChildPanel_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Menu_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Launcher_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            //remove this
-        }
-
-        private void Launcher_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

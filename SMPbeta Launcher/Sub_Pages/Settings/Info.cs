@@ -1,16 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.IO;
-using System.Net;
 using System.Diagnostics;
-using System.Windows.Forms;
 using Updater;
 
 namespace SMPbeta_Launcher
@@ -56,60 +48,51 @@ namespace SMPbeta_Launcher
             get { return this; }
         }
 
-        private void Info_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void CR_7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        #region
+        #region InstalledButtons
         private void Installed_1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("SMPbeta Server Connection Drivers  |  Version 1.2.6  |  A program that installs the corresponding drivers on your device to make a stable connection to the SMPbeta servers and request and download the required files.  |  © 2021 Max Rook (MexiMux)  |  All rights reserved");
+            MessageBox.Show("SMPbeta Server Connection Drivers  |  Version 1.2.6  |  A program that installs the corresponding drivers on your device to make a stable connection to the SMPbeta servers and request and download the required files.  |  © 2021-2022 Max Rook (MexiMux)  |  All rights reserved");
         }
 
         private void Installed_2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("SMPbeta Server Dependencies  |  Version 2.0.3  |  A program that installs the corresponding drivers to automaticly grab files from the SMPbeta servers and installs them.  |  © 2021 Max Rook (MexiMux)  |  All rights reserved");
+            MessageBox.Show("SMPbeta Server Dependencies  |  Version 2.0.3  |  A program that installs the corresponding drivers to automaticly grab files from the SMPbeta servers and installs them.  |  © 2021-2022 Max Rook (MexiMux)  |  All rights reserved");
         }
 
         private void Installed_3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("SMPbeta Modded Client Installer  |  Version 2.5.2  |  A program that handles the installation of the modded client and profiles for the modded servers.  |  © 2021 Max Rook (MexiMux)  |  All rights reserved");
+            string version = Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            MessageBox.Show("SMPbeta Modded Client Installer  |  Version " + version + "  |  A program that handles the installation of the modded client and profiles for the modded servers.  |  © 2021-2022 Max Rook (MexiMux)  |  All rights reserved");
         }
 
         private void Installed_4_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Minecraft 1.18.1  |  Version 1.18.1  |  Minecraft Java Edition  |  © 2021 Mojang  |  All rights reserved");
+            MessageBox.Show("Minecraft 1.18.1  |  Version 1.18.1  |  Minecraft Java Edition  |  © 2022 Mojang  |  All rights reserved");
         }
 
         private void Installed_5_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Minecraft 1.12.2 [Forge]  |  Version 1.12.2  |  Minecraft Java Edition [Forge]  |  © 2021 Mojang & Forge  |  All rights reserved");
+            MessageBox.Show("Minecraft 1.12.2 [Forge]  |  Version 1.12.2  |  Minecraft Java Edition [Forge]  |  © 2022 Mojang & Forge  |  All rights reserved");
         }
 
         private void Installed_6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Minecraft 1.18.1 [Forge]  |  Version 1.18.1  |  Minecraft Java Edition [Forge]  |  © 2021 Mojang & Forge  |  All rights reserved");
+            MessageBox.Show("Minecraft 1.18.1 [Forge]  |  Version 1.18.1  |  Minecraft Java Edition [Forge]  |  © 2022 Mojang & Forge  |  All rights reserved");
         }
 
         private void Installed_7_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Minecraft 1.18.1 [Spigot]  |  Version 1.18.1  |  Minecraft Java Edition [Spigot] |  © 2021 Mojang & Spigot  |  All rights reserved");
+            MessageBox.Show("Minecraft 1.18.1 [Spigot]  |  Version 1.18.1  |  Minecraft Java Edition [Spigot] |  © 2022 Mojang & Spigot  |  All rights reserved");
         }
 
         private void Installed_8_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("SMPbeta Diag  |  Version 1.0.1 |  A program that collects info from the client for further development of bug fixes.  |  © 2021 Max Rook (MexiMux)  |  All rights reserved");
+            MessageBox.Show("SMPbeta Diag  |  Version 1.0.6 |  A program that collects info from the client for further development of bug fixes.  |  © 2021-2022 Max Rook (MexiMux)  |  All rights reserved");
+        }
+
+        private void Installed_9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("SMPbeta Integrated Updater  |  Version 1.0.1 |  An internal updater to update the client with one click of a button.  |  © 2021-2022 Max Rook (MexiMux)  |  All rights reserved");
         }
         #endregion
 
@@ -137,15 +120,16 @@ namespace SMPbeta_Launcher
 
             string copy = @"SMPbeta Launcher
             Version " + version + @"
-            SMPbetaLauncher.1.Release/" + version + @"+23621.594
+            SMPbetaLauncher.1.Release/" + version + @"+23621.595
             SMPbeta custom code, logo's and music
-            Distro 18.1.2:5002
+            Distro 18.1.2:5003
              
             Installed Version: Distributed - Release
              
             Required Installed components:
             SMPbeta Server Connection Drivers
             SMPbeta Server Dependencies [Updates and Checks] (Included= Shaders)
+            SMPbeta Integrated Updater
             SMPbeta Modded Client Installer
             SMPbeta Diag [Diagnostics]
 
@@ -164,7 +148,7 @@ namespace SMPbeta_Launcher
             Minecraft 1.12.2 [Forge]
 
             Software compiled on:
-            29-5-2022
+            10-6-2022
 
             Build License:
             Max Rook (MexiMux)
@@ -210,16 +194,6 @@ namespace SMPbeta_Launcher
             }
         }
 
-        private void Logo_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void CrashCL_Click(object sender, EventArgs e)
         {
             throw new Exception("(CEx17) Intentional Crash!");
@@ -240,26 +214,6 @@ namespace SMPbeta_Launcher
         private void Info_Content_Paint(object sender, PaintEventArgs e)
         {
             this.Enabled = true;
-        }
-
-        private void tabPage2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
-        {
-
-        }
-
-        private void CR_6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void About_Content_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

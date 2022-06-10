@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 using System.Net;
+using System.IO;
 
 namespace SMPbeta_Launcher.FirstBoot
 {
@@ -26,10 +21,11 @@ namespace SMPbeta_Launcher.FirstBoot
                 WebClient client = new WebClient();
                 client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
                 client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-                client.DownloadFileAsync(new Uri("https://github.com/MexiMoo/MRO-Updater/releases/latest/download/Updater.msi"), @"Updater.msi");
+                client.DownloadFileAsync(new Uri("https://github.com/MexiMoo/SMPbeta-Launcher/releases/latest/download/SMPbeta.Installer.msi"), @"SMPbeta.Installer.msi");
             });
             thread.Start();
         }
+
         void client_DownloadProgressChanged(object sender, DownloadProgressChangedEventArgs e)
         {
             try
@@ -50,19 +46,22 @@ namespace SMPbeta_Launcher.FirstBoot
                 Properties.Settings.Default.Save();
             }
         }
+
         void client_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
         {
             this.BeginInvoke((MethodInvoker)delegate {
                 Status.Text = "Completed";
                 try
                 {
-                    System.Diagnostics.Process.Start("Updater.msi");
+                    var dataPathMods = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), ".minecraft", "test", "SMPbeta.Installer.msi");
+                    System.Diagnostics.Process.Start(dataPathMods);
+                    //System.Diagnostics.Process.Start("SMPbeta.Installer.msi");
                     this.Close();
                 }
                 catch
                 {
+                    MessageBox.Show("The update could not be installed. If you want to install this update, please visit the github page of the installer.");
                     this.Close();
-                    MessageBox.Show("The installation could not be installed. If you want to install this program, please visit the github page of the installer.");
                 }
             });
         }

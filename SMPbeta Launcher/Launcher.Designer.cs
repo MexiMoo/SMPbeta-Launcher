@@ -168,7 +168,6 @@ namespace SMPbeta_Launcher
             this.Menu.Name = "Menu";
             this.Menu.Size = new System.Drawing.Size(104, 710);
             this.Menu.TabIndex = 1;
-            this.Menu.Paint += new System.Windows.Forms.PaintEventHandler(this.Menu_Paint);
             // 
             // Info
             // 
@@ -324,7 +323,6 @@ namespace SMPbeta_Launcher
             this.ChildPanel.Name = "ChildPanel";
             this.ChildPanel.Size = new System.Drawing.Size(1070, 710);
             this.ChildPanel.TabIndex = 2;
-            this.ChildPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.ChildPanel_Paint);
             // 
             // label2
             // 
@@ -338,7 +336,6 @@ namespace SMPbeta_Launcher
             this.label2.TabIndex = 0;
             this.label2.Text = "Use the sidebar to start exploring!";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // Notify_Icon
             // 
@@ -368,8 +365,6 @@ namespace SMPbeta_Launcher
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SMPbeta Launcher";
             this.TransparencyKey = System.Drawing.Color.Transparent;
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Launcher_FormClosed);
-            this.Load += new System.EventHandler(this.Launcher_Load);
             this.ControlBar.ResumeLayout(false);
             this.ControlBar.PerformLayout();
             this.Menu.ResumeLayout(false);

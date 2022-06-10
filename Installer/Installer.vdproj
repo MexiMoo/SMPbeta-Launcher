@@ -27,12 +27,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0079618B83A84CF8866A6EA6469DF44E"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_00B16747A7BA40CE9B867340788BC416"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -226,6 +220,12 @@
         "Entry"
         {
         "MsmKey" = "8:_13C5E094686C41A4985C5BE9EDD1D890"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_13E973F7ADD24E539B51F0A4FD16367E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1545,6 +1545,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B66361228FB44590A74CDAD676216E8D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_B738B19195CD4CC699C861CB61A97AA6"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1672,6 +1678,12 @@
         "Entry"
         {
         "MsmKey" = "8:_C0C31428859F4094BE47DBCF8DF1672E"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C10E7D00C93F44689E760CB758B7BA42"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -2283,7 +2295,7 @@
         "DisplayName" = "8:Debug"
         "IsDebugOnly" = "11:TRUE"
         "IsReleaseOnly" = "11:FALSE"
-        "OutputFilename" = "8:Debug\\Installer.msi"
+        "OutputFilename" = "8:Debug\\SMPbeta.Installer.msi"
         "PackageFilesAs" = "3:2"
         "PackageFileSize" = "3:0"
         "CabType" = "3:1"
@@ -2299,13 +2311,28 @@
             "PromptEnabled" = "11:TRUE"
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
-            "ComponentsUrl" = "8:"
+            "ComponentsUrl" = "8:https://download.visualstudio.microsoft.com/download/pr/deb4711b-7bbc-4afa-8884-9f2b964797f2/fb603c451b2a6e0a2cb5372d33ed68b9/dotnet-sdk-6.0.300-win-x64.exe"
                 "Items"
                 {
-                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.NetCore.CoreRuntime.6.0.x64"
                     {
-                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
-                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    "Name" = "8:.NET Runtime 6.0.4 (x64)"
+                    "ProductCode" = "8:Microsoft.NetCore.CoreRuntime.6.0.x64"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.NetCore.CoreRuntime.6.0.x86"
+                    {
+                    "Name" = "8:.NET Runtime 6.0.4 (x86)"
+                    "ProductCode" = "8:Microsoft.NetCore.CoreRuntime.6.0.x86"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.NetCore.DesktopRuntime.6.0.x64"
+                    {
+                    "Name" = "8:.NET Desktop Runtime 6.0.4 (x64)"
+                    "ProductCode" = "8:Microsoft.NetCore.DesktopRuntime.6.0.x64"
+                    }
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:Microsoft.NetCore.DesktopRuntime.6.0.x86"
+                    {
+                    "Name" = "8:.NET Desktop Runtime 6.0.4 (x86)"
+                    "ProductCode" = "8:Microsoft.NetCore.DesktopRuntime.6.0.x86"
                     }
                 }
             }
@@ -5767,11 +5794,6 @@
             "AssemblyAsmDisplayName" = "8:SMPbeta Launcher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_70CDF869436A4AE9930D1409C81ED272"
-                    {
-                    "Name" = "8:SMPbeta Launcher.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:D:\\Return\\SMPbeta Launcher OLD\\SMPbeta Launcher\\bin\\Debug\\netcoreapp3.1\\SMPbeta Launcher.dll"
             "TargetName" = "8:"
@@ -7457,6 +7479,26 @@
             "TargetName" = "8:SMPbeta 1.12.2 [Modded].jar"
             "Tag" = "8:"
             "Folder" = "8:_5AFC2F86C1B54B83A41EB94B6F1C03D9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_B66361228FB44590A74CDAD676216E8D"
+            {
+            "SourcePath" = "8:..\\..\\..\\..\\Desktop\\New folder\\openwebsite.vbs"
+            "TargetName" = "8:openwebsite.vbs"
+            "Tag" = "8:"
+            "Folder" = "8:_3B4750CDF5534D9BBB6C198DB4A7B53A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -9899,7 +9941,7 @@
         {
             "{3C67513D-01DD-4637-8A68-80971EB9504F}:_3B4750CDF5534D9BBB6C198DB4A7B53A"
             {
-            "DefaultLocation" = "8:[ProgramFilesFolder][Manufacturer]\\[ProductName]"
+            "DefaultLocation" = "8:[ProgramFiles64Folder][Manufacturer]\\[ProductName]"
             "Name" = "8:#1925"
             "AlwaysCreate" = "11:FALSE"
             "Condition" = "8:"
@@ -15007,15 +15049,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SMPbeta Launcher"
-        "ProductCode" = "8:{276A7104-6AB1-40D2-A5F7-3AB1AAE844B1}"
-        "PackageCode" = "8:{4C6F9A91-3478-419A-B79B-1BEA34EB021C}"
+        "ProductCode" = "8:{93284666-3678-4F97-9AF5-2848BEAAFCB4}"
+        "PackageCode" = "8:{108672A7-00B1-4B7C-A469-DBA969A91098}"
         "UpgradeCode" = "8:{6BA2AFCC-6A42-4F32-B1F0-05F1915FCA0C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.2.36"
+        "ProductVersion" = "8:1.2.37"
         "Manufacturer" = "8:Max Rook (MexiMux)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://maxrook.nl/help/"
@@ -15029,7 +15071,7 @@
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
-        "TargetPlatform" = "3:0"
+        "TargetPlatform" = "3:1"
         "PreBuildEvent" = "8:"
         "PostBuildEvent" = "8:"
         "RunPostBuildEvent" = "3:0"
@@ -15086,7 +15128,7 @@
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
                             "ValueTypes" = "3:1"
-                            "Value" = "8:1.2.36"
+                            "Value" = "8:1.2.37"
                             }
                         }
                     }
@@ -15324,29 +15366,29 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7630FB90628248D68652E374F4713C77"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_579F59AA82D243D79E7C5DCC444CB3CA"
             {
             "Name" = "8:SMPbeta"
             "Arguments" = "8:"
-            "Description" = "8:Enter the wonderfull SMPbeta Multiverse!"
+            "Description" = "8:Enter the wonderfull word of the SMPbeta Multiverse!"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_0079618B83A84CF8866A6EA6469DF44E"
+            "Target" = "8:_13E973F7ADD24E539B51F0A4FD16367E"
             "Folder" = "8:_763884927B1A4B1392BBBBC7D431BE3A"
             "WorkingFolder" = "8:_3B4750CDF5534D9BBB6C198DB4A7B53A"
             "Icon" = "8:_1993BE52D89C46F0B70A5649DADB1BBC"
             "Feature" = "8:"
             }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_920B9E9885C24BAC838853ED813EAD96"
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_7E70E520A2694EECBD9B9B084718BD32"
             {
             "Name" = "8:SMPbeta"
             "Arguments" = "8:"
-            "Description" = "8:Enter the wonderfull SMPbeta Multiverse!"
+            "Description" = "8:Enter the wonderfull word of the SMPbeta Multiverse!"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_0079618B83A84CF8866A6EA6469DF44E"
+            "Target" = "8:_13E973F7ADD24E539B51F0A4FD16367E"
             "Folder" = "8:_B8A850840DA541748D5F2965C78FA8BF"
             "WorkingFolder" = "8:_3B4750CDF5534D9BBB6C198DB4A7B53A"
             "Icon" = "8:_1993BE52D89C46F0B70A5649DADB1BBC"
@@ -16018,9 +16060,37 @@
         }
         "ProjectOutput"
         {
-            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_0079618B83A84CF8866A6EA6469DF44E"
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_13E973F7ADD24E539B51F0A4FD16367E"
             {
-            "SourcePath" = "8:..\\SMPbeta Launcher\\obj\\Debug\\net6.0-windows\\SMPbeta Launcher.dll"
+            "SourcePath" = "8:..\\SMPbeta Launcher\\obj\\Debug\\net6.0-windows7.0\\apphost.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3B4750CDF5534D9BBB6C198DB4A7B53A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:PublishItems"
+            "OutputProjectGuid" = "8:{41BABF0F-EB80-4487-B854-07CED4AEF231}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C10E7D00C93F44689E760CB758B7BA42"
+            {
+            "SourcePath" = "8:..\\SMPbeta Launcher\\obj\\Debug\\net6.0-windows7.0\\SMPbeta Launcher.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3B4750CDF5534D9BBB6C198DB4A7B53A"

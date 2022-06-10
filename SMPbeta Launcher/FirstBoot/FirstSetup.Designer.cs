@@ -85,24 +85,30 @@ namespace SMPbeta_Launcher
             // 
             // ToS_NL
             // 
+            this.ToS_NL.BackColor = System.Drawing.Color.Black;
+            this.ToS_NL.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.ToS_NL.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.ToS_NL.Location = new System.Drawing.Point(10, 300);
             this.ToS_NL.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.ToS_NL.Name = "ToS_NL";
             this.ToS_NL.Size = new System.Drawing.Size(203, 60);
             this.ToS_NL.TabIndex = 8;
             this.ToS_NL.Text = "View simplified ToS (NL)";
-            this.ToS_NL.UseVisualStyleBackColor = true;
+            this.ToS_NL.UseVisualStyleBackColor = false;
             this.ToS_NL.Click += new System.EventHandler(this.ToS_NL_Click);
             // 
             // Full_ToS
             // 
+            this.Full_ToS.BackColor = System.Drawing.Color.Black;
+            this.Full_ToS.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.Full_ToS.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.Full_ToS.Location = new System.Drawing.Point(10, 236);
             this.Full_ToS.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Full_ToS.Name = "Full_ToS";
             this.Full_ToS.Size = new System.Drawing.Size(203, 60);
             this.Full_ToS.TabIndex = 7;
             this.Full_ToS.Text = "View full Terms of Service";
-            this.Full_ToS.UseVisualStyleBackColor = true;
+            this.Full_ToS.UseVisualStyleBackColor = false;
             this.Full_ToS.Click += new System.EventHandler(this.Full_ToS_Click);
             // 
             // label5
@@ -110,7 +116,7 @@ namespace SMPbeta_Launcher
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.label5.Location = new System.Drawing.Point(214, 219);
+            this.label5.Location = new System.Drawing.Point(221, 219);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(104, 15);
             this.label5.TabIndex = 6;
@@ -118,14 +124,14 @@ namespace SMPbeta_Launcher
             // 
             // richTextBox1
             // 
-            this.richTextBox1.BackColor = System.Drawing.SystemColors.Menu;
+            this.richTextBox1.BackColor = System.Drawing.Color.Black;
+            this.richTextBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.richTextBox1.Location = new System.Drawing.Point(224, 236);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.Size = new System.Drawing.Size(259, 274);
             this.richTextBox1.TabIndex = 5;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
-            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
             // ServerLink
             // 
@@ -149,7 +155,6 @@ namespace SMPbeta_Launcher
             this.label2.TabIndex = 3;
             this.label2.Text = resources.GetString("label2.Text");
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
             // 

@@ -42,23 +42,28 @@ namespace SMPbeta_Launcher
             System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("SMPbeta Server Dependencies [Updates and Checks] (Included= Shaders)");
             System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("SMPbeta Modded Client Installer");
             System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("SMPbeta Diag [Diagnostics]");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("SMPbeta", new System.Windows.Forms.TreeNode[] {
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("SMPbeta Integrated Updater");
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("SMPbeta", new System.Windows.Forms.TreeNode[] {
             treeNode6,
             treeNode7,
             treeNode8,
-            treeNode9});
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Website Connections [https://maxrook.nl]");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Max Rook (MexiMux)", new System.Windows.Forms.TreeNode[] {
-            treeNode11});
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Add-In\'s", new System.Windows.Forms.TreeNode[] {
+            treeNode9,
+            treeNode10});
+            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Website Connections [https://maxrook.nl]");
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Server Connection [https://server.maxrook.nl/]");
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Max Rook (MexiMux)", new System.Windows.Forms.TreeNode[] {
+            treeNode12,
+            treeNode13});
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Add-In\'s", new System.Windows.Forms.TreeNode[] {
             treeNode5,
-            treeNode10,
-            treeNode12});
+            treeNode11,
+            treeNode14});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Info));
             this.Info_Content = new System.Windows.Forms.Panel();
             this.Installed_Switch = new System.Windows.Forms.TabControl();
             this.Switch_List = new System.Windows.Forms.TabPage();
             this.Installed = new System.Windows.Forms.Panel();
+            this.Installed_9 = new System.Windows.Forms.Button();
             this.Installed_8 = new System.Windows.Forms.Button();
             this.Installed_7 = new System.Windows.Forms.Button();
             this.Installed_6 = new System.Windows.Forms.Button();
@@ -161,6 +166,7 @@ namespace SMPbeta_Launcher
             // 
             this.Installed.AutoScroll = true;
             this.Installed.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Installed.Controls.Add(this.Installed_9);
             this.Installed.Controls.Add(this.Installed_8);
             this.Installed.Controls.Add(this.Installed_7);
             this.Installed.Controls.Add(this.Installed_6);
@@ -175,6 +181,20 @@ namespace SMPbeta_Launcher
             this.Installed.Size = new System.Drawing.Size(885, 310);
             this.Installed.TabIndex = 20;
             // 
+            // Installed_9
+            // 
+            this.Installed_9.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.Installed_9.Dock = System.Windows.Forms.DockStyle.Top;
+            this.Installed_9.Location = new System.Drawing.Point(0, 280);
+            this.Installed_9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Installed_9.Name = "Installed_9";
+            this.Installed_9.Size = new System.Drawing.Size(868, 35);
+            this.Installed_9.TabIndex = 8;
+            this.Installed_9.Text = "SMPbeta Integrated Updater";
+            this.Installed_9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Installed_9.UseVisualStyleBackColor = false;
+            this.Installed_9.Click += new System.EventHandler(this.Installed_9_Click);
+            // 
             // Installed_8
             // 
             this.Installed_8.BackColor = System.Drawing.Color.WhiteSmoke;
@@ -182,7 +202,7 @@ namespace SMPbeta_Launcher
             this.Installed_8.Location = new System.Drawing.Point(0, 245);
             this.Installed_8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_8.Name = "Installed_8";
-            this.Installed_8.Size = new System.Drawing.Size(885, 35);
+            this.Installed_8.Size = new System.Drawing.Size(868, 35);
             this.Installed_8.TabIndex = 7;
             this.Installed_8.Text = "SMPbeta Diag [Diagnostics]";
             this.Installed_8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -196,7 +216,7 @@ namespace SMPbeta_Launcher
             this.Installed_7.Location = new System.Drawing.Point(0, 210);
             this.Installed_7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_7.Name = "Installed_7";
-            this.Installed_7.Size = new System.Drawing.Size(885, 35);
+            this.Installed_7.Size = new System.Drawing.Size(868, 35);
             this.Installed_7.TabIndex = 6;
             this.Installed_7.Text = "Minecraft 1.18.1 [Spigot]";
             this.Installed_7.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -210,7 +230,7 @@ namespace SMPbeta_Launcher
             this.Installed_6.Location = new System.Drawing.Point(0, 175);
             this.Installed_6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_6.Name = "Installed_6";
-            this.Installed_6.Size = new System.Drawing.Size(885, 35);
+            this.Installed_6.Size = new System.Drawing.Size(868, 35);
             this.Installed_6.TabIndex = 5;
             this.Installed_6.Text = "Minecraft 1.18.1 [Forge]";
             this.Installed_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -224,7 +244,7 @@ namespace SMPbeta_Launcher
             this.Installed_5.Location = new System.Drawing.Point(0, 140);
             this.Installed_5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_5.Name = "Installed_5";
-            this.Installed_5.Size = new System.Drawing.Size(885, 35);
+            this.Installed_5.Size = new System.Drawing.Size(868, 35);
             this.Installed_5.TabIndex = 4;
             this.Installed_5.Text = "Minecraft 1.12.2 [Forge]";
             this.Installed_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -238,7 +258,7 @@ namespace SMPbeta_Launcher
             this.Installed_4.Location = new System.Drawing.Point(0, 105);
             this.Installed_4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_4.Name = "Installed_4";
-            this.Installed_4.Size = new System.Drawing.Size(885, 35);
+            this.Installed_4.Size = new System.Drawing.Size(868, 35);
             this.Installed_4.TabIndex = 3;
             this.Installed_4.Text = "Minecraft 1.18.1";
             this.Installed_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -252,7 +272,7 @@ namespace SMPbeta_Launcher
             this.Installed_3.Location = new System.Drawing.Point(0, 70);
             this.Installed_3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_3.Name = "Installed_3";
-            this.Installed_3.Size = new System.Drawing.Size(885, 35);
+            this.Installed_3.Size = new System.Drawing.Size(868, 35);
             this.Installed_3.TabIndex = 2;
             this.Installed_3.Text = "SMPbeta Modded Client Installer";
             this.Installed_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -266,7 +286,7 @@ namespace SMPbeta_Launcher
             this.Installed_2.Location = new System.Drawing.Point(0, 35);
             this.Installed_2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_2.Name = "Installed_2";
-            this.Installed_2.Size = new System.Drawing.Size(885, 35);
+            this.Installed_2.Size = new System.Drawing.Size(868, 35);
             this.Installed_2.TabIndex = 1;
             this.Installed_2.Text = "SMPbeta Server Dependencies [Updates and Checks] (Included= Shaders)";
             this.Installed_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -280,7 +300,7 @@ namespace SMPbeta_Launcher
             this.Installed_1.Location = new System.Drawing.Point(0, 0);
             this.Installed_1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Installed_1.Name = "Installed_1";
-            this.Installed_1.Size = new System.Drawing.Size(885, 35);
+            this.Installed_1.Size = new System.Drawing.Size(868, 35);
             this.Installed_1.TabIndex = 0;
             this.Installed_1.Text = "SMPbeta Server Connection Drivers";
             this.Installed_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -298,7 +318,6 @@ namespace SMPbeta_Launcher
             this.Switch_Tree.TabIndex = 1;
             this.Switch_Tree.Text = "Tree View";
             this.Switch_Tree.UseVisualStyleBackColor = true;
-            this.Switch_Tree.Click += new System.EventHandler(this.tabPage2_Click);
             // 
             // Installed_Tree
             // 
@@ -323,19 +342,22 @@ namespace SMPbeta_Launcher
             treeNode8.Text = "SMPbeta Modded Client Installer";
             treeNode9.Name = "SMPbeta Diag [Diagnostics]";
             treeNode9.Text = "SMPbeta Diag [Diagnostics]";
-            treeNode10.Name = "SMPbeta";
-            treeNode10.Text = "SMPbeta";
-            treeNode11.Name = "Website Connections [https://maxrook.nl]";
-            treeNode11.Text = "Website Connections [https://maxrook.nl]";
-            treeNode12.Name = "Max Rook (MexiMux)";
-            treeNode12.Text = "Max Rook (MexiMux)";
-            treeNode13.Name = "Add-In\'s";
-            treeNode13.Text = "Add-In\'s";
+            treeNode10.Name = "SMPbeta Integrated Updater";
+            treeNode10.Text = "SMPbeta Integrated Updater";
+            treeNode11.Name = "SMPbeta";
+            treeNode11.Text = "SMPbeta";
+            treeNode12.Name = "Website Connections [https://maxrook.nl]";
+            treeNode12.Text = "Website Connections [https://maxrook.nl]";
+            treeNode13.Name = "Server Connection [https://server.maxrook.nl/]";
+            treeNode13.Text = "Server Connection [https://server.maxrook.nl/]";
+            treeNode14.Name = "Max Rook (MexiMux)";
+            treeNode14.Text = "Max Rook (MexiMux)";
+            treeNode15.Name = "Add-In\'s";
+            treeNode15.Text = "Add-In\'s";
             this.Installed_Tree.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode13});
+            treeNode15});
             this.Installed_Tree.Size = new System.Drawing.Size(889, 313);
             this.Installed_Tree.TabIndex = 0;
-            this.Installed_Tree.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterSelect);
             // 
             // About_Lab
             // 
@@ -365,7 +387,6 @@ namespace SMPbeta_Launcher
             this.About_Content.Name = "About_Content";
             this.About_Content.Size = new System.Drawing.Size(889, 130);
             this.About_Content.TabIndex = 21;
-            this.About_Content.Paint += new System.Windows.Forms.PaintEventHandler(this.About_Content_Paint);
             // 
             // About_Content_Lab
             // 
@@ -377,7 +398,6 @@ namespace SMPbeta_Launcher
             this.About_Content_Lab.Size = new System.Drawing.Size(741, 117);
             this.About_Content_Lab.TabIndex = 0;
             this.About_Content_Lab.Text = resources.GetString("About_Content_Lab.Text");
-            this.About_Content_Lab.Click += new System.EventHandler(this.label1_Click);
             // 
             // ToS_Revoke
             // 
@@ -479,10 +499,9 @@ namespace SMPbeta_Launcher
             this.CR_7.AutoSize = true;
             this.CR_7.Location = new System.Drawing.Point(360, 64);
             this.CR_7.Name = "CR_7";
-            this.CR_7.Size = new System.Drawing.Size(162, 15);
+            this.CR_7.Size = new System.Drawing.Size(191, 15);
             this.CR_7.TabIndex = 6;
-            this.CR_7.Text = "© 2021 Max Rook (MexiMux)";
-            this.CR_7.Click += new System.EventHandler(this.CR_7_Click);
+            this.CR_7.Text = "© 2021-2022 Max Rook (MexiMux)";
             // 
             // CR_6
             // 
@@ -491,8 +510,7 @@ namespace SMPbeta_Launcher
             this.CR_6.Name = "CR_6";
             this.CR_6.Size = new System.Drawing.Size(98, 15);
             this.CR_6.TabIndex = 5;
-            this.CR_6.Text = "Distro 18.1.2:5002";
-            this.CR_6.Click += new System.EventHandler(this.CR_6_Click);
+            this.CR_6.Text = "Distro 18.1.2:5003";
             // 
             // CR_5
             // 
@@ -517,9 +535,9 @@ namespace SMPbeta_Launcher
             this.CR_3.AutoSize = true;
             this.CR_3.Location = new System.Drawing.Point(10, 64);
             this.CR_3.Name = "CR_3";
-            this.CR_3.Size = new System.Drawing.Size(162, 15);
+            this.CR_3.Size = new System.Drawing.Size(191, 15);
             this.CR_3.TabIndex = 2;
-            this.CR_3.Text = "© 2021 Max Rook (MexiMux)";
+            this.CR_3.Text = "© 2021-2022 Max Rook (MexiMux)";
             // 
             // CR_Version
             // 
@@ -573,7 +591,6 @@ namespace SMPbeta_Launcher
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Info";
             this.Text = "Info";
-            this.Load += new System.EventHandler(this.Info_Load);
             this.Info_Content.ResumeLayout(false);
             this.Info_Content.PerformLayout();
             this.Installed_Switch.ResumeLayout(false);
@@ -625,5 +642,6 @@ namespace SMPbeta_Launcher
         private System.Windows.Forms.TabPage Switch_List;
         private System.Windows.Forms.TabPage Switch_Tree;
         private System.Windows.Forms.TreeView Installed_Tree;
+        private System.Windows.Forms.Button Installed_9;
     }
 }
