@@ -12,9 +12,9 @@
     <Copyright>© 2021-2022 Max Rook (MexiMux) | All rights reserved</Copyright>
     <PackageProjectUrl>https://maxrook.nl/server</PackageProjectUrl>
     <StartupObject>SMPbeta_Launcher.Program</StartupObject>
-    <AssemblyVersion>1.2.37</AssemblyVersion>
-    <FileVersion>1.2.37</FileVersion>
-    <Version>1.2.37</Version>
+    <AssemblyVersion>1.2.38</AssemblyVersion>
+    <FileVersion>1.2.38</FileVersion>
+    <Version>1.2.38</Version>
 	<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
 
@@ -72,13 +72,14 @@
 
 	<PropertyGroup>
 		<WebView2LoaderPreference>Static</WebView2LoaderPreference>
-		<PlatformTarget>AnyCPU</PlatformTarget>
+		<PlatformTarget>x64</PlatformTarget>
 		<PackageIcon>server-icon-curved-1.png</PackageIcon>
 		<Description>An alternative launcher made for the SMPbeta server!</Description>
 		<RepositoryUrl>https://github.com/MexiMoo/SMPbeta-Launcher</RepositoryUrl>
 		<SignAssembly>True</SignAssembly>
 		<AssemblyOriginatorKeyFile>C:\Key.snk</AssemblyOriginatorKeyFile>
 		<UseWPF>True</UseWPF>
+		<DebugType>portable</DebugType>
 	</PropertyGroup>
 
 </Project>

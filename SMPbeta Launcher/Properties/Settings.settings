@@ -18,5 +18,8 @@ Dutch</Value>
     <Setting Name="eSH" Description="Enables shaders for the user!" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="DownloadAbort" Description="Setting so the program can see if the download has been aborted." Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

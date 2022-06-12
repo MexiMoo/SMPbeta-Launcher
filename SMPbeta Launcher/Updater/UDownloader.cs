@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Net;
 using System.IO;
+using System.Diagnostics;
 
 namespace SMPbeta_Launcher.FirstBoot
 {
@@ -42,21 +43,27 @@ namespace SMPbeta_Launcher.FirstBoot
             }
             catch (Exception ex)
             {
-                Properties.Settings.Default["DownloadAbort"] = true;
-                Properties.Settings.Default.Save();
+                //Properties.Settings.Default["DownloadAbort"] = true;
+                //Properties.Settings.Default.Save();
             }
         }
 
         void client_DownloadFileCompleted(object sender, AsyncCompletedEventArgs e)
         {
+
             this.BeginInvoke((MethodInvoker)delegate {
                 Status.Text = "Completed";
                 try
                 {
-                    var dataPathMods = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), ".minecraft", "test", "SMPbeta.Installer.msi");
-                    System.Diagnostics.Process.Start(dataPathMods);
-                    //System.Diagnostics.Process.Start("SMPbeta.Installer.msi");
                     this.Close();
+                    Process installerProcess = new Process();
+                    ProcessStartInfo processInfo = new ProcessStartInfo();
+                    processInfo.Arguments = @"/i SMPbeta.Installer.msi";
+                    processInfo.FileName = "msiexec";
+                    installerProcess.StartInfo = processInfo;
+                    installerProcess.Start();
+                    installerProcess.WaitForExit();
+                    
                 }
                 catch
                 {

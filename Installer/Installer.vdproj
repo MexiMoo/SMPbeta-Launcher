@@ -5794,6 +5794,11 @@
             "AssemblyAsmDisplayName" = "8:SMPbeta Launcher, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_70CDF869436A4AE9930D1409C81ED272"
+                    {
+                    "Name" = "8:SMPbeta Launcher.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
             "SourcePath" = "8:D:\\Return\\SMPbeta Launcher OLD\\SMPbeta Launcher\\bin\\Debug\\netcoreapp3.1\\SMPbeta Launcher.dll"
             "TargetName" = "8:"
@@ -15049,15 +15054,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SMPbeta Launcher"
-        "ProductCode" = "8:{93284666-3678-4F97-9AF5-2848BEAAFCB4}"
-        "PackageCode" = "8:{108672A7-00B1-4B7C-A469-DBA969A91098}"
+        "ProductCode" = "8:{3300D136-7F65-4585-B8F1-7F57CAB8CBA6}"
+        "PackageCode" = "8:{036DA38F-5020-4A3F-A086-CD1AC34B7948}"
         "UpgradeCode" = "8:{6BA2AFCC-6A42-4F32-B1F0-05F1915FCA0C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.2.37"
+        "ProductVersion" = "8:1.2.38"
         "Manufacturer" = "8:Max Rook (MexiMux)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://maxrook.nl/help/"
@@ -15128,7 +15133,7 @@
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
                             "ValueTypes" = "3:1"
-                            "Value" = "8:1.2.37"
+                            "Value" = "8:1.2.38"
                             }
                         }
                     }
@@ -15370,7 +15375,7 @@
             {
             "Name" = "8:SMPbeta"
             "Arguments" = "8:"
-            "Description" = "8:Enter the wonderfull word of the SMPbeta Multiverse!"
+            "Description" = "8:Enter the wonderfull world of the SMPbeta Multiverse!"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
@@ -15384,7 +15389,7 @@
             {
             "Name" = "8:SMPbeta"
             "Arguments" = "8:"
-            "Description" = "8:Enter the wonderfull word of the SMPbeta Multiverse!"
+            "Description" = "8:Enter the wonderfull world of the SMPbeta Multiverse!"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"

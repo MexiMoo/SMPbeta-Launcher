@@ -92,7 +92,7 @@ namespace SMPbeta_Launcher
 
         private void Installed_9_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("SMPbeta Integrated Updater  |  Version 1.0.1 |  An internal updater to update the client with one click of a button.  |  © 2021-2022 Max Rook (MexiMux)  |  All rights reserved");
+            MessageBox.Show("SMPbeta Integrated Updater  |  Version 1.0.2 |  An internal updater to update the client with one click of a button.  |  © 2021-2022 Max Rook (MexiMux)  |  All rights reserved");
         }
         #endregion
 
@@ -148,7 +148,7 @@ namespace SMPbeta_Launcher
             Minecraft 1.12.2 [Forge]
 
             Software compiled on:
-            10-6-2022
+            12-6-2022
 
             Build License:
             Max Rook (MexiMux)

@@ -102,5 +102,21 @@ namespace SMPbeta_Launcher.Properties {
                 this["eSH"] = value;
             }
         }
+        
+        /// <summary>
+        /// Setting so the program can see if the download has been aborted.
+        /// </summary>
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Configuration.SettingsDescriptionAttribute("Setting so the program can see if the download has been aborted.")]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool DownloadAbort {
+            get {
+                return ((bool)(this["DownloadAbort"]));
+            }
+            set {
+                this["DownloadAbort"] = value;
+            }
+        }
     }
 }
