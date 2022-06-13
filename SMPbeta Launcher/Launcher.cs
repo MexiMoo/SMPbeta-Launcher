@@ -176,6 +176,8 @@ namespace SMPbeta_Launcher
 
         private void ExtNews()
         {
+            Nav.Visible = true;
+            NavInfo.Visible = false;
             Nav.Height = News.Height;
             Nav.Top = News.Top;
             Nav.Left = News.Left;
@@ -184,6 +186,8 @@ namespace SMPbeta_Launcher
 
         private void Profile1_Click(object sender, EventArgs e)
         {
+            Nav.Visible = true;
+            NavInfo.Visible = false;
             Nav.Height = Profile1.Height;
             Nav.Top = Profile1.Top;
             Nav.Left = Profile1.Left;
@@ -193,6 +197,8 @@ namespace SMPbeta_Launcher
 
         private void Profile2_Click(object sender, EventArgs e)
         {
+            Nav.Visible = true;
+            NavInfo.Visible = false;
             Nav.Height = Profile2.Height;
             Nav.Top = Profile2.Top;
             Nav.Left = Profile2.Left;
@@ -202,6 +208,8 @@ namespace SMPbeta_Launcher
 
         private void Profile3_Click(object sender, EventArgs e)
         {
+            Nav.Visible = true;
+            NavInfo.Visible = false;
             Nav.Height = Profile3.Height;
             Nav.Top = Profile3.Top;
             Nav.Left = Profile3.Left;
@@ -211,6 +219,8 @@ namespace SMPbeta_Launcher
 
         private void Settings_Click(object sender, EventArgs e)
         {
+            Nav.Visible = true;
+            NavInfo.Visible = false;
             Nav.Height = Settings.Height;
             Nav.Top = Settings.Top;
             Nav.Left = Settings.Left;
@@ -220,9 +230,8 @@ namespace SMPbeta_Launcher
 
         private void Info_Click_1(object sender, EventArgs e)
         {
-            Nav.Height = Info.Height;
-            Nav.Top = Info.Top;
-            Nav.Left = Info.Left;
+            NavInfo.Visible = true;
+            Nav.Visible = false;
             OpenChildForm(new Info(), sender);
             Info.BackColor = Color.FromArgb(46, 51, 73);
         }

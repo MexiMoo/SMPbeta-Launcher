@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Threading.Tasks;
 using System.IO;
+using Microsoft.Win32;
 
 namespace SMPbeta_Launcher
 {
@@ -54,7 +55,7 @@ namespace SMPbeta_Launcher
 
         private void Ip_Ao_Click(object sender, EventArgs e)
         {
-            OpenFileDialog AO = new OpenFileDialog();
+            System.Windows.Forms.OpenFileDialog AO = new System.Windows.Forms.OpenFileDialog();
             AO.Filter = "Mexi Core Files|*.MEXI;*.MCF|SMPbeta Files|*.SMPB;*.AO|All files|*.*";
             AO.InitialDirectory = @"C:\";
             AO.RestoreDirectory = true;
@@ -94,7 +95,7 @@ namespace SMPbeta_Launcher
 
         private void Shaders_Import_Click(object sender, EventArgs e)
         {
-            OpenFileDialog SA = new OpenFileDialog();
+            System.Windows.Forms.OpenFileDialog SA = new System.Windows.Forms.OpenFileDialog();
             SA.Filter = "Zipped archive|*.zip;*.7z|All files|*.*";
             SA.InitialDirectory = @"C:\";
             SA.RestoreDirectory = true;

@@ -15054,15 +15054,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:SMPbeta Launcher"
-        "ProductCode" = "8:{3300D136-7F65-4585-B8F1-7F57CAB8CBA6}"
-        "PackageCode" = "8:{036DA38F-5020-4A3F-A086-CD1AC34B7948}"
+        "ProductCode" = "8:{C918BC66-14BE-408A-B79D-9C561500BD94}"
+        "PackageCode" = "8:{7D53FE2C-FB72-4EAA-A991-67390C2FDAB3}"
         "UpgradeCode" = "8:{6BA2AFCC-6A42-4F32-B1F0-05F1915FCA0C}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.2.38"
+        "ProductVersion" = "8:1.2.39"
         "Manufacturer" = "8:Max Rook (MexiMux)"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:https://maxrook.nl/help/"
@@ -15133,7 +15133,7 @@
                             "Condition" = "8:"
                             "Transitive" = "11:FALSE"
                             "ValueTypes" = "3:1"
-                            "Value" = "8:1.2.38"
+                            "Value" = "8:1.2.39"
                             }
                         }
                     }

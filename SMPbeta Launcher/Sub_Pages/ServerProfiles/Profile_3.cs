@@ -26,6 +26,9 @@ namespace SMPbeta_Launcher
             InitializeComponent();
         }
 
+        [System.Runtime.InteropServices.DllImport("user32.dll")]
+        static extern IntPtr SetParent(IntPtr hWndChild, IntPtr hWndNewParent);
+
         private void startLoad()
         {
             Thread thread = new Thread(() => {
@@ -84,6 +87,27 @@ namespace SMPbeta_Launcher
             {
                 Notify_Icon.BalloonTipText = "The SMPbeta launcher has downloaded the selected profile! Have fun playing!";
                 Notify_Icon.ShowBalloonTip(1000);
+            }
+
+            var ol = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86), "Minecraft Launcher", "MinecraftLauncher.exe");
+
+            panel1.Visible = false;
+            BG1.Visible = false;
+
+            Process proc = Process.Start(ol);
+            proc.WaitForInputIdle();
+
+            while (proc.MainWindowHandle == IntPtr.Zero)
+            {
+                Thread.Sleep(100);
+                proc.Refresh();
+            }
+
+            SetParent(proc.MainWindowHandle, this.Handle);
+
+            if (proc.HasExited)
+            {
+                this.Close();
             }
         }
 

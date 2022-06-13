@@ -37,6 +37,7 @@ namespace SMPbeta_Launcher
             this.label1 = new System.Windows.Forms.Label();
             this.Name_1 = new System.Windows.Forms.Label();
             this.Menu = new System.Windows.Forms.Panel();
+            this.NavInfo = new System.Windows.Forms.Panel();
             this.Info = new System.Windows.Forms.Button();
             this.Nav = new System.Windows.Forms.Panel();
             this.Settings = new System.Windows.Forms.Button();
@@ -154,6 +155,7 @@ namespace SMPbeta_Launcher
             // Menu
             // 
             this.Menu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(37)))), ((int)(((byte)(37)))), ((int)(((byte)(37)))));
+            this.Menu.Controls.Add(this.NavInfo);
             this.Menu.Controls.Add(this.Info);
             this.Menu.Controls.Add(this.Nav);
             this.Menu.Controls.Add(this.Settings);
@@ -168,6 +170,15 @@ namespace SMPbeta_Launcher
             this.Menu.Name = "Menu";
             this.Menu.Size = new System.Drawing.Size(104, 710);
             this.Menu.TabIndex = 1;
+            // 
+            // NavInfo
+            // 
+            this.NavInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.NavInfo.Location = new System.Drawing.Point(0, 638);
+            this.NavInfo.Margin = new System.Windows.Forms.Padding(2);
+            this.NavInfo.Name = "NavInfo";
+            this.NavInfo.Size = new System.Drawing.Size(2, 36);
+            this.NavInfo.TabIndex = 9;
             // 
             // Info
             // 
@@ -398,6 +409,7 @@ namespace SMPbeta_Launcher
         private System.Windows.Forms.Label BETA;
         private System.Windows.Forms.NotifyIcon Notify_Icon;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel NavInfo;
     }
 }
 

@@ -148,7 +148,7 @@ namespace SMPbeta_Launcher
             Minecraft 1.12.2 [Forge]
 
             Software compiled on:
-            12-6-2022
+            13-6-2022
 
             Build License:
             Max Rook (MexiMux)
