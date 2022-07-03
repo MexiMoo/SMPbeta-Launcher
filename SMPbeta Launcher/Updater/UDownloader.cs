@@ -18,11 +18,13 @@ namespace SMPbeta_Launcher.FirstBoot
 
         private void startDownload()
         {
+            var installL = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "Update", "SMPbeta.Installer.msi");
+
             Thread thread = new Thread(() => {
                 WebClient client = new WebClient();
                 client.DownloadProgressChanged += new DownloadProgressChangedEventHandler(client_DownloadProgressChanged);
                 client.DownloadFileCompleted += new AsyncCompletedEventHandler(client_DownloadFileCompleted);
-                client.DownloadFileAsync(new Uri("https://github.com/MexiMoo/SMPbeta-Launcher/releases/latest/download/SMPbeta.Installer.msi"), @"SMPbeta.Installer.msi");
+                client.DownloadFileAsync(new Uri("https://github.com/MexiMoo/SMPbeta-Launcher/releases/latest/download/SMPbeta.Installer.msi"), @installL);
             });
             thread.Start();
         }
@@ -55,15 +57,19 @@ namespace SMPbeta_Launcher.FirstBoot
                 Status.Text = "Completed";
                 try
                 {
+                    var installL = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "SMPbeta", "Update", "SMPbeta.Installer.msi");
                     this.Close();
                     Process installerProcess = new Process();
                     ProcessStartInfo processInfo = new ProcessStartInfo();
-                    processInfo.Arguments = @"/i SMPbeta.Installer.msi";
+                    processInfo.Arguments = "/i " + installL;
                     processInfo.FileName = "msiexec";
+                    processInfo.UseShellExecute = true;
+                    processInfo.Verb = "runas";
                     installerProcess.StartInfo = processInfo;
                     installerProcess.Start();
                     installerProcess.WaitForExit();
-                    
+                    File.Delete(@installL);
+
                 }
                 catch
                 {
